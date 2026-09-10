@@ -1,0 +1,1954 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klarissa Artavia — AI Engineer &amp; Data Strategy</title>
+<meta name="description" content="Klarissa Artavia is an AI Engineer building agentic pipelines, LLM systems and the data layer under them — plus the film and catalogue production that shows the result.">
+<meta name="author" content="Klarissa Artavia">
+<meta property="og:title" content="Klarissa Artavia — AI Engineer &amp; Data Strategy">
+<meta property="og:description" content="AI systems that decide, alert and price — every output behind a validation gate.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-9 -9 118 118'%3E%3Crect x='-9' y='-9' width='118' height='118' rx='26' fill='%230a0a0c'/%3E%3Cg fill='%23FF6B00'%3E%3Cpath d='M0.15 6.37 L36.75 6.37 L36.75 28.48 L0.00 62.74 L0.00 6.52Z'/%3E%3Cpath d='M68.08 6.37 L100.00 6.52 L52.56 52.78 L36.90 36.53 L67.94 6.52Z'/%3E%3Cpath d='M33.09 40.19 L84.92 93.63 L45.83 93.63 L14.35 57.91 L32.94 40.34Z'/%3E%3Cpath d='M10.69 61.27 L39.24 93.63 L0.00 93.63 L0.00 71.23 L10.54 61.42Z'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   KLARISSA ARTAVIA — personal site
+   Palette from brand book: #FFFFFF #DDDDDD #FF6B00 #666666 #282828
+   ============================================================ */
+
+:root{
+  --ink:#08080a;
+  --ink-2:#0e0e11;
+  --ink-3:#151519;
+  --panel:#282828;
+  --line:rgba(255,255,255,.10);
+  --line-2:rgba(255,255,255,.055);
+  --white:#ffffff;
+  --soft:#dddddd;
+  --mute:#8b8b93;
+  --dim:#666666;
+  --orange:#ff6b00;
+  --orange-lo:#ff8a2b;
+  --orange-hi:#ff4d00;
+
+  --display:'Onest',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --body:'Open Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+
+  --pad:clamp(20px,5vw,72px);
+  --maxw:1320px;
+
+  --ease:cubic-bezier(.22,1,.36,1);
+  --ease-io:cubic-bezier(.65,.05,.36,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--soft);
+  font-family:var(--body);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body.is-locked{overflow:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--orange);color:#fff}
+
+/* ---------- smooth scroll rig ---------- */
+#rig{position:fixed;inset:0 0 auto 0;width:100%;will-change:transform;z-index:1}
+#rig.static{position:static;transform:none!important}
+#flow{width:100%}
+
+/* ---------- shared ---------- */
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+section{position:relative}
+.eyebrow{
+  font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--orange);display:inline-flex;align-items:center;gap:10px;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--orange);display:block}
+h1,h2,h3,h4{font-family:var(--display);color:var(--white);margin:0;line-height:.95;letter-spacing:-.035em;font-weight:800}
+h2{font-size:clamp(38px,6.4vw,86px)}
+h3{font-size:clamp(21px,2.2vw,27px);line-height:1.15;letter-spacing:-.02em}
+p{margin:0}
+.lead{font-size:clamp(16px,1.35vw,19px);color:var(--mute);line-height:1.75}
+.rule{height:1px;background:var(--line-2);width:100%}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translate3d(0,34px,0);transition:opacity .95s var(--ease),transform 1.05s var(--ease);transition-delay:var(--d,0ms)}
+[data-par]{transition-property:opacity!important}
+.rv.in{opacity:1;transform:none}
+.rv-l{opacity:0;transform:translate3d(-28px,0,0);transition:opacity .9s var(--ease),transform 1s var(--ease);transition-delay:var(--d,0ms)}
+.rv-l.in{opacity:1;transform:none}
+.mask{display:block;overflow:hidden;padding-bottom:.06em;margin-bottom:-.06em}
+.mask > span{display:block;transform:translate3d(0,105%,0);transition:transform 1.15s var(--ease);transition-delay:var(--d,0ms)}
+.in .mask > span,.mask.in > span{transform:none}
+.grow{transform-origin:left center;transform:scaleX(0);transition:transform 1.1s var(--ease);transition-delay:var(--d,0ms)}
+.grow.in{transform:scaleX(1)}
+
+/* ---------- loader ---------- */
+#boot{
+  position:fixed;inset:0;z-index:200;background:var(--ink);
+  display:grid;place-items:center;transition:transform 1s var(--ease) .15s;
+}
+#boot.gone{transform:translate3d(0,-101%,0)}
+#boot .mark{display:flex;align-items:center;gap:16px;opacity:0;animation:bootin .7s var(--ease) .1s forwards}
+#boot svg{width:44px;height:44px}
+#boot .num{font-family:var(--display);font-weight:800;font-size:44px;color:var(--white);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+#boot .bar{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--orange)}
+@keyframes bootin{to{opacity:1}}
+
+/* ---------- progress + cursor ---------- */
+#prog{position:fixed;top:0;left:0;height:2px;width:100%;transform:scaleX(0);transform-origin:0 50%;
+  background:linear-gradient(90deg,var(--orange-hi),var(--orange-lo));z-index:120}
+#cur,#curDot{position:fixed;top:0;left:0;z-index:195;pointer-events:none;border-radius:50%;opacity:0;transition:opacity .3s}
+#cur{width:38px;height:38px;border:1px solid rgba(255,107,0,.75);margin:-19px 0 0 -19px;transition:width .35s var(--ease),height .35s var(--ease),background .35s,opacity .3s,margin .35s var(--ease)}
+#curDot{width:5px;height:5px;background:var(--orange);margin:-2.5px 0 0 -2.5px}
+body.cursor-on #cur,body.cursor-on #curDot{opacity:1}
+body.cursor-on.hot #cur{width:74px;height:74px;margin:-37px 0 0 -37px;background:rgba(255,107,0,.12)}
+
+/* ---------- nav ---------- */
+#nav{
+  position:fixed;top:0;left:0;right:0;z-index:110;
+  padding:22px var(--pad);
+  display:flex;align-items:center;justify-content:space-between;gap:24px;
+  transition:padding .5s var(--ease),background .5s var(--ease),backdrop-filter .5s var(--ease),border-color .5s var(--ease);
+  border-bottom:1px solid transparent;
+}
+#nav.stuck{padding:13px var(--pad);background:rgba(8,8,10,.72);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%);border-bottom-color:var(--line-2)}
+.brand{display:flex;align-items:center;gap:8px}
+.brand svg{width:34px;height:34px;flex:none;margin-top:-2px}
+.brand .txt{font-family:var(--display);font-weight:800;font-size:14.5px;letter-spacing:.02em;color:var(--white);line-height:1.05}
+.brand .txt i{font-style:normal;color:var(--orange)}
+.brand .txt small{display:block;font-weight:500;font-size:8.5px;letter-spacing:.3em;color:var(--dim);margin-top:2px}
+.links{display:flex;align-items:center;gap:6px}
+.links a{
+  position:relative;font-family:var(--display);font-size:13.5px;font-weight:500;color:var(--mute);
+  padding:9px 15px;border-radius:100px;transition:color .35s var(--ease),background .35s var(--ease);
+}
+.links a::after{content:"";position:absolute;left:15px;right:15px;bottom:5px;height:1px;background:var(--orange);transform:scaleX(0);transform-origin:0 50%;transition:transform .45s var(--ease)}
+.links a:hover{color:var(--white)}
+.links a:hover::after,.links a.active::after{transform:scaleX(1)}
+.links a.active{color:var(--white)}
+.nav-cta{
+  font-family:var(--display);font-weight:600;font-size:13.5px;color:#fff;background:var(--orange);
+  padding:11px 20px;border-radius:100px;display:inline-flex;align-items:center;gap:9px;
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease),background .3s;
+}
+.nav-cta:hover{background:var(--orange-lo);box-shadow:0 10px 34px -10px rgba(255,107,0,.85)}
+.burger{display:none;flex:none;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.burger i{display:block;width:15px;height:1.5px;background:var(--white);transition:transform .4s var(--ease),opacity .3s}
+.burger.x i:nth-child(1){transform:translateY(3.25px) rotate(45deg)}
+.burger.x i:nth-child(2){opacity:0}
+.burger.x i:nth-child(3){transform:translateY(-3.25px) rotate(-45deg)}
+
+#sheet{
+  position:fixed;inset:0;z-index:105;background:var(--ink-2);
+  display:flex;flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  clip-path:inset(0 0 100% 0);transition:clip-path .8s var(--ease);
+}
+#sheet.open{clip-path:inset(0 0 0 0)}
+#sheet a{font-family:var(--display);font-weight:800;font-size:clamp(30px,9vw,54px);color:var(--white);letter-spacing:-.04em;
+  opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .7s var(--ease)}
+#sheet.open a{opacity:1;transform:none}
+#sheet.open a:nth-child(1){transition-delay:.16s}
+#sheet.open a:nth-child(2){transition-delay:.22s}
+#sheet.open a:nth-child(3){transition-delay:.28s}
+#sheet.open a:nth-child(4){transition-delay:.34s}
+#sheet.open a:nth-child(5){transition-delay:.40s}
+#sheet.open a:nth-child(6){transition-delay:.46s}
+#sheet .meta{margin-top:34px;color:var(--mute);font-size:14px;opacity:0;transition:opacity .6s .55s}
+#sheet.open .meta{opacity:1}
+
+/* ---------- buttons ---------- */
+.btn{
+  position:relative;display:inline-flex;align-items:center;gap:12px;overflow:hidden;
+  font-family:var(--display);font-weight:600;font-size:15px;letter-spacing:-.01em;
+  padding:17px 30px;border-radius:100px;isolation:isolate;
+  transition:transform .5s var(--ease),color .4s var(--ease),border-color .4s var(--ease);
+}
+.btn span{position:relative;z-index:2}
+.btn .dot{position:relative;z-index:2;width:7px;height:7px;border-radius:50%;background:currentColor;transition:transform .5s var(--ease)}
+.btn::before{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit;transform:translate3d(0,101%,0);transition:transform .6s var(--ease)}
+.btn:hover::before{transform:none}
+.btn:hover .dot{transform:scale(2.6)}
+.btn-solid{background:var(--orange);color:#fff;box-shadow:0 16px 44px -20px rgba(255,107,0,.9)}
+.btn-solid::before{background:var(--white)}
+.btn-solid:hover{color:var(--ink)}
+.btn-ghost{border:1px solid var(--line);color:var(--white)}
+.btn-ghost::before{background:var(--white)}
+.btn-ghost:hover{color:var(--ink);border-color:var(--white)}
+
+/* ---------- hero ---------- */
+#hero{min-height:100svh;display:flex;align-items:center;padding:120px 0 32px;overflow:hidden}
+.glow{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}
+.glow-a{width:min(880px,105vw);height:min(880px,105vw);top:-34%;right:-18%;
+  background:radial-gradient(circle,rgba(255,107,0,.36),rgba(255,77,0,.10) 45%,transparent 68%)}
+.glow-b{width:min(620px,90vw);height:min(620px,90vw);bottom:-30%;left:-16%;
+  background:radial-gradient(circle,rgba(255,107,0,.16),transparent 66%)}
+.ghost-k{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:min(96vh,86vw);height:auto;pointer-events:none;user-select:none;
+}
+.ghost-k path{fill:rgba(255,255,255,.026);stroke:rgba(255,255,255,.042);stroke-width:.22}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(16px,2vw,34px);align-items:center}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:100px;
+  padding:8px 16px 8px 12px;font-size:12.5px;color:var(--soft);font-family:var(--display);font-weight:500;
+  background:rgba(255,255,255,.02);backdrop-filter:blur(6px);
+}
+.pulse{width:7px;height:7px;border-radius:50%;background:#2fd36a;position:relative;flex:none}
+.pulse::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid #2fd36a;animation:pulse 2.2s ease-out infinite}
+@keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero-hi{font-family:var(--display);font-weight:500;font-size:clamp(15px,1.5vw,18px);color:var(--mute);margin:26px 0 6px}
+.hero-name{font-size:clamp(52px,10.2vw,146px);font-weight:900;letter-spacing:-.055em;line-height:.86}
+.hero-name .o{color:var(--orange)}
+.hero-sub{max-width:46ch;margin-top:26px;font-size:clamp(16px,1.5vw,20px);line-height:1.6;color:var(--soft)}
+.hero-sub b{color:var(--white);font-weight:600}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-foot{display:flex;flex-wrap:wrap;gap:26px;margin-top:44px;padding-top:26px;border-top:1px solid var(--line-2)}
+.hero-foot div{min-width:104px}
+.hero-foot b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(24px,2.6vw,34px);color:var(--white);letter-spacing:-.04em;line-height:1}
+.hero-foot small{font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);display:block;margin-top:7px}
+
+.shot{position:relative}
+.shot .frame{
+  position:relative;border-radius:200px 200px 26px 26px;overflow:hidden;aspect-ratio:1/1.16;
+  background:linear-gradient(160deg,#1a1a1f,#0c0c0e);border:1px solid var(--line);
+}
+.shot .frame::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 42%,rgba(8,8,10,.62) 88%),radial-gradient(120% 70% at 70% 0%,rgba(255,107,0,.24),transparent 60%)}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;transform:scale(1.06);transition:transform 1.2s var(--ease)}
+.shot:hover img{transform:scale(1.11)}
+.chip{
+  position:absolute;left:-26px;bottom:34px;z-index:3;background:rgba(20,20,24,.82);backdrop-filter:blur(18px);
+  border:1px solid var(--line);border-radius:18px;padding:15px 19px;min-width:210px;
+  box-shadow:0 26px 60px -28px rgba(0,0,0,.95);
+}
+.chip b{display:block;font-family:var(--display);font-weight:800;font-size:27px;color:var(--white);letter-spacing:-.04em;line-height:1}
+.chip small{font-size:11.5px;color:var(--mute);display:block;margin-top:5px;line-height:1.45;min-height:2.9em}
+.chip b,.chip small{transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.chip.swap b,.chip.swap small{opacity:0;transform:translateY(-5px)}
+.chip .bars{display:flex;gap:4px;margin-top:11px;align-items:flex-end;height:24px}
+.chip .bars i{display:block;flex:1;background:var(--orange);border-radius:2px;transform-origin:bottom;animation:eq 1.9s var(--ease) infinite alternate}
+.chip .bars i:nth-child(2){animation-delay:.18s;opacity:.72}
+.chip .bars i:nth-child(3){animation-delay:.36s;opacity:.5}
+.chip .bars i:nth-child(4){animation-delay:.54s;opacity:.78}
+.chip .bars i:nth-child(5){animation-delay:.72s;opacity:.38}
+@keyframes eq{from{height:22%}to{height:100%}}
+.scrollcue{display:flex;align-items:center;gap:12px;margin-top:52px;color:var(--dim);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-family:var(--display)}
+.scrollcue .track{width:58px;height:1px;background:var(--line);position:relative;overflow:hidden}
+.scrollcue .track i{position:absolute;inset:0;background:var(--orange);transform:translateX(-100%);animation:slide 2.4s var(--ease) infinite}
+@keyframes slide{50%{transform:none}100%{transform:translateX(100%)}}
+
+/* ---------- ticker ---------- */
+.ticker{border-block:1px solid var(--line-2);background:var(--ink-2);padding:19px 0;overflow:hidden;white-space:nowrap;display:flex}
+.ticker .run{display:flex;flex:none;gap:36px;padding-right:36px;animation:run 34s linear infinite;align-items:center}
+.ticker span{font-family:var(--display);font-weight:700;font-size:clamp(15px,1.7vw,21px);letter-spacing:-.01em;color:var(--soft);text-transform:uppercase}
+.ticker em{color:var(--orange);font-style:normal}
+@keyframes run{to{transform:translateX(-100%)}}
+
+/* ---------- section head ---------- */
+.sec{padding:clamp(38px,4.5vw,69px) 0}
+.head{display:grid;grid-template-columns:1fr auto;gap:26px;align-items:end;margin-bottom:clamp(44px,5.5vw,78px)}
+.head .n{font-family:var(--display);font-weight:600;font-size:13px;color:var(--dim);letter-spacing:.1em}
+.head h2{margin-top:16px}
+.head h2 .o{color:var(--orange)}
+.head .side{max-width:36ch;font-size:14.5px;color:var(--mute);line-height:1.7}
+
+/* ---------- about ---------- */
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(30px,4.2vw,58px);align-items:center}
+.about-img{position:relative}
+.about-img .halo{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:104%;aspect-ratio:1/1;
+  border-radius:50%;filter:blur(60px);pointer-events:none;
+  background:radial-gradient(circle,rgba(255,107,0,.22),rgba(255,77,0,.07) 52%,transparent 72%);
+}
+.about-img .ring{
+  position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:92%;aspect-ratio:1/1;
+  border:1px solid var(--line);border-radius:50%;pointer-events:none;
+}
+.about-img .cut{position:relative;filter:drop-shadow(0 44px 68px rgba(0,0,0,.62))}
+.about-img img{
+  width:100%;height:auto;display:block;transform-origin:50% 100%;
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 60%,rgba(0,0,0,.5) 84%,transparent 100%);
+  mask-image:linear-gradient(180deg,#000 0%,#000 60%,rgba(0,0,0,.5) 84%,transparent 100%);
+  transition:transform 1.2s var(--ease);
+}
+.about-img:hover img{transform:scale(1.045)}
+.about-badge{position:relative;margin-top:-4px;display:flex;justify-content:space-between;
+  align-items:center;gap:14px;padding-top:16px;border-top:1px solid var(--line-2);
+  font-family:var(--display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+.about-badge b{color:var(--orange);font-weight:700}
+.about-copy h3{font-size:clamp(25px,3.1vw,42px);line-height:1.12;letter-spacing:-.035em;margin-bottom:26px}
+.about-copy h3 .o{color:var(--orange)}
+.about-copy p + p{margin-top:19px}
+.about-list{margin-top:34px;display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
+.about-list div{background:var(--ink);padding:17px 0;display:grid;grid-template-columns:26px 1fr auto;gap:16px;align-items:baseline}
+.about-list i{font-style:normal;color:var(--orange);font-family:var(--display);font-weight:700;font-size:12px}
+.about-list b{font-family:var(--display);font-weight:600;color:var(--white);font-size:15.5px}
+.about-list span{font-size:13px;color:var(--dim);text-align:right}
+
+/* ---------- services ---------- */
+.svc{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line-2);border:1px solid var(--line-2);border-radius:22px;overflow:hidden}
+.svc article{position:relative;background:var(--ink);padding:clamp(28px,3.6vw,48px);overflow:hidden;transition:background .6s var(--ease)}
+.svc article::before{content:"";position:absolute;inset:auto 0 0 0;height:0;
+  background:radial-gradient(100% 130% at 50% 100%,rgba(255,107,0,.14),transparent 70%);transition:height .7s var(--ease)}
+.svc article:hover{background:var(--ink-2)}
+.svc article:hover::before{height:100%}
+.svc .no{font-family:var(--display);font-weight:800;font-size:12px;color:var(--orange);letter-spacing:.16em}
+.svc h3{margin:20px 0 14px;position:relative}
+.svc p{font-size:14.5px;color:var(--mute);line-height:1.72;position:relative;max-width:42ch}
+.svc ul{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:7px;position:relative}
+.svc li{font-family:var(--display);font-size:11.5px;font-weight:500;color:var(--soft);border:1px solid var(--line);
+  border-radius:100px;padding:5px 12px;transition:border-color .4s,color .4s}
+.svc article:hover li{border-color:rgba(255,107,0,.4);color:var(--white)}
+
+/* ---------- work ---------- */
+.work{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,1.8vw,26px)}
+.card{
+  position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:30px;overflow:hidden;
+  background:var(--ink-2);border:1px solid var(--line-2);border-radius:22px;padding:clamp(24px,3vw,38px);
+  min-height:330px;transition:transform .7s var(--ease),border-color .5s var(--ease),background .5s var(--ease);
+}
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;
+  background:radial-gradient(90% 100% at 100% 0%,rgba(255,107,0,.15),transparent 62%);opacity:0;transition:opacity .7s var(--ease)}
+.card:hover{transform:translateY(-6px);border-color:rgba(255,107,0,.32);background:var(--ink-3)}
+.card:hover::after{opacity:1}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;position:relative;z-index:2}
+.tagline{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--orange)}
+.arrow{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;flex:none;
+  transition:background .45s var(--ease),border-color .45s,transform .5s var(--ease)}
+.arrow svg{width:14px;height:14px;transition:transform .5s var(--ease)}
+.card:hover .arrow{background:var(--orange);border-color:var(--orange);transform:rotate(45deg)}
+.card:hover .arrow svg{transform:rotate(-45deg)}
+.card h3{margin:16px 0 12px;position:relative;z-index:2}
+.card p{font-size:14.5px;color:var(--mute);line-height:1.7;position:relative;z-index:2;max-width:48ch}
+.card .btm{position:relative;z-index:2}
+.kpis{display:flex;flex-wrap:wrap;gap:22px;padding-bottom:20px;border-bottom:1px solid var(--line-2);margin-bottom:18px}
+.kpis div b{display:block;font-family:var(--display);font-weight:800;font-size:21px;color:var(--white);letter-spacing:-.03em;line-height:1}
+.kpis div small{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--dim);display:block;margin-top:6px}
+.stack{display:flex;flex-wrap:wrap;gap:6px}
+.stack span{font-family:var(--display);font-size:11px;font-weight:500;color:var(--dim);border:1px solid var(--line-2);border-radius:6px;padding:4px 9px}
+.card.private{background:linear-gradient(150deg,rgba(255,107,0,.09),transparent 55%),var(--ink-2)}
+.card.private .arrow{opacity:.35}
+.card.private:hover{transform:none}
+.locked{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);
+  display:inline-flex;align-items:center;gap:7px}
+.more{margin-top:clamp(22px,2.6vw,34px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:18px;
+  border:1px solid var(--line-2);border-radius:18px;padding:22px clamp(20px,2.6vw,34px)}
+.more p{font-size:14.5px;color:var(--mute)}
+.more b{color:var(--white);font-family:var(--display);font-weight:600}
+
+/* ---------- clients strip ---------- */
+.clients{padding:clamp(52px,7vw,86px) 0;border-bottom:1px solid var(--line-2)}
+.clients .cap{font-family:var(--display);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);text-align:center;margin-bottom:30px}
+.logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:clamp(20px,4vw,56px)}
+.logos span{font-family:var(--display);font-weight:700;font-size:clamp(15px,2.1vw,25px);letter-spacing:.02em;color:#4e4e56;
+  transition:color .5s var(--ease),transform .5s var(--ease);white-space:nowrap}
+.logos span:hover{color:var(--white);transform:translateY(-2px)}
+.logos .lead-brand{color:var(--soft)}
+.numbers{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-2);
+  border:1px solid var(--line-2);border-radius:20px;overflow:hidden;margin-top:clamp(34px,4.5vw,58px)}
+.numbers div{background:var(--ink);padding:clamp(22px,2.8vw,34px);text-align:center;transition:background .5s var(--ease)}
+.numbers div:hover{background:var(--ink-2)}
+.numbers b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(28px,4.2vw,50px);color:var(--white);letter-spacing:-.045em;line-height:1}
+.numbers b i{font-style:normal;color:var(--orange)}
+.numbers small{display:block;margin-top:11px;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);line-height:1.5}
+
+/* ---------- reel / video ---------- */
+.reel{position:relative;align-self:start;width:100%;border-radius:clamp(18px,2vw,28px);overflow:hidden;
+  border:1px solid var(--line);background:#000;aspect-ratio:16/9;cursor:pointer;isolation:isolate}
+.reel video{width:100%;height:100%;object-fit:cover;display:block}
+.reel .full{position:absolute;inset:0;opacity:0;transition:opacity .7s var(--ease);z-index:2}
+.reel.live .full{opacity:1}
+.reel.live{cursor:default}
+.reel .veil{position:absolute;inset:0;z-index:3;display:grid;place-items:center;transition:opacity .6s var(--ease),visibility .6s;
+  background:linear-gradient(180deg,rgba(8,8,10,.34),rgba(8,8,10,.06) 40%,rgba(8,8,10,.78))}
+.reel.live .veil{opacity:0;visibility:hidden}
+.play{position:relative;width:clamp(72px,7.6vw,104px);height:clamp(72px,7.6vw,104px);border-radius:50%;background:var(--orange);
+  display:grid;place-items:center;box-shadow:0 22px 70px -18px rgba(255,107,0,.95);
+  transition:transform .55s var(--ease),background .4s}
+.play svg{width:26%;height:26%;fill:#fff;margin-left:8%}
+.reel:hover .play{transform:scale(1.09);background:var(--orange-lo)}
+.play::after{content:"";position:absolute;inset:0;border-radius:50%;
+  border:1px solid rgba(255,107,0,.6);animation:ripple 2.6s var(--ease) infinite}
+@keyframes ripple{0%{transform:scale(1);opacity:.85}100%{transform:scale(1.85);opacity:0}}
+.reel .tag{position:absolute;left:clamp(16px,2vw,26px);top:clamp(16px,2vw,26px);z-index:4;display:flex;gap:8px;flex-wrap:wrap}
+.reel .tag span{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  background:rgba(8,8,10,.6);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:100px;padding:6px 13px;color:var(--soft)}
+.reel .tag .on{background:var(--orange);border-color:var(--orange);color:#fff}
+.reel .cap{position:absolute;left:clamp(16px,2vw,26px);right:clamp(16px,2vw,26px);bottom:clamp(16px,2vw,26px);z-index:4;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:18px;transition:opacity .5s}
+.reel.live .cap{opacity:0;pointer-events:none}
+.reel .cap b{font-family:var(--display);font-weight:700;font-size:clamp(17px,2.2vw,27px);color:#fff;letter-spacing:-.025em;display:block}
+.reel .cap small{font-size:12.5px;color:var(--soft);display:block;margin-top:5px}
+.reel .cap .dur{font-family:var(--display);font-size:12px;letter-spacing:.14em;color:var(--soft);white-space:nowrap}
+
+.case{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:clamp(20px,2.6vw,34px);align-items:start}
+.case-side{display:flex;flex-direction:column;gap:clamp(14px,1.6vw,20px)}
+.case-note{border:1px solid var(--line-2);border-radius:20px;padding:clamp(20px,2.4vw,28px);background:var(--ink-2);flex:1}
+.case-note h4{font-family:var(--display);font-weight:700;font-size:15px;color:var(--white);margin:0 0 12px;letter-spacing:-.01em}
+.case-note p{font-size:13.8px;color:var(--mute);line-height:1.7}
+.case-note ul{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:9px}
+.case-note li{font-size:13.5px;color:var(--soft);display:grid;grid-template-columns:16px 1fr;gap:9px;align-items:baseline}
+.case-note li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--orange);transform:translateY(-2px)}
+
+/* ---------- gallery ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(132px,13.5vw,196px);
+  gap:clamp(10px,1.3vw,18px);margin-top:clamp(18px,2.4vw,30px)}
+.gal figure{margin:0;position:relative;overflow:hidden;border-radius:16px;border:1px solid var(--line-2);background:var(--ink-2);cursor:zoom-in}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease),filter .6s var(--ease);filter:saturate(.92)}
+.gal figure:hover img{transform:scale(1.06);filter:saturate(1.05)}
+.gal figcaption{position:absolute;inset:auto 0 0 0;padding:26px 16px 14px;z-index:2;
+  background:linear-gradient(180deg,transparent,rgba(8,8,10,.88));
+  font-family:var(--display);font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);
+  transform:translateY(6px);opacity:0;transition:opacity .5s var(--ease),transform .5s var(--ease)}
+.gal figure:hover figcaption{opacity:1;transform:none}
+.gal .tall{grid-row:span 2}
+.gal .wide{grid-column:span 2}
+.gal .story img{object-position:50% 38%}
+
+#lb{position:fixed;inset:0;z-index:180;background:rgba(5,5,7,.94);backdrop-filter:blur(14px);
+  display:grid;place-items:center;padding:clamp(18px,4vw,60px);opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s}
+#lb.on{opacity:1;visibility:visible}
+#lb img{max-width:100%;max-height:88vh;border-radius:14px;transform:scale(.965);transition:transform .6s var(--ease);box-shadow:0 40px 120px -40px #000}
+#lb.on img{transform:none}
+#lb .x{position:absolute;top:clamp(16px,3vw,32px);right:clamp(16px,3vw,32px);width:46px;height:46px;border-radius:50%;
+  border:1px solid var(--line);display:grid;place-items:center;color:#fff;transition:background .4s,border-color .4s}
+#lb .x:hover{background:var(--orange);border-color:var(--orange)}
+
+/* ---------- experience ---------- */
+.tl{display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
+.job{background:var(--ink);display:grid;grid-template-columns:170px 1fr auto;gap:clamp(16px,3vw,44px);
+  padding:clamp(24px,2.8vw,38px) 0;align-items:baseline;transition:background .5s var(--ease),padding-inline .5s var(--ease)}
+.job:hover{background:var(--ink-2);padding-inline:22px}
+.job .when{font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.09em;color:var(--orange);text-transform:uppercase}
+.job h3{font-size:clamp(20px,2.3vw,29px);margin-bottom:9px}
+.job .where{font-family:var(--display);font-size:13.5px;color:var(--soft);font-weight:500;margin-bottom:13px}
+.job p{font-size:14.5px;color:var(--mute);line-height:1.7;max-width:62ch}
+.job .flag{font-size:12px;color:var(--dim);font-family:var(--display);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+
+/* ---------- stack ---------- */
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:1px;background:var(--line-2);
+  border:1px solid var(--line-2);border-radius:20px;overflow:hidden}
+.tools div{background:var(--ink);padding:24px 22px;transition:background .45s var(--ease),color .45s}
+.tools div:hover{background:var(--orange)}
+.tools b{display:block;font-family:var(--display);font-weight:600;font-size:15px;color:var(--white);letter-spacing:-.01em}
+.tools small{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:block;margin-top:6px;transition:color .45s}
+.tools div:hover small{color:rgba(255,255,255,.82)}
+
+/* ---------- contact ---------- */
+#contact{overflow:hidden}
+.cta{position:relative;border-radius:30px;overflow:hidden;border:1px solid var(--line);
+  background:linear-gradient(150deg,#161619,#0b0b0d 55%);padding:clamp(40px,6.6vw,96px) clamp(26px,5vw,80px)}
+.cta .glow-c{position:absolute;width:min(760px,120%);height:min(760px,120%);right:-22%;top:-52%;border-radius:50%;filter:blur(90px);
+  background:radial-gradient(circle,rgba(255,107,0,.32),transparent 62%);pointer-events:none}
+.cta-in{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,70px);align-items:end}
+.cta h2{font-size:clamp(38px,7vw,96px)}
+.cta h2 .o{color:var(--orange)}
+.cta .lead{margin-top:24px;max-width:44ch}
+.contact-list{display:grid;gap:1px;background:var(--line-2);border:1px solid var(--line-2);border-radius:18px;overflow:hidden}
+.contact-list a{background:rgba(10,10,12,.55);padding:19px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+  transition:background .45s var(--ease),padding .45s var(--ease)}
+.contact-list a:hover{background:var(--orange);padding-left:28px}
+.contact-list small{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-bottom:5px;transition:color .4s}
+.contact-list b{font-family:var(--display);font-weight:600;font-size:15px;color:var(--white);letter-spacing:-.01em;word-break:break-all}
+.contact-list a:hover small{color:rgba(255,255,255,.78)}
+.contact-list svg{width:15px;height:15px;flex:none;transition:transform .45s var(--ease)}
+.contact-list a:hover svg{transform:translate(3px,-3px)}
+.cta-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
+.foot{display:flex;flex-wrap:wrap;gap:22px;justify-content:space-between;align-items:center;font-size:13px;color:var(--dim)}
+.foot .socials{display:flex;gap:8px}
+.foot .socials a{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;
+  transition:background .4s var(--ease),border-color .4s,transform .4s var(--ease)}
+.foot .socials a:hover{background:var(--orange);border-color:var(--orange);transform:translateY(-3px)}
+.foot .socials svg{width:15px;height:15px}
+.totop{display:inline-flex;align-items:center;gap:9px;font-family:var(--display);font-size:12.5px;color:var(--soft);
+  letter-spacing:.09em;text-transform:uppercase;transition:color .3s;min-height:44px}
+.totop:hover{color:var(--orange)}
+
+/* ---------- brand mark ---------- */
+.kmark{display:block;flex:none}
+.kmark path{fill:url(#kgrad)}
+
+/* ---------- language switch ---------- */
+.lang{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:100px;padding:3px;gap:2px;flex:none}
+.lang button{
+  font-family:var(--display);font-weight:600;font-size:11.5px;letter-spacing:.08em;color:var(--dim);
+  padding:6px 11px;border-radius:100px;transition:color .35s var(--ease),background .35s var(--ease);
+  min-height:34px;
+}
+.lang button.on{background:var(--orange);color:#fff}
+.lang button:not(.on):hover{color:var(--white)}
+#sheet .lang{align-self:flex-start;margin-top:30px}
+#sheet .lang button{font-size:13px;padding:11px 18px;min-height:44px}
+
+/* ---------- hero cut-out ---------- */
+.shot{position:relative;align-self:end}
+.shot .cut{position:relative;width:100%;display:flex;justify-content:center;filter:drop-shadow(0 40px 60px rgba(0,0,0,.6))}
+.shot .cut img{
+  width:100%;height:auto;max-height:calc(100svh - 118px);object-fit:contain;object-position:50% 100%;
+  display:block;transform:scale(1.14);transform-origin:50% 100%;
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 58%,rgba(0,0,0,.55) 82%,transparent 99%);
+  mask-image:linear-gradient(180deg,#000 0%,#000 58%,rgba(0,0,0,.55) 82%,transparent 99%);
+  transition:transform 1.2s var(--ease);
+}
+.shot:hover .cut img{transform:scale(1.18)}
+.shot .halo{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:112%;aspect-ratio:1/1;z-index:-1;
+  border-radius:50%;filter:blur(58px);pointer-events:none;
+  background:radial-gradient(circle,rgba(255,107,0,.30),rgba(255,77,0,.09) 52%,transparent 72%);
+}
+.shot .ring{
+  position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:96%;aspect-ratio:1/1;z-index:-1;
+  border:1px solid var(--line);border-radius:50%;pointer-events:none;
+}
+.shot .chip{left:auto;right:-10px;bottom:8%}
+
+/* ---------- stack with logos ---------- */
+.tools div{display:flex;align-items:center;gap:14px}
+.tools .ico{width:26px;height:26px;flex:none;color:var(--soft);transition:color .45s var(--ease)}
+.tools .ico svg{width:100%;height:100%;fill:currentColor}
+.tools .txt{min-width:0}
+.tools div:hover .ico,.tools div:hover b{color:#fff}
+
+/* ---------- linkedin ---------- */
+.li-rail{position:relative}
+.li-track{
+  display:flex;gap:clamp(14px,1.8vw,22px);overflow-x:auto;overscroll-behavior-x:contain;
+  scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;
+  padding-block:10px;
+}
+.li-track::-webkit-scrollbar{display:none}
+.li-track > *{flex:0 0 calc((100% - 2*clamp(14px,1.8vw,22px)) / 3);scroll-snap-align:start}
+.li-nav{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:22px}
+.li-dots{display:flex;gap:0;flex-wrap:wrap;margin-left:-9px}
+.li-dots button{
+  min-width:34px;height:44px;padding:0;border:0;background:none;cursor:pointer;
+  display:grid;place-items:center;-webkit-tap-highlight-color:transparent
+}
+.li-dots button::before{
+  content:"";display:block;width:7px;height:7px;border-radius:50%;
+  background:var(--line-2);transition:background .4s var(--ease),width .4s var(--ease)
+}
+.li-dots button.on::before{width:22px;border-radius:100px;background:var(--orange)}
+.li-arrows{display:flex;gap:9px}
+.li-arrow{
+  width:44px;height:44px;display:grid;place-items:center;cursor:pointer;
+  border:1px solid var(--line-2);border-radius:50%;background:transparent;color:var(--soft);
+  transition:border-color .4s var(--ease),color .4s var(--ease),background .4s var(--ease),opacity .4s
+}
+.li-arrow:hover:not(:disabled){border-color:rgba(255,107,0,.45);color:#fff;background:var(--ink-3)}
+.li-arrow:disabled{opacity:.32;cursor:default}
+.li-arrow svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.li-card.feat{border-color:rgba(255,107,0,.3);background:linear-gradient(170deg,rgba(255,107,0,.055),transparent 55%),var(--ink-2)}
+.li-flag{
+  display:inline-flex;align-items:center;gap:6px;font-family:var(--display);font-size:10.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--orange);
+  border:1px solid rgba(255,107,0,.3);border-radius:100px;padding:3px 9px
+}
+.li-card{
+  position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:22px;
+  background:var(--ink-2);border:1px solid var(--line-2);border-radius:20px;padding:clamp(22px,2.6vw,30px);
+  min-height:270px;overflow:hidden;
+  transition:transform .7s var(--ease),border-color .5s var(--ease),background .5s var(--ease);
+}
+.li-card:hover{transform:translateY(-6px);border-color:rgba(255,107,0,.32);background:var(--ink-3)}
+.li-card .li-top{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.li-card .li-in{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:rgba(255,255,255,.06);color:var(--soft);flex:none;transition:background .45s,color .45s}
+.li-card:hover .li-in{background:var(--orange);color:#fff}
+.li-card .li-in svg{width:15px;height:15px;fill:currentColor}
+.li-card .li-date{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.li-card h3{font-size:clamp(18px,1.9vw,22px);margin:14px 0 10px}
+.li-card p{font-size:14px;color:var(--mute);line-height:1.7}
+.li-card .li-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.li-card .li-tags span{font-family:var(--display);font-size:11px;font-weight:500;color:var(--dim);border:1px solid var(--line-2);border-radius:100px;padding:4px 10px}
+.li-foot{margin-top:clamp(22px,2.6vw,34px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:18px;
+  border:1px solid var(--line-2);border-radius:18px;padding:22px clamp(20px,2.6vw,34px)}
+.li-foot p{font-size:14.5px;color:var(--mute)}
+.li-foot b{color:var(--white);font-family:var(--display);font-weight:600}
+
+/* ---------- responsive ---------- */
+
+@media (max-width:1080px){
+  .links,.nav-cta{display:none}
+  .burger{display:flex}
+  .head{grid-template-columns:1fr}
+  .head .side{max-width:none}
+  .hero-grid{
+    grid-template-columns:1fr minmax(124px,.66fr);
+    column-gap:clamp(10px,2.2vw,22px);row-gap:0;align-items:start;
+    grid-template-areas:"tag tag" "hi shot" "name shot" "sub shot" "btns btns" "foot foot";
+  }
+  .hero-copy{display:contents}
+  .hero-tag{grid-area:tag}
+  .hero-hi{grid-area:hi}
+  .hero-name{grid-area:name;font-size:clamp(30px,8.2vw,104px)}
+  .hero-sub{grid-area:sub;max-width:none}
+  .hero-btns{grid-area:btns}
+  .hero-foot{grid-area:foot}
+  .shot{grid-area:shot;max-width:none;margin:0;align-self:end;justify-self:end;width:100%}
+  .shot .chip{position:static;margin-top:14px;min-width:0;width:100%}
+  .shot .cut img{max-height:none;transform:none}
+  .li-track > *{flex-basis:calc((100% - clamp(14px,1.8vw,22px)) / 2)}
+  .about{display:block}
+  .about-img{float:left;width:clamp(150px,42%,320px);max-width:none;margin:4px clamp(16px,4vw,26px) 14px 0}
+  .about-list{clear:both}
+  .cta-in{grid-template-columns:1fr}
+  .case{grid-template-columns:1fr}
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-flow:dense}
+  .gal .tall{grid-row:span 1}
+  .gal .wide{grid-column:span 2}
+  .gal figure:last-child{grid-column:span 1}
+}
+@media (max-width:880px){
+  .svc,.work{grid-template-columns:1fr}
+  .numbers{grid-template-columns:repeat(2,1fr)}
+  .job{grid-template-columns:1fr;gap:8px}
+  .job .flag{display:none}
+  .li-track > *{flex-basis:88%}
+}
+@media (max-width:640px){
+  .about-copy h3 + p{margin-top:calc(1em * 1.75)}
+  .play{width:58px;height:58px}
+  .play::after{animation:none}
+  .reel .cap{flex-direction:column;align-items:flex-start;gap:4px}
+  .reel .cap b{font-size:15px}
+  .reel .cap small{font-size:11.5px}
+  .reel .cap .dur{font-size:11px}
+  .reel .tag span{font-size:10px;padding:5px 10px}
+}
+@media (max-width:520px){
+  .about-badge{flex-direction:column;align-items:flex-start;gap:5px;font-size:11px;letter-spacing:.1em}
+  .hero-foot div{min-width:88px}
+  .kpis{gap:16px}
+  .chip{min-width:0;right:0;padding:13px 15px}
+  .gal{grid-auto-rows:clamp(112px,30vw,150px)}
+}
+
+@media (pointer:coarse){
+  .lang button{min-height:40px;padding-inline:14px}
+  .li-dots button{min-width:40px}
+}
+@media (max-width:400px){
+  #nav{padding-inline:16px;gap:12px}
+  #nav.stuck{padding-inline:16px}
+  .lang{padding:2px}
+  .lang button{padding-inline:9px;letter-spacing:.04em}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .rv,.rv-l{opacity:1;transform:none}
+  .mask > span{transform:none}
+  .grow{transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs><linearGradient id="kgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient></defs>
+<symbol id="i-python" viewBox="0 0 24 24"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></symbol>
+<symbol id="i-anthropic" viewBox="0 0 24 24"><path d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/></symbol>
+<symbol id="i-langchain" viewBox="0 0 24 24"><path d="M13.796 0a6.93 6.93 0 0 0-4.91 2.019L5.451 5.455l3.273 3.27 3.432-3.432a2.284 2.284 0 0 1 3.277 0 2.28 2.28 0 0 1 0 3.275L12 12.001l3.273 3.273 3.433-3.435c2.692-2.692 2.692-7.127 0-9.82A6.92 6.92 0 0 0 13.796 0m-5.07 8.728-3.433 3.434c-2.692 2.693-2.692 7.126 0 9.819A6.92 6.92 0 0 0 10.203 24a6.93 6.93 0 0 0 4.911-2.02l3.432-3.432-3.271-3.272-3.433 3.433a2.284 2.284 0 0 1-3.277 0 2.28 2.28 0 0 1 0-3.276L12 12z"/></symbol>
+<symbol id="i-databricks" viewBox="0 0 24 24"><path d="M.95 14.184L12 20.403l9.919-5.55v2.21L12 22.662l-10.484-5.96-.565.308v.77L12 24l11.05-6.218v-4.317l-.515-.309L12 19.118l-9.867-5.653v-2.21L12 16.805l11.05-6.218V6.32l-.515-.308L12 11.974 2.647 6.681 12 1.388l7.76 4.368.668-.411v-.566L12 0 .95 6.27v.72L12 13.207l9.919-5.55v2.26L12 15.52 1.516 9.56l-.565.308Z"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="M10.812 0c-.425.013-.845.215-1.196.605a3.593 3.593 0 00-.493.722c-.355.667-.425 1.415-.556 2.143a551.9 551.9 0 00-.726 4.087c-.027.16-.096.227-.244.273C5.83 8.386 4.06 8.94 2.3 9.514c-.387.125-.773.289-1.114.506-1.042.665-1.196 1.753-.415 2.71.346.422.79.715 1.284.936 1.1.49 2.202.976 3.3 1.47.019.01.036.013.053.019h-.004l1.306.535c0 .023.002.045 0 .073-.2 2.03-.39 4.063-.58 6.095-.04.419-.012.831.134 1.23.317.87 1.065 1.148 1.881.701.372-.204.666-.497.937-.818 1.372-1.623 2.746-3.244 4.113-4.872.111-.133.205-.15.363-.098.349.117.697.231 1.045.347h.001c.02.012.045.02.073.03l.142.042c1.248.416 2.68.775 3.929 1.19.4.132.622.164 1.045.098.311-.048.592-.062.828-.236.602-.33.995-.957.988-1.682-.005-.427-.154-.813-.35-1.186-.82-1.556-1.637-3.113-2.461-4.666-.078-.148-.076-.243.037-.375 1.381-1.615 2.756-3.236 4.133-4.855.272-.32.513-.658.653-1.058.308-.878-.09-1.57-1-1.741a2.783 2.783 0 00-1.235.069c-1.974.521-3.947 1.041-5.918 1.57-.175.047-.26.015-.355-.144a353.08 353.08 0 00-2.421-4.018 4.61 4.61 0 00-.652-.849c-.371-.37-.802-.549-1.227-.536zm.172 3.703a.592.592 0 01.189.211c.87 1.446 1.742 2.89 2.609 4.338.07.118.135.16.277.121 1.525-.41 3.052-.813 4.579-1.217.367-.098.735-.193 1.103-.289a.399.399 0 01-.1.2c-1.259 1.48-2.516 2.962-3.779 4.438-.11.13-.12.22-.04.37.937 1.803 1.768 3.309 2.498 4.76l-3.696-1.019c-.538-.18-1.077-.358-1.615-.539-.163-.055-.25-.03-.36.1-1.248 1.488-2.504 2.97-3.759 4.454a.398.398 0 01-.18.132c.035-.378.068-.757.104-1.136.149-1.572.297-3.144.451-4.716-.03-.318.117-.405-.322-.545-1.493-.593-3.346-1.321-4.816-1.905a.595.595 0 01.24-.134c1.797-.57 3.595-1.14 5.394-1.705.127-.04.199-.092.211-.233.013-.148.05-.294.076-.441.241-1.363.483-2.726.726-4.088.068-.386.14-.771.21-1.157z"/></symbol>
+<symbol id="i-docker" viewBox="0 0 24 24"><path d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"/></symbol>
+<symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+<symbol id="i-notion" viewBox="0 0 24 24"><path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z"/></symbol>
+<symbol id="i-n8n" viewBox="0 0 24 24"><path d="M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632"/></symbol>
+<symbol id="i-powerbi" viewBox="0 0 24 24"><path d="M3.2 20.4h4.1V9.1H3.2zM9.9 20.4H14V4.4H9.9zM16.7 20.4h4.1V13h-4.1z"/></symbol>
+<symbol id="i-tableau" viewBox="0 0 24 24"><path d="M11.2 2h1.6v3.1h3V6.7h-3v3.1h-1.6V6.7h-3V5.1h3zM5.1 9.4h1.3v2.5h2.4v1.3H6.4v2.5H5.1v-2.5H2.7v-1.3h2.4zM17.6 9.4h1.3v2.5h2.4v1.3h-2.4v2.5h-1.3v-2.5h-2.4v-1.3h2.4zM11.2 14.2h1.6v3.1h3v1.6h-3V22h-1.6v-3.1h-3v-1.6h3z"/></symbol>
+<symbol id="i-sqlserver" viewBox="0 0 24 24"><path d="M12 2c4.4 0 8 1.2 8 2.8v14.4C20 20.8 16.4 22 12 22s-8-1.2-8-2.8V4.8C4 3.2 7.6 2 12 2m0 1.6c-3.7 0-6.4 1-6.4 1.2S8.3 6 12 6s6.4-1 6.4-1.2S15.7 3.6 12 3.6M5.6 7.4v3.9c1.2.7 3.6 1.1 6.4 1.1s5.2-.4 6.4-1.1V7.4c-1.6.7-4 1-6.4 1s-4.8-.3-6.4-1m0 5.9v3.9c1.2.7 3.6 1.1 6.4 1.1s5.2-.4 6.4-1.1v-3.9c-1.6.7-4 1-6.4 1s-4.8-.3-6.4-1"/></symbol>
+<symbol id="i-azure" viewBox="0 0 24 24"><path d="M13.1 2.6 20.9 21h-6.3l-4.4-11.5zM10.5 8.6l3.6 9.2H3.1z"/></symbol>
+<symbol id="i-fabric" viewBox="0 0 24 24"><path d="M12 2 20 6.4 12 10.8 4 6.4zM4 9.1l8 4.4 8-4.4v2.6l-8 4.4-8-4.4zM4 15.3l8 4.4 8-4.4V18l-8 4.4L4 18z"/></symbol>
+<symbol id="i-openai" viewBox="0 0 24 24"><path d="M12 1.6 21 6.8v10.4L12 22.4 3 17.2V6.8zm0 2.3L5 8v8l7 4.1 7-4.1V8zm0 3.2 4.2 2.4v4.9L12 16.9 7.8 14.4V9.5z"/></symbol>
+<symbol id="i-pandas" viewBox="0 0 24 24"><path d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z"/></symbol>
+<symbol id="i-delta" viewBox="0 0 24 24"><path d="M12 2.4 22.2 20.2H1.8zm0 4.3L5.7 17.9h12.6z"/><path d="M12 10.1l3.6 6.3H8.4z"/></symbol>
+<symbol id="i-sklearn" viewBox="0 0 24 24"><path d="M5 3.2a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2m14 0a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2M12 15.6a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2m-.85-2.2L6.3 8.55l1.1-1.1 4.85 4.85 4.85-4.85 1.1 1.1-4.85 4.85v2.3h-1.6z"/></symbol>
+</svg>
+
+<!-- ===================== loader ===================== -->
+<div id="boot">
+  <div class="mark">
+    <svg class="kmark" viewBox="0 0 100 100" aria-hidden="true"><path d="M0.15 6.37 L36.75 6.37 L36.75 28.48 L0.00 62.74 L0.00 6.52Z"/><path d="M68.08 6.37 L100.00 6.52 L52.56 52.78 L36.90 36.53 L67.94 6.52Z"/><path d="M33.09 40.19 L84.92 93.63 L45.83 93.63 L14.35 57.91 L32.94 40.34Z"/><path d="M10.69 61.27 L39.24 93.63 L0.00 93.63 L0.00 71.23 L10.54 61.42Z"/></svg>
+    <div class="num" id="bootNum">0</div>
+  </div>
+  <div class="bar" id="bootBar"></div>
+</div>
+
+<div id="prog"></div>
+<div id="cur"></div>
+<div id="curDot"></div>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="x" id="lbX" aria-label="Close">
+    <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m3 3 10 10M13 3 3 13"/></svg>
+  </button>
+  <img id="lbImg" alt="">
+</div>
+
+<!-- ===================== nav ===================== -->
+<header id="nav">
+  <a href="#top" class="brand" data-scroll>
+    <svg class="kmark" viewBox="0 0 100 100" aria-hidden="true"><path d="M0.15 6.37 L36.75 6.37 L36.75 28.48 L0.00 62.74 L0.00 6.52Z"/><path d="M68.08 6.37 L100.00 6.52 L52.56 52.78 L36.90 36.53 L67.94 6.52Z"/><path d="M33.09 40.19 L84.92 93.63 L45.83 93.63 L14.35 57.91 L32.94 40.34Z"/><path d="M10.69 61.27 L39.24 93.63 L0.00 93.63 L0.00 71.23 L10.54 61.42Z"/></svg>
+    <span class="txt">KLARISSA <i>ARTAVIA</i><small>AI ENGINEER</small></span>
+  </a>
+  <nav class="links">
+    <a href="#about" data-scroll data-t="nav.about">About</a>
+    <a href="#services" data-scroll data-t="nav.services">Services</a>
+    <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
+    <a href="#work" data-scroll data-t="nav.work">Systems</a>
+    <a href="#linkedin" data-scroll data-t="nav.writing">Writing</a>
+    <a href="#experience" data-scroll data-t="nav.experience">Experience</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" class="on">EN</button>
+    <button type="button" data-lang="es">ES</button>
+  </div>
+  <a href="#contact" class="nav-cta magnet" data-scroll data-t="nav.cta">Let’s talk business
+    <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg>
+  </a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+</header>
+
+<div id="sheet">
+  <a href="#about" data-scroll data-t="nav.about">About</a>
+  <a href="#services" data-scroll data-t="nav.services">Services</a>
+  <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
+  <a href="#work" data-scroll data-t="nav.work">Systems</a>
+  <a href="#linkedin" data-scroll data-t="nav.writing">Writing</a>
+  <a href="#experience" data-scroll data-t="nav.experience">Experience</a>
+  <a href="#contact" data-scroll data-t="nav.contact">Contact</a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" class="on">EN</button>
+    <button type="button" data-lang="es">ES</button>
+  </div>
+  <div class="meta">kartaviamasis@gmail.com · San José, Costa Rica</div>
+</div>
+
+<!-- ===================== smooth-scroll rig ===================== -->
+<div id="rig">
+<div id="flow">
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section id="hero">
+    <div class="glow glow-a" data-par="-0.06"></div>
+    <div class="glow glow-b" data-par="0.04"></div>
+    <svg class="ghost-k" viewBox="0 0 100 100" data-par="0.16" aria-hidden="true"><path d="M0.15 6.37 L36.75 6.37 L36.75 28.48 L0.00 62.74 L0.00 6.52Z"/><path d="M68.08 6.37 L100.00 6.52 L52.56 52.78 L36.90 36.53 L67.94 6.52Z"/><path d="M33.09 40.19 L84.92 93.63 L45.83 93.63 L14.35 57.91 L32.94 40.34Z"/><path d="M10.69 61.27 L39.24 93.63 L0.00 93.63 L0.00 71.23 L10.54 61.42Z"/></svg>
+
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <div class="hero-tag rv"><span class="pulse"></span> <span data-t="hero.tag">Available for new projects — Costa Rica &amp; remote worldwide</span></div>
+
+        <p class="hero-hi rv" style="--d:80ms" data-t="hero.hi">Hi, I'm</p>
+        <h1 class="hero-name">
+          <span class="mask" style="--d:140ms"><span>KLARISSA</span></span>
+          <span class="mask o" style="--d:250ms"><span>ARTAVIA</span></span>
+        </h1>
+
+        <p class="hero-sub rv" style="--d:420ms" data-t="hero.sub">
+          <b>AI Engineer</b> and data strategist. I build agentic pipelines, LLM systems and the data layer underneath
+          them — every output behind a validation gate. And when the result needs to be seen, I produce the film,
+          catalogue and campaign work that shows it.
+        </p>
+
+        <div class="hero-btns rv" style="--d:520ms">
+          <a href="#contact" class="btn btn-solid magnet" data-scroll><span data-t="hero.btn1">Let’s talk business</span><span class="dot"></span></a>
+          <a href="#clients" class="btn btn-ghost magnet" data-scroll><span data-t="hero.btn2">Watch client work</span></a>
+        </div>
+
+        <div class="hero-foot rv" style="--d:620ms">
+          <div><b data-count="6" data-suffix="+">0</b><small data-t="hero.f1">Years delivering</small></div>
+          <div><b data-count="5">0</b><small data-t="hero.f2">Countries</small></div>
+          <div><b data-count="8" data-suffix="+">0</b><small data-t="hero.f3">AI systems shipped</small></div>
+          <div><b>MSc</b><small data-t="hero.f4">INCAE Analytics</small></div>
+        </div>
+      </div>
+
+      <div class="shot rv" style="--d:340ms" data-par="-0.05">
+        <div class="halo"></div>
+        <div class="ring"></div>
+        <div class="cut"><img src="assets/klarissa-hero-cut.png" alt="Klarissa Artavia" width="1200" height="1650" fetchpriority="high"></div>
+        <div class="chip" id="chip">
+          <b id="chipN">36,000+</b>
+          <small id="chipT">catalogue images shipped<br>through one AI pipeline</small>
+          <div class="bars"><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="run">
+      <span>Agentic Pipelines</span><em>✦</em><span>LLM Systems</span><em>✦</em><span>RAG</span><em>✦</em>
+      <span>Python</span><em>✦</em><span>Claude API</span><em>✦</em><span>LangChain</span><em>✦</em>
+      <span>Delta Lake</span><em>✦</em><span>Databricks</span><em>✦</em><span>Anomaly Detection</span><em>✦</em>
+      <span>Data Strategy</span><em>✦</em><span>Power BI</span><em>✦</em>
+    </div>
+    <div class="run">
+      <span>Agentic Pipelines</span><em>✦</em><span>LLM Systems</span><em>✦</em><span>RAG</span><em>✦</em>
+      <span>Python</span><em>✦</em><span>Claude API</span><em>✦</em><span>LangChain</span><em>✦</em>
+      <span>Delta Lake</span><em>✦</em><span>Databricks</span><em>✦</em><span>Anomaly Detection</span><em>✦</em>
+      <span>Data Strategy</span><em>✦</em><span>Power BI</span><em>✦</em>
+    </div>
+  </div>
+
+  <!-- ============ CLIENTS + NUMBERS ============ -->
+  <section class="clients">
+    <div class="wrap">
+      <p class="cap rv" data-t="cli.cap">Work delivered for</p>
+      <div class="logos rv" style="--d:80ms">
+        <span class="lead-brand">ELYON INDUSTRIAL</span>
+        <span>AR HOLDINGS</span>
+        <span>WEBB FONTAINE</span>
+        <span>HACIENDA DIGITAL</span>
+      </div>
+
+      <div class="numbers rv" style="--d:160ms">
+        <div><b data-count="36000" data-sep="1" data-suffix="+">0</b><small data-t="cli.n1">Catalogue images<br>produced</small></div>
+        <div><b data-count="29">0</b><small data-t="cli.n2">Manufacturer brands<br>handled</small></div>
+        <div><b><i>15%</i></b><small data-t="cli.n3">Fewer operational<br>delays</small></div>
+        <div><b data-count="4338" data-sep="1">0</b><small data-t="cli.n4">Customers scored<br>&amp; segmented</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="ab.n">01 — About</span>
+          <h2><span class="mask"><span data-t="ab.h1">Data isn't the</span></span><span class="mask" style="--d:90ms"><span data-t="ab.h2">problem. <span class="o">Deciding is.</span></span></span></h2>
+        </div>
+        <p class="side rv" style="--d:180ms" data-t="ab.side">Master in Analytics, Innovation &amp; Technology — INCAE Business School. Based in Costa Rica, delivering across LATAM, Europe and the Middle East.</p>
+      </div>
+
+      <div class="about">
+        <div class="about-img rv" data-par="-0.03">
+          <div class="halo"></div>
+          <div class="ring"></div>
+          <div class="cut"><img src="assets/klarissa-about-cut.png" alt="Klarissa Artavia" width="947" height="1187" loading="lazy"></div>
+          <div class="about-badge"><span data-t="ab.badge">San José · Costa Rica</span><b>Est. 2020</b></div>
+        </div>
+
+        <div class="about-copy">
+          <h3 class="rv" style="--d:80ms" data-t="ab.h3">Most teams already have the dashboards. What they're missing is the <span class="o">system that acts on them.</span></h3>
+          <p class="lead rv" style="--d:160ms" data-t="ab.p1">
+            I've spent six years on both sides of that gap. At national scale: the
+            <b style="color:var(--white);font-weight:600">Hacienda Digital</b> analytics platform for Costa Rica's tax and customs transformation programme —
+            incremental processing on Delta Lake that cut reporting latency from four hours to near real time.
+          </p>
+          <p class="lead rv" style="--d:220ms" data-t="ab.p2">
+            On the engineering side: Python and SQL workflows that replaced manual data preparation, competitor-pricing pipelines feeding
+            weekly commercial strategy, and anomaly-detection bots that alert stakeholders before anyone opens a dashboard.
+          </p>
+          <p class="lead rv" style="--d:280ms" data-t="ab.p3">
+            And mostly, now, on the AI side: LLM agents with tool access, RAG copilots with human approval gates, and multi-agent pipelines
+            with hard validation rules — because an AI recommendation nobody can audit is not a recommendation, it's a liability.
+          </p>
+
+          <div class="about-list rv" style="--d:340ms">
+            <div><i>01</i><b data-t="ab.l1">Government scale</b><span>Hacienda Digital · Costa Rica</span></div>
+            <div><i>02</i><b data-t="ab.l2">Commercial retail</b><span>AR Holdings · Costa Rica</span></div>
+            <div><i>03</i><b data-t="ab.l3">International trade</b><span>Webb Fontaine · Arab Emirates</span></div>
+            <div><i>04</i><b data-t="ab.l4">Industrial B2B</b><span>Elyon Industrial · Costa Rica</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="sv.n">02 — Services</span>
+          <h2><span class="mask"><span data-t="sv.h">What I <span class="o">build</span></span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="sv.side">Engagements usually start with one broken workflow and end with a system that runs without anyone remembering it exists.</p>
+      </div>
+
+      <div class="svc">
+        <article class="rv">
+          <span class="no">01</span>
+          <h3 data-t="sv.data.t">Data &amp; Analytics Engineering</h3>
+          <p data-t="sv.data.d">ELT pipelines that replace manual preparation and nightly full reloads. Incremental merges, readiness audits and quality gates so a bad batch never reaches the table — or the report built on top of it.</p>
+          <ul><li>Python</li><li>SQL Server</li><li>Delta Lake</li><li>Databricks</li><li>Microsoft Fabric</li></ul>
+        </article>
+
+        <article class="rv" style="--d:90ms">
+          <span class="no">02</span>
+          <h3 data-t="sv.bi.t">BI &amp; Decision Dashboards</h3>
+          <p data-t="sv.bi.d">Power BI and Tableau built backwards from the decision, not forwards from the data model. Fewer charts, clearer thresholds, and an owner for every number on the page.</p>
+          <ul><li>Power BI</li><li>Tableau</li><li>DAX</li><li>Azure</li><li>KPI design</li></ul>
+        </article>
+
+        <article class="rv" style="--d:160ms">
+          <span class="no">03</span>
+          <h3 data-t="sv.ai.t">AI Automation &amp; Agents</h3>
+          <p data-t="sv.ai.d">LLM assistants with real tool access, RAG copilots grounded in your own catalogue, and multi-agent pipelines where every output passes a deterministic validation gate before anyone calls it approved.</p>
+          <ul><li>Claude API</li><li>OpenAI API</li><li>LangChain</li><li>RAG</li><li>Tool use</li></ul>
+        </article>
+
+        <article class="rv" style="--d:230ms">
+          <span class="no">04</span>
+          <h3 data-t="sv.ml.t">Monitoring, Pricing &amp; Forecasting</h3>
+          <p data-t="sv.ml.d">Anomaly-detection bots that page you before the dashboard does. Demand models and price optimisers that make the margin-versus-volume trade-off explicit instead of intuitive.</p>
+          <ul><li>XGBoost</li><li>scikit-learn</li><li>Z-score detection</li><li>Slack &amp; email alerts</li></ul>
+        </article>
+
+        <article class="rv" style="--d:300ms">
+          <span class="no">05</span>
+          <h3 data-t="sv.video.t">Video &amp; Brand Production</h3>
+          <p data-t="sv.video.d">Corporate and product video from shoot to final cut — script, edit, colour, subtitles and delivery. The kind of film a client can put on their homepage the same week, not the same quarter.</p>
+          <ul><li>Corporate film</li><li>Product video</li><li>Editing &amp; colour</li><li>Subtitling</li><li>Brand systems</li></ul>
+        </article>
+
+        <article class="rv" style="--d:370ms">
+          <span class="no">06</span>
+          <h3 data-t="sv.content.t">AI Content Production at Scale</h3>
+          <p data-t="sv.content.d">Catalogue photography, campaign creative and social assets produced through a scripted pipeline instead of by hand — thousands of consistent, on-brand images with a human reviewing fidelity before anything ships.</p>
+          <ul><li>Generative imaging</li><li>Pillow &amp; rembg</li><li>Batch pipelines</li><li>Visual QC</li><li>Multi-format delivery</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENT WORK / ELYON ============ -->
+  <section id="clients" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="cw.n">03 — Client work</span>
+          <h2><span class="mask"><span>Elyon Industrial,</span></span><span class="mask" style="--d:90ms"><span>end to <span class="o">end</span></span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="cw.side">An industrial distributor with 29 manufacturer lines and almost no usable visual assets. I rebuilt the whole visual layer — film, catalogue, campaigns and the pipeline that produces them.</p>
+      </div>
+
+      <div class="case">
+        <div class="reel rv" id="reel">
+          <video class="loop" src="assets/media/elyon-loop.mp4" poster="assets/media/elyon-reel-poster.jpg"
+                 muted loop playsinline preload="metadata" aria-hidden="true"></video>
+          <video class="full" id="reelFull" src="assets/media/elyon-reel-720.mp4"
+                 poster="assets/media/elyon-reel-poster.jpg" playsinline preload="none" controls></video>
+          <div class="tag"><span class="on" data-t="cw.tag1">Corporate film</span><span data-t="cw.tag2">Shoot → final cut</span></div>
+          <div class="veil"><div class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></div></div>
+          <div class="cap">
+            <span><b data-t="cw.capb">Elyon Industrial — workshop film</b><small data-t="cw.caps">Direction, edit, colour and subtitling · Costa Rica, 2026</small></span>
+            <span class="dur" data-t="cw.dur">0:58 · Click to play</span>
+          </div>
+        </div>
+
+        <div class="case-side">
+          <div class="case-note rv" style="--d:90ms">
+            <h4 data-t="cw.brief.t">The brief</h4>
+            <p data-t="cw.brief.d">A machining and industrial-supply business that could describe its capability perfectly in person — and not at all online. No film, no consistent product imagery, no campaign system.</p>
+          </div>
+          <div class="case-note rv" style="--d:160ms">
+            <h4 data-t="cw.ship.t">What shipped</h4>
+            <ul>
+              <li data-t="cw.ship.1">A 58-second corporate workshop film, shot and cut in house</li>
+              <li data-t="cw.ship.2">36,000+ catalogue product images across 29 manufacturer lines — ABB, LAPP, Siemens, Finder and more</li>
+              <li data-t="cw.ship.3">Instagram story, square and banner campaign sets per brand</li>
+              <li data-t="cw.ship.4">Vehicle wrap and brand-application design</li>
+              <li data-t="cw.ship.5">A Python pipeline so the next 10,000 images don't need me</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="gal">
+        <figure class="rv tall story"><img src="assets/media/elyon-story-1.jpg" alt="ABB distribution block campaign story" loading="lazy"><figcaption data-t="gal.story1">Campaign · ABB story</figcaption></figure>
+        <figure class="rv wide tall" style="--d:70ms"><img src="assets/media/elyon-wrap.jpg" alt="Elyon Industrial vehicle wrap design" loading="lazy"><figcaption data-t="gal.wrap">Brand application · Vehicle wrap</figcaption></figure>
+        <figure class="rv" style="--d:140ms"><img src="assets/media/elyon-product-1.jpg" alt="Autonics TK4S temperature controller catalogue render" loading="lazy"><figcaption data-t="gal.tk4s">Catalogue · Autonics TK4S</figcaption></figure>
+        <figure class="rv" style="--d:210ms"><img src="assets/media/elyon-abb-pilot.jpg" alt="ABB LED pilot light catalogue render" loading="lazy"><figcaption data-t="gal.abb">Catalogue · ABB LED pilot light</figcaption></figure>
+        <figure class="rv tall story" style="--d:280ms"><img src="assets/media/elyon-story-2.jpg" alt="Industrial protection campaign story" loading="lazy"><figcaption data-t="gal.story2">Campaign · Lifestyle story</figcaption></figure>
+        <figure class="rv tall" style="--d:350ms"><img src="assets/media/elyon-product-2.jpg" alt="ABB AF contactor catalogue render" loading="lazy" style="object-fit:contain;background:#fff"><figcaption data-t="gal.abbcnt">Catalogue · ABB AF contactor</figcaption></figure>
+        <figure class="rv wide tall" style="--d:420ms"><img src="assets/media/elyon-banner.jpg" alt="ABB catalogue campaign banner" loading="lazy"><figcaption data-t="gal.banner">Campaign · Catalogue banner</figcaption></figure>
+      </div>
+
+      <div class="more rv">
+        <p data-t="cw.more">Same operating principle as the data work: <b>generate at scale, review with judgement, never ship what hasn't passed a human.</b></p>
+        <a class="btn btn-ghost magnet" href="#contact" data-scroll><span data-t="cw.morecta">Discuss a production project</span><span class="dot"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="wk.n">04 — Systems</span>
+          <h2><span class="mask"><span data-t="wk.h1">Systems, not</span></span><span class="mask" style="--d:90ms"><span data-t="wk.h2"><span class="o">slide decks</span></span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="wk.side">AI systems first — agentic pipelines, LLM tool use and RAG, each public, runnable and documented as a case study with the numbers from real runs, including what failed.</p>
+      </div>
+
+      <div class="work">
+        <a class="card rv" href="https://github.com/klaricracia/retail-intelligence-pipeline" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.retail.tag">Agentic pipeline</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>Retail Intelligence Pipeline</h3>
+            <p data-t="work.retail.desc">Three single-purpose agents hand structured data to each other — scrape competitor listings, enrich against internal sales in Delta Lake, generate a grounded pricing recommendation — behind a hard validation gate nothing bypasses.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>123</b><small>Listings scraped</small></div>
+              <div><b>39/42</b><small>Passed the gate</small></div>
+              <div><b>3</b><small>Blocked, with reasons</small></div>
+            </div>
+            <div class="stack"><span>Python</span><span>Playwright</span><span>Delta Lake</span><span>Claude API</span><span>pytest</span></div>
+          </div>
+        </a>
+
+        <a class="card rv" style="--d:80ms" href="https://github.com/klaricracia/llm-analytics-assistant" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.llm.tag">LLM tool use</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>LLM Analytics Assistant</h3>
+            <p data-t="work.llm.desc">Ask a business question in plain English. Claude picks from a registry of typed Python functions, chains the calls it needs across three separate datasets, and answers with grounded numbers — no SQL, no dashboard.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>14</b><small>Callable tools</small></div>
+              <div><b>3</b><small>Datasets unified</small></div>
+              <div><b>~100</b><small>Lines of agent loop</small></div>
+            </div>
+            <div class="stack"><span>Claude API</span><span>Tool use</span><span>Gradio</span><span>pandas</span></div>
+          </div>
+        </a>
+
+        <a class="card rv" href="https://github.com/klaricracia/catalog-rag-copilot" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.rag.tag">RAG + governance</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>Catalog RAG Copilot</h3>
+            <p data-t="work.rag.desc">Natural-language search over an industrial product catalogue, with local embeddings, cited sources, and an approve/reject gate that writes every answer to an append-only audit trail before anyone relies on it.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>93</b><small>Products indexed</small></div>
+              <div><b>6/6</b><small>Demo queries correct</small></div>
+            </div>
+            <div class="stack"><span>Chroma</span><span>sentence-transformers</span><span>Claude API</span><span>Streamlit</span></div>
+          </div>
+        </a>
+
+        <div class="card private rv" style="--d:80ms">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.imgpipe.tag">Client engagement · private</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7V5a4 4 0 0 1 8 0v2M3.5 7h9v6h-9z"/></svg></span>
+            </div>
+            <h3>AI Image Production Pipeline</h3>
+            <p data-t="work.imgpipe.desc">The engine behind the Elyon catalogue above: product-aware configuration, AI image editing, logo and watermark rules, multi-format export, resumable runs, and a visual QC gate that routes defects back to the right stage instead of the top.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>36,000+</b><small>Images produced</small></div>
+              <div><b>29</b><small>Brands supported</small></div>
+              <div><b>Human QC</b><small>In the loop by design</small></div>
+            </div>
+            <div class="stack"><span>Python</span><span>OpenAI images</span><span>Pillow</span><span>rembg</span><span>Playwright</span></div>
+          </div>
+        </div>
+
+        <a class="card rv" href="https://github.com/klaricracia/dynamic-pricing-model" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.pricing.tag">Machine learning</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>Dynamic Pricing Engine</h3>
+            <p data-t="work.pricing.desc">An XGBoost demand model over 20 engineered features, wrapped in a scipy optimiser that finds the price maximising margin — or revenue — and makes the trade-off between them impossible to ignore.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>0.948</b><small>R² on holdout</small></div>
+              <div><b>+43.6%</b><small>Avg margin uplift</small></div>
+              <div><b>50</b><small>Products optimised</small></div>
+            </div>
+            <div class="stack"><span>XGBoost</span><span>scikit-learn</span><span>scipy.optimize</span><span>pandas</span></div>
+          </div>
+        </a>
+
+        <a class="card rv" style="--d:80ms" href="https://github.com/klaricracia/lakehouse-readiness-pipeline" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.lakehouse.tag">Data engineering</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>Lakehouse Readiness Pipeline</h3>
+            <p data-t="work.lakehouse.desc">A pre-build readiness audit that writes a pass/fail verdict per batch, a pandera quality gate that quarantines bad data with reasons, and an idempotent Delta Lake merge that retires the nightly full reload.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>850</b><small>Rows, zero dupes</small></div>
+              <div><b>1/4</b><small>Batches quarantined</small></div>
+              <div><b>10/10</b><small>Tests passing</small></div>
+            </div>
+            <div class="stack"><span>Delta Lake</span><span>pandera</span><span>Airflow ref</span><span>pytest</span></div>
+          </div>
+        </a>
+
+        <a class="card rv" href="https://github.com/klaricracia/kpi-monitoring-bot" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.kpi.tag">Automation</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>KPI Monitoring Bot</h3>
+            <p data-t="work.kpi.desc">Rolling z-score anomaly detection across six business KPIs, with configurable hard floors and ceilings, firing branded email and Slack alerts on a schedule — before anyone has opened a dashboard.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>7</b><small>Anomalies caught</small></div>
+              <div><b>0</b><small>Missed</small></div>
+              <div><b>365d</b><small>Of KPI history</small></div>
+            </div>
+            <div class="stack"><span>Python</span><span>numpy</span><span>PyYAML</span><span>Slack webhooks</span></div>
+          </div>
+        </a>
+
+        <a class="card rv" style="--d:80ms" href="https://github.com/klaricracia/retail-customer-rfm-analysis" target="_blank" rel="noopener">
+          <div>
+            <div class="top">
+              <span class="tagline" data-t="work.rfm.tag">Customer analytics</span>
+              <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13 13 3M6 3h7v7"/></svg></span>
+            </div>
+            <h3>Customer RFM Segmentation</h3>
+            <p data-t="work.rfm.desc">Quantile-scored recency, frequency and monetary segmentation across 32,000+ transactions, mapped to eight segments — each with the retention action attached, not just a label.</p>
+          </div>
+          <div class="btm">
+            <div class="kpis">
+              <div><b>4,338</b><small>Customers scored</small></div>
+              <div><b>56.5%</b><small>Revenue from champions</small></div>
+              <div><b>$1.6M</b><small>At-risk exposure</small></div>
+            </div>
+            <div class="stack"><span>Python</span><span>pandas</span><span>Chart.js</span><span>Power BI-ready</span></div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="more rv">
+        <p data-t="wk.more">Every repository ships with a case-study README: the problem, the architecture, the real run numbers — and an honest note on what's synthetic.</p>
+        <a class="btn btn-ghost magnet" href="https://github.com/klaricracia" target="_blank" rel="noopener"><span data-t="wk.morecta">All repositories on GitHub</span><span class="dot"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LINKEDIN ============ -->
+  <section id="linkedin" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="li.n">05 — Writing</span>
+          <h2><span class="mask"><span data-t="li.h1">Latest on</span></span><span class="mask" style="--d:90ms"><span class="o">LinkedIn</span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="li.side">I write about what actually happens when you put AI into a business — the mechanics, the gates, the parts that break.</p>
+      </div>
+
+      <div class="li-rail rv">
+        <div class="li-track" id="liGrid" tabindex="0" role="region" aria-roledescription="carousel" aria-label="LinkedIn posts"></div>
+      </div>
+
+      <div class="li-nav rv" style="--d:120ms">
+        <div class="li-dots" id="liDots"></div>
+        <div class="li-arrows">
+          <button class="li-arrow" id="liPrev" type="button" aria-label="Previous posts"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg></button>
+          <button class="li-arrow" id="liNext" type="button" aria-label="Next posts"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+
+      <div class="li-foot rv">
+        <p data-t="li.foot">New posts land on LinkedIn first — data, AI systems and the production work behind them.</p>
+        <a class="btn btn-ghost magnet" href="https://www.linkedin.com/in/klariartavia/" target="_blank" rel="noopener"><span data-t="li.cta">Follow on LinkedIn</span><span class="dot"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="ex.n">06 — Experience</span>
+          <h2><span class="mask"><span data-t="ex.h1">Where I've</span></span><span class="mask" style="--d:90ms"><span data-t="ex.h2"><span class="o">shipped</span> it</span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="ex.side">Six years across public sector, retail and industrial distribution — all freelance, all shipped, the same problem in very different vocabularies.</p>
+      </div>
+
+      <div class="tl">
+        <article class="job rv">
+          <div class="when" data-t="exp.el2.when">May 2026 — Present</div>
+          <div>
+            <h3 data-t="exp.el2.role">AI Implementation &amp; Digital Transformation Consultant</h3>
+            <div class="where">Elyon Industrial LATAM · Freelance</div>
+            <p data-t="exp.el2.desc">Re-engaged to lead the next phase of digital transformation through applied AI, data strategy and intelligent automation. Audited workflows and data pipelines across Databricks, Delta Lake and Python to prioritise the highest-value automation opportunities. Built the product-catalogue RAG system — LangChain orchestrating the Claude API over a vector database indexing the product and inventory catalogue, so anyone can query it in natural language, with human-in-the-loop review gates before an answer is trusted. Established automated validation checks in Python, Power BI monitoring and ADR-based documentation to move AI work from prototype to auditable production.</p>
+          </div>
+          <div class="flag" data-t="exp.el2.flag">AI consulting</div>
+        </article>
+
+        <article class="job rv" style="--d:70ms">
+          <div class="when" data-t="exp.ar.when">Dec 2025 — Present</div>
+          <div>
+            <h3 data-t="exp.ar.role">Senior Data Analyst</h3>
+            <div class="where">AR Holdings · Costa Rica · Freelance</div>
+            <p data-t="exp.ar.desc">Designed the Retail Intelligence Engine: a multi-agent pipeline where specialised agents own competitor data acquisition, market-signal enrichment on Delta Lake and RAG-powered pricing recommendations, each handing structured output to the next. Built in Python with Claude Code — idempotent ingestion and a business-rule validation gate mean nothing reaches a user without passing production checks. Also built a dynamic pricing model joining external market signals to internal sales history, behind the same gate.</p>
+          </div>
+          <div class="flag" data-t="exp.ar.flag">Retail</div>
+        </article>
+
+        <article class="job rv" style="--d:140ms">
+          <div class="when" data-t="exp.wf.when">Jan 2024 — Dec 2025</div>
+          <div>
+            <h3 data-t="exp.wf.role">Data Strategy Analyst</h3>
+            <div class="where">Webb Fontaine · Arab Emirates · Freelance</div>
+            <p data-t="exp.wf.desc">Designed the Hacienda Digital Analytics Platform — a data automation platform with incremental processing on Delta Lake for Costa Rica's national transformation programme — cutting reporting latency from four hours to near real-time operational intelligence. Ran a structured pre-build data readiness audit that caught quality and governance blockers and retired two workstreams that would have failed in production, and documented architectural decisions as ADRs to give a cross-functional AI and data portfolio a decision framework. Analytics on operational bottlenecks cut delays by 15%.</p>
+          </div>
+          <div class="flag" data-t="exp.wf.flag">Government</div>
+        </article>
+
+        <article class="job rv" style="--d:210ms">
+          <div class="when">2020 — 2024</div>
+          <div>
+            <h3 data-t="exp.el.role">Systems Automation Consultant</h3>
+            <div class="where">Elyon Industrial LATAM · Freelance</div>
+            <p data-t="exp.el.desc">Developed automated validation and data processing workflows in Python and Databricks to make enterprise data operations reliable and scalable. Implemented repeatable transformation and quality-control processes that cut manual effort and accelerated information delivery, and structured enterprise datasets and governance standards to support future predictive analytics and machine learning.</p>
+          </div>
+          <div class="flag" data-t="exp.el.flag">Industrial</div>
+        </article>
+
+        <article class="job rv" style="--d:280ms">
+          <div class="when">2024 — 2025</div>
+          <div>
+            <h3 data-t="exp.edu.role">MSc Analytics, Innovation &amp; Technology</h3>
+            <div class="where">INCAE Business School</div>
+            <p data-t="exp.edu.desc">Latin America's top-ranked business school. Prior: International Trade &amp; Business, LEAD University (2021–2023) — which is why the conversation with a commercial team usually goes faster than the conversation with the data warehouse.</p>
+          </div>
+          <div class="flag" data-t="exp.edu.flag">Education</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section id="stack" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <div class="rv">
+          <span class="n" data-t="st.n">07 — Stack</span>
+          <h2><span class="mask"><span data-t="st.h">Tools I <span class="o">actually</span> use</span></span></h2>
+        </div>
+        <p class="side rv" style="--d:150ms" data-t="st.side">Not a logo wall — this is what shows up in the repositories and the client work above.</p>
+      </div>
+
+      <div class="tools rv">
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-python"/></svg></span><span class="txt"><b>Python</b><small data-t="stack.python">AI pipelines &amp; agents</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-anthropic"/></svg></span><span class="txt"><b>Claude API</b><small data-t="stack.anthropic">LLM systems</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-openai"/></svg></span><span class="txt"><b>OpenAI API</b><small data-t="stack.openai">LLM systems</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-langchain"/></svg></span><span class="txt"><b>LangChain</b><small data-t="stack.langchain">Agent orchestration</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-n8n"/></svg></span><span class="txt"><b>n8n</b><small data-t="stack.n8n">Automation</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sklearn"/></svg></span><span class="txt"><b>scikit-learn</b><small data-t="stack.sklearn">Modelling</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-databricks"/></svg></span><span class="txt"><b>Databricks</b><small data-t="stack.databricks">Lakehouse</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-delta"/></svg></span><span class="txt"><b>Delta Lake</b><small data-t="stack.delta">Table format</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spark"/></svg></span><span class="txt"><b>Apache Spark</b><small data-t="stack.spark">Scale</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-fabric"/></svg></span><span class="txt"><b>Microsoft Fabric</b><small data-t="stack.fabric">Data platform</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sqlserver"/></svg></span><span class="txt"><b>SQL Server</b><small data-t="stack.sqlserver">Warehousing</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-azure"/></svg></span><span class="txt"><b>Azure</b><small data-t="stack.azure">Cloud</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-powerbi"/></svg></span><span class="txt"><b>Power BI</b><small data-t="stack.powerbi">Reporting</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tableau"/></svg></span><span class="txt"><b>Tableau</b><small data-t="stack.tableau">Reporting</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-docker"/></svg></span><span class="txt"><b>Docker</b><small data-t="stack.docker">Packaging</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-github"/></svg></span><span class="txt"><b>GitHub</b><small data-t="stack.github">Versioning</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pandas"/></svg></span><span class="txt"><b>pandas</b><small data-t="stack.pandas">Data wrangling</small></span></div>
+        <div><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-notion"/></svg></span><span class="txt"><b>Notion</b><small data-t="stack.notion">Knowledge</small></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="sec">
+    <div class="wrap">
+      <div class="cta rv">
+        <div class="glow-c"></div>
+        <div class="cta-in">
+          <div>
+            <span class="eyebrow" data-t="cta.eyebrow">08 — Let's talk</span>
+            <h2 style="margin-top:22px">
+              <span class="mask"><span data-t="cta.h1">Got data that</span></span>
+              <span class="mask" style="--d:90ms"><span data-t="cta.h2">isn't <span class="o">earning</span></span></span>
+              <span class="mask" style="--d:180ms"><span data-t="cta.h3">its keep?</span></span>
+            </h2>
+            <p class="lead" data-t="cta.lead">Tell me the decision you're trying to make faster. If I'm not the right fit I'll say so in the first reply — and usually point you at what is.</p>
+            <div class="cta-btns">
+              <a class="btn btn-solid magnet" href="mailto:kartaviamasis@gmail.com?subject=Project%20enquiry%20—%20Data%20%26%20AI"><span data-t="cta.email">Email me</span><span class="dot"></span></a>
+              <a class="btn btn-ghost magnet" href="https://wa.me/50685977864" target="_blank" rel="noopener"><span>WhatsApp</span></a>
+            </div>
+          </div>
+
+          <div class="contact-list">
+            <a href="mailto:kartaviamasis@gmail.com">
+              <span><small data-t="cta.l.email">Email</small><b>kartaviamasis@gmail.com</b></span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/klariartavia/" target="_blank" rel="noopener">
+              <span><small>LinkedIn</small><b>in/klariartavia</b></span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
+            </a>
+            <a href="https://github.com/klaricracia" target="_blank" rel="noopener">
+              <span><small>GitHub</small><b>@klaricracia</b></span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
+            </a>
+            <a href="tel:+50685977864">
+              <span><small data-t="cta.l.phone">Phone · Costa Rica</small><b>+506 8597 7864</b></span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© <span id="yr">2026</span> Klarissa Artavia · <span data-t="foot.role">AI Engineer | Automation Systems &amp; Data Strategy</span></div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/klariartavia/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95C20.4 8.75 21 11.1 21 14.16V21h-4v-6.06c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21H9z"/></svg>
+        </a>
+        <a href="https://github.com/klaricracia" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="mailto:kartaviamasis@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 6.5L21 6"/></svg>
+        </a>
+      </div>
+      <a href="#top" class="totop" data-scroll><span data-t="foot.top">Back to top</span>
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5"/></svg>
+      </a>
+    </div>
+  </footer>
+
+</main>
+</div>
+</div>
+
+<script>
+/* ============================================================
+   LinkedIn posts + EN/ES translation
+   ------------------------------------------------------------
+   TO ADD A POST: add an entry at the top of POSTS below and set
+   `url` to the real post permalink (open the post on LinkedIn →
+   "Copy link to post"). Newest first. Keep it to 3 for a clean row.
+   ============================================================ */
+(function(){
+  "use strict";
+
+  var PROFILE = "https://www.linkedin.com/in/klariartavia/";
+
+  var POSTS = [
+    {
+      date: "Sep 2026", feat: true,
+      url:  "https://www.linkedin.com/posts/klariartavia_i-built-a-rag-copilot-over-a-product-catalog-share-7503543746446307328-5aFk/",
+      tags: ["RAG","LangChain","Claude API"],
+      en: { t: "A RAG copilot that has to cite the row it used",
+            d: "Built over the Elyon Industrial LATAM catalogue: every row embedded locally with sentence-transformers and indexed in Chroma \u2014 no API key needed just to search. Claude answers only from the retrieved rows and cites the product ID every time, and nothing counts as trusted until a human hits Approve and the decision lands in an auditable trail." },
+      es: { t: "Un copiloto RAG obligado a citar la fila que us\u00f3",
+            d: "Construido sobre el cat\u00e1logo de Elyon Industrial LATAM: cada fila se embebe localmente con sentence-transformers y se indexa en Chroma \u2014 sin API key solo para buscar. Claude responde \u00fanicamente desde las filas recuperadas y cita el ID de producto siempre, y nada se considera confiable hasta que una persona aprueba y esa decisi\u00f3n queda en una traza auditable." }
+    },
+    {
+      date: "Sep 2026", feat: true,
+      url:  "https://www.linkedin.com/posts/klariartavia_generativeai-automation-productphotography-ugcPost-7503260098622889984--aOX/",
+      tags: ["Generative AI","Automation","Python"],
+      en: { t: "I replaced a marketing team with one AI agent",
+            d: "36,000+ product images delivered for Elyon Industrial — no agency, no retouching team, nobody reviewing every SKU by hand. A button with an LED, one without, and a pilot light look nearly identical after an AI edit, so the agent runs on product-configuration modules and every image passes automated QC before it ships." },
+      es: { t: "Reemplacé un equipo de marketing con un agente de IA",
+            d: "Más de 36.000 imágenes de producto entregadas para Elyon Industrial — sin agencia, sin equipo de retoque, sin nadie revisando cada SKU a mano. Un botón con LED, uno sin él y un piloto se ven casi idénticos tras una edición con IA, así que el agente corre sobre módulos de configuración de producto y cada imagen pasa un QC automático antes de publicarse." }
+    },
+    {
+      date: "Jul 2026", feat: true,
+      url:  "https://www.linkedin.com/posts/klariartavia_artificialintelligence-dataengineering-databricks-share-7488845834474729472-ydso/",
+      tags: ["AI strategy","Data engineering","Automation"],
+      en: { t: "Not every automation problem deserves AI",
+            d: "Sometimes you need machine learning. Sometimes you need an LLM. And surprisingly often you just need fifty lines of deterministic Python that won\u2019t decide today\u2019s a good day to be creative. Knowing when and how to use AI is becoming far more valuable than trying to use it for everything." },
+      es: { t: "No todo problema de automatizaci\u00f3n merece IA",
+            d: "A veces necesit\u00e1s machine learning. A veces necesit\u00e1s un LLM. Y sorprendentemente seguido solo necesit\u00e1s cincuenta l\u00edneas de Python determinista que no van a decidir que hoy es buen d\u00eda para ser creativas. Saber cu\u00e1ndo y c\u00f3mo usar IA vale mucho m\u00e1s que intentar usarla para todo." }
+    },
+    {
+      date: "Aug 2026",
+      url:  "https://www.linkedin.com/posts/klariartavia_muchas-empresas-dicen-estar-comprometidas-ugcPost-7499230331108143104-5GB5/",
+      tags: ["Digital transformation","LATAM","Industry"],
+      en: { t: "Innovation isn't what the customer sees",
+            d: "Plenty of companies put innovation in their mission and values. Look inside and you find inefficient processes, an ERP nobody wants to use, obsolete data models and ways of working nobody has questioned in years. Real commitment shows in the systems customers never see." },
+      es: { t: "La innovación no es lo que ve el cliente",
+            d: "Muchas empresas ponen la innovación en su misión, visión y valores. Cuando mirás hacia adentro encontrás procesos ineficientes, ERPs que nadie quiere usar, modelados de datos obsoletos y formas de trabajar que llevan años sin cuestionarse. El compromiso real se ve en los sistemas que el cliente nunca ve." }
+    },
+    {
+      date: "Jul 2026",
+      url:  "https://www.linkedin.com/posts/klariartavia_aiengineering-diffusionmodels-generativeai-activity-7481139388970786816-dnJZ",
+      tags: ["Diffusion models","Generative AI"],
+      en: { t: "Marketing is dead — what killed it is physics",
+            d: "Diffusion models start from pure noise and subtract it about fifty times until an image emerges: Brownian motion run backwards. The randomness is deliberate — remove it and every output collapses toward the blurry average of the training data. And your prompt never tells the model what to draw; it steers the denoising." },
+      es: { t: "El marketing murió — lo mató la física",
+            d: "Los modelos de difusión parten de ruido puro y lo restan unas cincuenta veces hasta que emerge una imagen: movimiento browniano corriendo hacia atrás. El azar es deliberado — quítalo y cada salida colapsa hacia el promedio borroso de los datos de entrenamiento. Y tu prompt nunca le dice al modelo qué dibujar; dirige el proceso de limpieza." }
+    }
+  ];
+
+  var UI = {
+    en: { follow: "Read on LinkedIn", card: "Follow for what comes next", feat: "Featured",
+          cardd: "New posts on AI systems, data pipelines and the production work behind them.", cta: "Open profile" },
+    es: { follow: "Leer en LinkedIn", card: "Sígueme para lo que viene", feat: "Destacado",
+          cardd: "Publicaciones nuevas sobre sistemas de IA, pipelines de datos y la producción detrás de ellos.", cta: "Abrir perfil" }
+  };
+
+  var IN_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95C20.4 8.75 21 11.1 21 14.16V21h-4v-6.06c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21H9z"/></svg>';
+
+  function esc(x){ return String(x).replace(/[&<>"]/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+  function renderPosts(lang){
+    var grid = document.getElementById('liGrid');
+    if(!grid) return;
+    var ui = UI[lang] || UI.en, html = "";
+    POSTS.forEach(function(p, i){
+      var c = p[lang] || p.en;
+      html += '<a class="li-card' + (p.feat ? ' feat' : '') + '" href="' + esc(p.url) + '" target="_blank" rel="noopener">'
+            +   '<div>'
+            +     '<div class="li-top"><span class="li-in">' + IN_SVG + '</span>'
+            +       (p.feat ? '<span class="li-flag">' + esc(ui.feat) + '</span>' : '')
+            +       '<span class="li-date">' + esc(p.date) + '</span></div>'
+            +     '<h3>' + esc(c.t) + '</h3><p>' + esc(c.d) + '</p>'
+            +   '</div>'
+            +   '<div class="li-tags">' + p.tags.map(function(t){ return '<span>' + esc(t) + '</span>'; }).join('') + '</div>'
+            + '</a>';
+    });
+    html += '<a class="li-card" href="' + PROFILE + '" target="_blank" rel="noopener">'
+          +   '<div><div class="li-top"><span class="li-in">' + IN_SVG + '</span><span class="li-date">in/klariartavia</span></div>'
+          +   '<h3>' + esc(ui.card) + '</h3><p>' + esc(ui.cardd) + '</p></div>'
+          +   '<div class="li-tags"><span>' + esc(ui.cta) + '</span></div>'
+          + '</a>';
+    grid.innerHTML = html;
+    buildCarousel();
+  }
+
+  /* ---------------- carousel ---------------- */
+  function buildCarousel(){
+    var track = document.getElementById('liGrid'),
+        dots  = document.getElementById('liDots'),
+        prev  = document.getElementById('liPrev'),
+        next  = document.getElementById('liNext');
+    if(!track || !dots || !prev || !next) return;
+
+    var cards = [].slice.call(track.children);
+    if(!cards.length) return;
+
+    function step(){
+      if(cards.length < 2) return track.clientWidth;
+      return cards[1].offsetLeft - cards[0].offsetLeft;
+    }
+    function perView(){
+      return Math.max(1, Math.round(track.clientWidth / step()));
+    }
+    function pages(){
+      return Math.max(1, cards.length - perView() + 1);
+    }
+    function index(){
+      return Math.min(pages() - 1, Math.max(0, Math.round(track.scrollLeft / step())));
+    }
+
+    function paintDots(){
+      var n = pages();
+      if(dots.children.length !== n){
+        var h = "";
+        for(var i = 0; i < n; i++) h += '<button type="button" aria-label="Go to slide ' + (i+1) + '"></button>';
+        dots.innerHTML = h;
+        [].forEach.call(dots.children, function(b, i){
+          b.addEventListener('click', function(){ track.scrollTo({ left: i * step(), behavior: 'smooth' }); });
+        });
+      }
+      var cur = index();
+      [].forEach.call(dots.children, function(b, i){ b.classList.toggle('on', i === cur); });
+      dots.style.visibility = n > 1 ? '' : 'hidden';
+    }
+
+    function sync(){
+      paintDots();
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - 2;
+    }
+
+    function go(dir){
+      track.scrollTo({ left: track.scrollLeft + dir * step(), behavior: 'smooth' });
+    }
+
+    if(track.dataset.wired !== "1"){
+      track.dataset.wired = "1";
+      prev.addEventListener('click', function(){ go(-1); });
+      next.addEventListener('click', function(){ go(1); });
+      track.addEventListener('scroll', function(){
+        clearTimeout(track._t);
+        track._t = setTimeout(sync, 60);
+      }, { passive: true });
+      track.addEventListener('keydown', function(e){
+        if(e.key === 'ArrowRight'){ e.preventDefault(); go(1); }
+        if(e.key === 'ArrowLeft'){ e.preventDefault(); go(-1); }
+      });
+      addEventListener('resize', function(){
+        clearTimeout(track._r);
+        track._r = setTimeout(function(){ dots.innerHTML = ""; sync(); }, 140);
+      });
+    }
+    sync();
+  }
+
+  /* ---------------- translations ---------------- */
+  var ES = {
+    "nav.about":"Perfil","nav.services":"Servicios","nav.clients":"Clientes","nav.work":"Sistemas",
+    "nav.writing":"Publicaciones","nav.experience":"Experiencia","nav.contact":"Contacto","nav.cta":"Hablemos de negocios",
+
+    "hero.tag":"Disponible para nuevos proyectos — Costa Rica y remoto en todo el mundo",
+    "hero.hi":"Hola, soy",
+    "hero.sub":"<b>AI Engineer</b> y estratega de datos. Construyo pipelines agénticos, sistemas LLM y la capa de datos que los sostiene — cada salida detrás de una compuerta de validación. Y cuando el resultado tiene que verse, produzco el video, el catálogo y la campaña que lo muestran.",
+    "hero.btn1":"Hablemos de negocios","hero.btn2":"Ver trabajo con clientes",
+    "hero.f1":"Años entregando","hero.f2":"Países","hero.f3":"Sistemas de IA en producción","hero.f4":"INCAE Analytics",
+
+    "cli.cap":"Trabajo entregado para",
+    "cli.n1":"Imágenes de catálogo<br>producidas","cli.n2":"Marcas de fabricantes<br>gestionadas",
+    "cli.n3":"Menos retrasos<br>operativos","cli.n4":"Clientes calificados<br>y segmentados",
+
+    "ab.n":"01 — Perfil","ab.h1":"Los datos no son","ab.h2":"el problema. <span class=\"o\">Decidir sí.</span>",
+    "ab.side":"Máster en Analítica, Innovación y Tecnología — INCAE Business School. Basada en Costa Rica, entregando en LATAM, Europa y Medio Oriente.",
+    "ab.badge":"San José · Costa Rica",
+    "ab.h3":"Casi todos los equipos ya tienen los dashboards. Lo que falta es el <span class=\"o\">sistema que actúa sobre ellos.</span>",
+    "ab.p1":"Llevo seis años en ambos lados de esa brecha. A escala nacional: la plataforma analítica de <b style=\"color:var(--white);font-weight:600\">Hacienda Digital</b>, el programa de transformación tributaria y aduanera de Costa Rica — procesamiento incremental sobre Delta Lake que bajó la latencia de reportería de cuatro horas a casi tiempo real.",
+    "ab.p2":"Del lado de ingeniería: flujos en Python y SQL que reemplazaron la preparación manual de datos, pipelines de precios de competencia que alimentan la estrategia comercial semanal, y bots de detección de anomalías que avisan antes de que alguien abra un dashboard.",
+    "ab.p3":"Y hoy, sobre todo, del lado de la IA: agentes LLM con acceso a herramientas, copilotos RAG con aprobación humana y pipelines multiagente con reglas duras de validación — porque una recomendación de IA que nadie puede auditar no es una recomendación, es un riesgo.",
+    "ab.l1":"Escala gubernamental","ab.l2":"Retail comercial","ab.l3":"Comercio internacional","ab.l4":"Industrial B2B",
+
+    "sv.n":"02 — Servicios","sv.h":"Lo que <span class=\"o\">construyo</span>",
+    "sv.side":"Los proyectos suelen empezar con un flujo roto y terminar con un sistema que corre sin que nadie recuerde que existe.",
+    "sv.data.t":"Ingeniería de datos y analítica",
+    "sv.data.d":"Pipelines ELT que reemplazan la preparación manual y las recargas completas nocturnas. Merges incrementales, auditorías de preparación y compuertas de calidad para que un lote malo nunca llegue a la tabla — ni al reporte construido encima.",
+    "sv.bi.t":"BI y dashboards de decisión",
+    "sv.bi.d":"Power BI y Tableau construidos desde la decisión hacia atrás, no desde el modelo de datos hacia adelante. Menos gráficos, umbrales más claros y un responsable para cada número de la página.",
+    "sv.ai.t":"Automatización con IA y agentes",
+    "sv.ai.d":"Asistentes LLM con acceso real a herramientas, copilotos RAG anclados en tu propio catálogo y pipelines multiagente donde cada salida pasa una compuerta de validación determinista antes de que alguien la dé por aprobada.",
+    "sv.ml.t":"Monitoreo, precios y pronóstico",
+    "sv.ml.d":"Bots de detección de anomalías que te avisan antes que el dashboard. Modelos de demanda y optimizadores de precio que vuelven explícito el trade-off entre margen y volumen en vez de dejarlo a la intuición.",
+    "sv.video.t":"Video y producción de marca",
+    "sv.video.d":"Video corporativo y de producto desde la grabación hasta el corte final — guion, edición, color, subtítulos y entrega. El tipo de pieza que un cliente puede publicar esa misma semana, no ese mismo trimestre.",
+    "sv.content.t":"Producción de contenido con IA a escala",
+    "sv.content.d":"Fotografía de catálogo, creatividad de campaña y piezas sociales producidas con un pipeline por código en vez de a mano — miles de imágenes consistentes y en marca, con revisión humana de fidelidad antes de publicar.",
+
+    "cw.n":"03 — Clientes",
+    "cw.side":"Un distribuidor industrial con 29 líneas de fabricantes y casi ningún activo visual utilizable. Reconstruí toda la capa visual — video, catálogo, campañas y el pipeline que las produce.",
+    "cw.tag1":"Video corporativo","cw.tag2":"Grabación → corte final",
+    "cw.capb":"Elyon Industrial — video de taller","cw.caps":"Dirección, edición, color y subtitulado · Costa Rica, 2026",
+    "cw.dur":"0:58 · Clic para reproducir",
+    "cw.brief.t":"El encargo",
+    "cw.brief.d":"Un negocio de mecanizado y suministro industrial que sabía explicar su capacidad perfectamente en persona — y nada en línea. Sin video, sin imágenes de producto consistentes, sin sistema de campañas.",
+    "cw.ship.t":"Lo entregado",
+    "cw.ship.1":"Un video corporativo de taller de 58 segundos, grabado y editado en casa",
+    "cw.ship.2":"Más de 36.000 imágenes de producto de catálogo en 29 líneas de fabricantes — ABB, LAPP, Siemens, Finder y más",
+    "cw.ship.3":"Sets de campaña para historias, cuadrados y banners de Instagram por marca",
+    "cw.ship.4":"Diseño de rotulación vehicular y aplicación de marca",
+    "cw.ship.5":"Un pipeline en Python para que las próximas 10.000 imágenes no me necesiten",
+    "cw.more":"El mismo principio operativo que el trabajo de datos: <b>generar a escala, revisar con criterio, nunca publicar lo que no pasó por una persona.</b>",
+    "cw.morecta":"Conversemos un proyecto de producción",
+
+    "gal.story1":"Campaña · Historia ABB","gal.wrap":"Aplicación de marca · Rotulación vehicular",
+    "gal.tk4s":"Catálogo · Autonics TK4S","gal.abbcnt":"Catálogo · Contactor ABB AF",
+    "gal.story2":"Campaña · Historia lifestyle","gal.abb":"Catálogo · Piloto LED ABB",
+    "gal.banner":"Campaña · Banner de catálogo",
+
+    "wk.n":"04 — Sistemas","wk.h1":"Sistemas, no","wk.h2":"<span class=\"o\">presentaciones</span>",
+    "wk.side":"IA primero — pipelines agénticos, uso de herramientas con LLM y RAG, cada uno público, ejecutable y documentado como caso de estudio con números de corridas reales, incluido lo que falló.",
+    "wk.more":"Cada repositorio incluye un README de caso de estudio: el problema, la arquitectura, los números reales de ejecución — y una nota honesta sobre qué es sintético.",
+    "wk.morecta":"Todos los repositorios en GitHub",
+
+    "work.retail.tag":"Pipeline agéntico",
+    "work.retail.desc":"Tres agentes de propósito único se pasan datos estructurados — extraer listados de competencia, enriquecer contra ventas internas en Delta Lake, generar una recomendación de precio fundamentada — detrás de una compuerta de validación que nada esquiva.",
+    "work.llm.tag":"Uso de herramientas con LLM",
+    "work.llm.desc":"Haz una pregunta de negocio en lenguaje natural. Claude elige de un registro de funciones Python tipadas, encadena las llamadas que necesita sobre tres datasets distintos y responde con números fundamentados — sin SQL, sin dashboard.",
+    "work.rag.tag":"RAG + gobernanza",
+    "work.rag.desc":"Búsqueda en lenguaje natural sobre un catálogo industrial, con embeddings locales, fuentes citadas y una compuerta de aprobación que escribe cada respuesta en una bitácora inmutable antes de que alguien confíe en ella.",
+    "work.imgpipe.tag":"Proyecto de cliente · privado",
+    "work.imgpipe.desc":"El motor detrás del catálogo de Elyon: configuración por producto, edición de imagen con IA, reglas de logo y marca de agua, exportación multiformato, corridas reanudables y una compuerta de QC visual que devuelve los defectos a la etapa correcta y no al inicio.",
+    "work.pricing.tag":"Machine learning",
+    "work.pricing.desc":"Un modelo de demanda XGBoost sobre 20 variables construidas, envuelto en un optimizador scipy que encuentra el precio que maximiza margen — o ingreso — y vuelve imposible ignorar el trade-off entre ambos.",
+    "work.lakehouse.tag":"Ingeniería de datos",
+    "work.lakehouse.desc":"Una auditoría de preparación previa que escribe un veredicto aprobado/rechazado por lote, una compuerta de calidad con pandera que aísla datos malos con su motivo, y un merge idempotente en Delta Lake que jubila la recarga completa nocturna.",
+    "work.kpi.tag":"Automatización",
+    "work.kpi.desc":"Detección de anomalías con z-score móvil sobre seis KPIs de negocio, con pisos y techos configurables, disparando alertas de correo y Slack en horario — antes de que alguien abra un dashboard.",
+    "work.rfm.tag":"Analítica de clientes",
+    "work.rfm.desc":"Segmentación por recencia, frecuencia y monto con puntajes por cuantiles sobre más de 32.000 transacciones, mapeada a ocho segmentos — cada uno con su acción de retención, no solo una etiqueta.",
+
+    "li.n":"05 — Publicaciones","li.h1":"Lo último en",
+    "li.side":"Escribo sobre lo que pasa de verdad cuando metes IA en un negocio — la mecánica, las compuertas, las partes que se rompen.",
+    "li.foot":"Las publicaciones nuevas salen primero en LinkedIn — datos, sistemas de IA y la producción detrás de ellos.",
+    "li.cta":"Seguir en LinkedIn",
+
+    "ex.n":"06 — Experiencia","ex.h1":"Dónde lo he","ex.h2":"<span class=\"o\">entregado</span>",
+    "ex.side":"Seis años entre sector público, retail y distribución industrial — todo freelance, todo entregado, el mismo problema en vocabularios muy distintos.",
+    "exp.el2.when":"May 2026 — Actualidad","exp.el2.role":"Consultora de Implementación de IA y Transformación Digital","exp.el2.desc":"Reincorporada para liderar la siguiente fase de transformación digital con IA aplicada, estrategia de datos y automatización inteligente. Audité flujos de trabajo y pipelines de datos en Databricks, Delta Lake y Python para priorizar las oportunidades de automatización de mayor valor. Construí el sistema RAG del catálogo de producto — LangChain orquestando la API de Claude sobre una base vectorial que indexa el catálogo de productos e inventario, para consultarlo en lenguaje natural, con compuertas de revisión humana antes de confiar en una respuesta. Establecí validaciones automáticas en Python, monitoreo en Power BI y documentación con ADRs para llevar el trabajo de IA de prototipo a producción auditable.","exp.el2.flag":"Consultoría de IA","exp.ar.when":"Dic 2025 — Actualidad","exp.ar.role":"Senior Data Analyst · AI Engineer",
+    "exp.ar.desc":"Diseñé el Retail Intelligence Engine: un pipeline multiagente donde agentes especializados se encargan de la captura de datos de competencia, el enriquecimiento de señales de mercado en Delta Lake y las recomendaciones de precio con RAG, cada uno entregando salida estructurada al siguiente. Construido en Python con Claude Code — ingesta idempotente y una compuerta de reglas de negocio hacen que nada llegue a un usuario sin pasar los controles de producción. También construí un modelo de precios dinámicos que une señales externas de mercado con el histórico interno de ventas, detrás de la misma compuerta.",
+    "exp.ar.flag":"Retail",
+    "exp.wf.when":"Ene 2024 — Dic 2025","exp.wf.role":"Data Strategy Analyst",
+    "exp.wf.desc":"Diseñé la plataforma analítica de Hacienda Digital — una plataforma de automatización de datos con procesamiento incremental sobre Delta Lake para el programa nacional de transformación de Costa Rica — bajando la latencia de reportería de cuatro horas a inteligencia operativa casi en tiempo real. Ejecuté una auditoría estructurada de preparación de datos previa al desarrollo que detectó bloqueadores de calidad y gobernanza y retiró dos frentes que habrían fallado en producción, y documenté las decisiones arquitectónicas como ADRs para dar un marco de decisión a un portafolio transversal de IA y datos. La analítica sobre cuellos de botella operativos redujo los retrasos un 15%.",
+    "exp.wf.flag":"Gobierno",
+    "exp.el.role":"Consultora de Automatización de Sistemas",
+    "exp.el.desc":"Desarrollé flujos automatizados de validación y procesamiento de datos en Python y Databricks para hacer confiables y escalables las operaciones de datos de la empresa, e implementé procesos repetibles de transformación y control de calidad que redujeron el trabajo manual. Estructuré los datasets y estándares de gobernanza para soportar analítica predictiva — y después construí el pipeline de imágenes de producto con IA que convirtió la producción de catálogo en un flujo revisable.",
+    "exp.el.flag":"Industrial",
+    "exp.edu.role":"MSc en Analítica, Innovación y Tecnología",
+    "exp.edu.desc":"La escuela de negocios mejor rankeada de América Latina. Antes: Comercio y Negocios Internacionales, LEAD University (2021–2023) — por eso la conversación con un equipo comercial suele ir más rápido que la conversación con el data warehouse.",
+    "exp.edu.flag":"Educación",
+
+    "st.n":"07 — Stack","st.h":"Herramientas que <span class=\"o\">de verdad</span> uso",
+    "st.side":"No es un muro de logos — esto es lo que aparece en los repositorios y en el trabajo con clientes de arriba.",
+    "stack.python":"Pipelines y agentes de IA","stack.anthropic":"Sistemas LLM","stack.openai":"Sistemas LLM",
+    "stack.langchain":"Orquestación de agentes","stack.n8n":"Automatización","stack.sklearn":"Modelado",
+    "stack.databricks":"Lakehouse","stack.delta":"Formato de tabla","stack.spark":"Escala",
+    "stack.fabric":"Plataforma de datos","stack.sqlserver":"Almacenamiento","stack.azure":"Nube",
+    "stack.powerbi":"Reportería","stack.tableau":"Reportería","stack.docker":"Empaquetado",
+    "stack.github":"Versionado","stack.notion":"Conocimiento","stack.pandas":"Manipulación de datos",
+
+    "cta.eyebrow":"08 — Hablemos","cta.h1":"¿Tienes datos que","cta.h2":"no se <span class=\"o\">ganan</span>","cta.h3":"su lugar?",
+    "cta.lead":"Cuéntame qué decisión quieres tomar más rápido. Si no soy la persona indicada te lo digo en la primera respuesta — y normalmente te apunto a quién sí lo es.",
+    "cta.email":"Escríbeme","cta.l.email":"Correo","cta.l.phone":"Teléfono · Costa Rica",
+    "foot.role":"AI Engineer | Sistemas de Automatización y Estrategia de Datos","foot.top":"Volver arriba"
+  };
+
+  /* ---------------- rotating hero proof chip ---------------- */
+  var CHIP = [
+    { n:"36,000+",      en:"catalogue images shipped<br>through one AI pipeline",        es:"imágenes de catálogo entregadas<br>por un solo pipeline de IA" },
+    { n:"29",           en:"manufacturer brands<br>handled end to end",                  es:"marcas de fabricantes<br>gestionadas de punta a punta" },
+    { n:"4h → live",    en:"reporting latency cut on a<br>national transformation programme", es:"latencia de reportería en un<br>programa nacional de transformación" },
+    { n:"15%",          en:"fewer operational delays<br>at Webb Fontaine",                es:"menos retrasos operativos<br>en Webb Fontaine" },
+    { n:"7",            en:"public repositories, each<br>written as a case study",        es:"repositorios públicos, cada uno<br>escrito como caso de estudio" },
+    { n:"0:58",         en:"corporate film — shot, cut<br>and graded in house",           es:"video corporativo — grabado, editado<br>y colorizado en casa" }
+  ];
+  var chipEl = document.getElementById('chip'),
+      chipN  = document.getElementById('chipN'),
+      chipT  = document.getElementById('chipT'),
+      chipI  = 0, chipLang = 'en', chipTimer = null;
+
+  function paintChip(){
+    var c = CHIP[chipI % CHIP.length];
+    chipN.textContent = c.n;
+    chipT.innerHTML = c[chipLang] || c.en;
+  }
+  function startChip(lang){
+    if(!chipEl) return;
+    chipLang = lang; paintChip();
+    if(chipTimer) clearInterval(chipTimer);
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    chipTimer = setInterval(function(){
+      chipEl.classList.add('swap');
+      setTimeout(function(){ chipI++; paintChip(); chipEl.classList.remove('swap'); }, 450);
+    }, 4200);
+  }
+
+  var nodes = [].slice.call(document.querySelectorAll('[data-t]'));
+  var EN = {};
+  nodes.forEach(function(el){ EN[el.getAttribute('data-t')] = el.innerHTML; });
+
+  function apply(lang){
+    nodes.forEach(function(el){
+      var k = el.getAttribute('data-t');
+      var v = lang === 'es' ? (ES[k] != null ? ES[k] : EN[k]) : EN[k];
+      if(v != null && el.innerHTML !== v) el.innerHTML = v;
+    });
+    document.documentElement.lang = lang;
+    [].forEach.call(document.querySelectorAll('.lang button'), function(b){
+      b.classList.toggle('on', b.getAttribute('data-lang') === lang);
+    });
+    renderPosts(lang);
+    startChip(lang);
+    try { localStorage.setItem('ka-lang', lang); } catch(e){}
+  }
+
+  var saved;
+  try { saved = localStorage.getItem('ka-lang'); } catch(e){}
+  if(!saved) saved = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+  apply(saved);
+
+  [].forEach.call(document.querySelectorAll('.lang button'), function(b){
+    b.addEventListener('click', function(){ apply(b.getAttribute('data-lang')); });
+  });
+})();
+</script>
+
+<script>
+(function(){
+  "use strict";
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var coarse  = matchMedia('(pointer: coarse)').matches;
+
+  /* ---------- loader ---------- */
+  var boot = document.getElementById('boot'),
+      bootNum = document.getElementById('bootNum'),
+      bootBar = document.getElementById('bootBar');
+  document.body.classList.add('is-locked');
+
+  var pct = 0;
+  var bootTimer = setInterval(function(){
+    pct = Math.min(100, pct + Math.random()*17 + 6);
+    bootNum.textContent = Math.round(pct);
+    bootBar.style.width = pct + '%';
+    if(pct >= 100){ clearInterval(bootTimer); setTimeout(finish, 260); }
+  }, reduced ? 20 : 110);
+
+  function finish(){
+    boot.classList.add('gone');
+    document.body.classList.remove('is-locked');
+    setTimeout(function(){ boot.style.display='none'; }, 1400);
+    kick();
+  }
+
+  /* ---------- smooth scroll rig ---------- */
+  var rig = document.getElementById('rig'),
+      flow = document.getElementById('flow'),
+      smooth = !reduced && !coarse,
+      cur = 0, tgt = 0;
+
+  function sizeBody(){
+    if(!smooth){ document.body.style.height=''; return; }
+    document.body.style.height = flow.getBoundingClientRect().height + 'px';
+  }
+  if(!smooth) rig.classList.add('static');
+  sizeBody();
+  addEventListener('resize', sizeBody);
+  if(window.ResizeObserver) new ResizeObserver(sizeBody).observe(flow);
+
+  var pars = [].slice.call(document.querySelectorAll('[data-par]')).map(function(el){
+    return { el: el, k: parseFloat(el.getAttribute('data-par')), base: 0, h: 0,
+             ghost: el.classList.contains('ghost-k'),
+             /* the two portraits sit in the text flow on narrow screens (float /
+                grid area), so a visual-only parallax offset would desync them
+                from the space the copy wraps around. Keep them flat there. */
+             inFlow: el.classList.contains('shot') || el.classList.contains('about-img') };
+  });
+  function measurePars(){
+    pars.forEach(function(p){
+      p.el.style.transform = p.ghost ? 'translate(-50%,-50%)' : 'none';
+      var r = p.el.getBoundingClientRect();
+      p.base = r.top + (window.scrollY || 0);
+      p.h = r.height;
+    });
+  }
+  measurePars();
+  addEventListener('resize', measurePars);
+  addEventListener('load', measurePars);
+
+  var prog = document.getElementById('prog');
+
+  function frame(){
+    tgt = window.scrollY || window.pageYOffset;
+    if(smooth){
+      cur += (tgt - cur) * 0.085;
+      if(Math.abs(tgt - cur) < 0.04) cur = tgt;
+      flow.style.transform = 'translate3d(0,' + (-cur) + 'px,0)';
+    } else { cur = tgt; }
+
+    var max = document.documentElement.scrollHeight - innerHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? cur / max : 0) + ')';
+
+    for(var i=0;i<pars.length;i++){
+      var p = pars[i];
+      if(p.inFlow && innerWidth <= 1080){
+        if(p.el.style.transform !== 'none') p.el.style.transform = 'none';
+        continue;
+      }
+      var mid = (p.base + p.h/2) - (cur + innerHeight/2);
+      var off = Math.max(-160, Math.min(160, mid * p.k));
+      p.el.style.transform = (p.ghost
+        ? 'translate(-50%,-50%) translate3d(0,' + off + 'px,0)'
+        : 'translate3d(0,' + off + 'px,0)');
+    }
+
+    // cursor
+    cx += (mx - cx) * 0.16; cy += (my - cy) * 0.16;
+    dx += (mx - dx) * 0.42; dy += (my - dy) * 0.42;
+    ring.style.transform = 'translate3d(' + cx + 'px,' + cy + 'px,0)';
+    dotEl.style.transform = 'translate3d(' + dx + 'px,' + dy + 'px,0)';
+
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------- cursor ---------- */
+  var ring = document.getElementById('cur'), dotEl = document.getElementById('curDot');
+  var mx=innerWidth/2,my=innerHeight/2,cx=mx,cy=my,dx=mx,dy=my;
+  if(!coarse && !reduced){
+    addEventListener('mousemove', function(e){
+      mx=e.clientX; my=e.clientY;
+      if(!document.body.classList.contains('cursor-on')){ cx=dx=mx; cy=dy=my; document.body.classList.add('cursor-on'); }
+    });
+    document.addEventListener('mouseover', function(e){
+      var hot = e.target.closest('a,button,.card,.svc article,.tools div,.job');
+      document.body.classList.toggle('hot', !!hot);
+    });
+  }
+  requestAnimationFrame(frame);
+
+  /* ---------- reveals ---------- */
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
+
+  function kick(){
+    document.querySelectorAll('.rv,.rv-l,.grow,.mask').forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---------- count up ---------- */
+  var cio = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting) return;
+      var el = en.target,
+          end = parseFloat(el.getAttribute('data-count')),
+          suf = el.getAttribute('data-suffix') || '',
+          sep = el.hasAttribute('data-sep'), t0 = null;
+      function fmt(n){ return sep ? n.toLocaleString('en-US') : String(n); }
+      function step(t){
+        if(!t0) t0 = t;
+        var p = Math.min(1, (t - t0)/1400);
+        var e = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(Math.round(end * e)) + (p === 1 ? suf : '');
+        if(p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+      cio.unobserve(el);
+    });
+  }, { threshold: .6 });
+  document.querySelectorAll('[data-count]').forEach(function(el){ cio.observe(el); });
+
+  /* ---------- showreel ---------- */
+  var reel = document.getElementById('reel');
+  if(reel){
+    var loopVid = reel.querySelector('.loop'), fullVid = document.getElementById('reelFull');
+    var lio = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(reel.classList.contains('live')) return;
+        if(e.isIntersecting){ var pr = loopVid.play(); if(pr) pr.catch(function(){}); }
+        else loopVid.pause();
+      });
+    }, { threshold: .25 });
+    lio.observe(reel);
+
+    reel.addEventListener('click', function(e){
+      if(reel.classList.contains('live')) return;
+      if(e.target.closest('.full')) return;
+      reel.classList.add('live');
+      loopVid.pause();
+      fullVid.play().catch(function(){});
+    });
+    fullVid.addEventListener('ended', function(){
+      reel.classList.remove('live');
+      fullVid.currentTime = 0;
+      var pr = loopVid.play(); if(pr) pr.catch(function(){});
+    });
+  }
+
+  /* ---------- lightbox ---------- */
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg');
+  document.querySelectorAll('.gal figure').forEach(function(fig){
+    fig.addEventListener('click', function(){
+      var img = fig.querySelector('img');
+      lbImg.src = img.currentSrc || img.src;
+      lbImg.alt = img.alt;
+      lb.classList.add('on');
+      document.body.classList.add('is-locked');
+    });
+  });
+  function closeLb(){ lb.classList.remove('on'); document.body.classList.remove('is-locked'); }
+  lb.addEventListener('click', function(e){ if(e.target === lb || e.target.closest('#lbX')) closeLb(); });
+  addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closeLb(); closeSheet(); } });
+
+  /* ---------- nav ---------- */
+  var nav = document.getElementById('nav'),
+      burger = document.getElementById('burger'),
+      sheet = document.getElementById('sheet');
+
+  addEventListener('scroll', function(){
+    nav.classList.toggle('stuck', (window.scrollY||0) > 30);
+  }, { passive:true });
+
+  burger.addEventListener('click', function(){
+    var open = sheet.classList.toggle('open');
+    burger.classList.toggle('x', open);
+    document.body.classList.toggle('is-locked', open);
+  });
+
+  function closeSheet(){
+    sheet.classList.remove('open'); burger.classList.remove('x');
+    document.body.classList.remove('is-locked');
+  }
+
+  document.querySelectorAll('[data-scroll]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(!id || id.charAt(0) !== '#') return;
+      var el = document.querySelector(id);
+      if(!el) return;
+      e.preventDefault();
+      closeSheet();
+      var y = el.getBoundingClientRect().top + cur - (id === '#top' ? 0 : 74);
+      window.scrollTo({ top: Math.max(0, y), behavior: reduced ? 'auto' : 'smooth' });
+    });
+  });
+
+  /* ---------- active link ---------- */
+  var secs = ['about','services','clients','work','linkedin','experience'].map(function(id){ return document.getElementById(id); });
+  var links = [].slice.call(document.querySelectorAll('.links a'));
+  var aio = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting) return;
+      links.forEach(function(l){ l.classList.toggle('active', l.getAttribute('href') === '#' + en.target.id); });
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  secs.forEach(function(s){ if(s) aio.observe(s); });
+
+  /* ---------- magnetic buttons ---------- */
+  if(!coarse && !reduced){
+    document.querySelectorAll('.magnet').forEach(function(el){
+      el.addEventListener('mousemove', function(e){
+        var r = el.getBoundingClientRect();
+        el.style.transform = 'translate(' + ((e.clientX - r.left - r.width/2) * 0.22) + 'px,' +
+                                            ((e.clientY - r.top - r.height/2) * 0.32) + 'px)';
+      });
+      el.addEventListener('mouseleave', function(){ el.style.transform = ''; });
+    });
+  }
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
