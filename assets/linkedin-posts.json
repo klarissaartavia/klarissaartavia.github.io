@@ -1,5 +1,110 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-09-22T23:13:10.850Z",
   "source": "buffer",
-  "posts": []
+  "posts": [
+    {
+      "id": "6ab1bfae40d6d6c926168f67",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-22T14:02:01.648Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508163700030169088",
+      "tags": [
+        "DataStrategy",
+        "AIImplementation",
+        "DataGovernance"
+      ],
+      "en": {
+        "t": "Before we wrote a single line of code, I recommended killing two of the workstreams.",
+        "d": "This was a national government transformation program. The plan was already approved and I had been brought in to help build it. My first real deliverable was a data readiness audit that said two pieces of it were not going to survive production. Not because the idea was wrong. Because the data underneath had quality and governance problems nobody had…"
+      },
+      "es": {
+        "t": "Before we wrote a single line of code, I recommended killing two of the workstreams.",
+        "d": "This was a national government transformation program. The plan was already approved and I had been brought in to help build it. My first real deliverable was a data readiness audit that said two pieces of it were not going to survive production. Not because the idea was wrong. Because the data underneath had quality and governance problems nobody had…"
+      }
+    },
+    {
+      "id": "6ab1bbdd4e1170fb5ed2f18b",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-16T18:45:01.017Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503545130444967937",
+      "tags": [],
+      "en": {
+        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 : LAKEHOUSE READINESS PIPELINE",
+        "d": "Most data platform failures aren't modeling problems. They're governance problems that got discovered too late. I built a small lakehouse pipeline that puts the audit before the build instead of after, because the batch with a broken primary key or a silently renamed column doesn't fail loudly in development. It fails quietly, three reports downstream, in…"
+      },
+      "es": {
+        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 : LAKEHOUSE READINESS PIPELINE",
+        "d": "Most data platform failures aren't modeling problems. They're governance problems that got discovered too late. I built a small lakehouse pipeline that puts the audit before the build instead of after, because the batch with a broken primary key or a silently renamed column doesn't fail loudly in development. It fails quietly, three reports downstream, in…"
+      }
+    },
+    {
+      "id": "6ab1bbcfa0e1da1c0b8ef04e",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-15T14:00:04.881Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7505535658950803456",
+      "tags": [],
+      "en": {
+        "t": "🇨🇷 205 años de libertad y orgullo compartido 🇨🇷",
+        "d": "Costa Rica es la tierra que nos vio crecer y que nos inspira a seguir construyendo juntos. Ese orgullo nos acompaña en cada proyecto que hacemos realidad con ustedes. Hoy hacemos una pausa para celebrar nuestra independencia en familia. Nuestras puertas permanecerán cerradas y volveremos mañana, miércoles 16, en nuestro horario habitual. Gracias por tanto,…"
+      },
+      "es": {
+        "t": "🇨🇷 205 años de libertad y orgullo compartido 🇨🇷",
+        "d": "Costa Rica es la tierra que nos vio crecer y que nos inspira a seguir construyendo juntos. Ese orgullo nos acompaña en cada proyecto que hacemos realidad con ustedes. Hoy hacemos una pausa para celebrar nuestra independencia en familia. Nuestras puertas permanecerán cerradas y volveremos mañana, miércoles 16, en nuestro horario habitual. Gracias por tanto,…"
+      }
+    },
+    {
+      "id": "6ab1bbdd4e1170fb5ed2f1a5",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-14T15:00:41.280Z",
+      "feat": false,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503544613903847424",
+      "tags": [],
+      "en": {
+        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 🚀",
+        "d": "Most \"AI pricing\" demos are one script that scrapes, calculates, and calls an LLM in a single blob. That's not how you'd actually build it in production. If any one step breaks, everything downstream is silently wrong. 📉 So I built it as three separate agents instead, each with exactly one job: 1. Collector scrapes competitor pricing using Playwright and…"
+      },
+      "es": {
+        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 🚀",
+        "d": "Most \"AI pricing\" demos are one script that scrapes, calculates, and calls an LLM in a single blob. That's not how you'd actually build it in production. If any one step breaks, everything downstream is silently wrong. 📉 So I built it as three separate agents instead, each with exactly one job: 1. Collector scrapes competitor pricing using Playwright and…"
+      }
+    },
+    {
+      "id": "6ab1bbdd4e1170fb5ed2f1ad",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-10T19:09:04.535Z",
+      "feat": false,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503892318731714561",
+      "tags": [
+        "IA",
+        "Automatización",
+        "DataStrategy"
+      ],
+      "en": {
+        "t": "Años construyendo sistemas de IA/ML, arquitectando datos y generando contenido a…",
+        "d": "👉 Acabo de lanzar mi sitio: klarissaartavia.github.io 👈 No hago solo una cosa. Por un lado diseño sistemas de IA: agentes, copilotos con RAG, modelos de pricing, bots que detectan anomalías antes de que alguien abra un dashboard. Por otro, genero y automatizo contenido con IA a escala: fotografía de catálogo, campañas, video corporativo. El pipeline que…"
+      },
+      "es": {
+        "t": "Años construyendo sistemas de IA/ML, arquitectando datos y generando contenido a…",
+        "d": "👉 Acabo de lanzar mi sitio: klarissaartavia.github.io 👈 No hago solo una cosa. Por un lado diseño sistemas de IA: agentes, copilotos con RAG, modelos de pricing, bots que detectan anomalías antes de que alguien abra un dashboard. Por otro, genero y automatizo contenido con IA a escala: fotografía de catálogo, campañas, video corporativo. El pipeline que…"
+      }
+    },
+    {
+      "id": "6ab1bbdd4e1170fb5ed2f1a3",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-10T15:00:48.069Z",
+      "feat": false,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503543746446307328",
+      "tags": [],
+      "en": {
+        "t": "I built a RAG copilot over a product catalog that answers that question by design, not as…",
+        "d": "Here's how it works: Every catalog row gets embedded locally with sentence-transformers and indexed in Chroma , zero API keys required just to search the catalog 🔐 A question retrieves the top-matching products by similarity score, then Claude generates an answer grounded in exactly those rows — citing the product ID it used, every time 📌 No API key? The…"
+      },
+      "es": {
+        "t": "I built a RAG copilot over a product catalog that answers that question by design, not as…",
+        "d": "Here's how it works: Every catalog row gets embedded locally with sentence-transformers and indexed in Chroma , zero API keys required just to search the catalog 🔐 A question retrieves the top-matching products by similarity score, then Claude generates an answer grounded in exactly those rows — citing the product ID it used, every time 📌 No API key? The…"
+      }
+    }
+  ]
 }
