@@ -442,17 +442,6 @@ body.cursor-on.hot #cur{width:74px;height:74px;margin:-37px 0 0 -37px;background
   border:1px solid var(--line);display:grid;place-items:center;color:#fff;transition:background .4s,border-color .4s}
 #lb .x:hover{background:var(--orange);border-color:var(--orange)}
 
-/* ---------- experience ---------- */
-.tl{display:grid;gap:1px;background:var(--line-2);border-block:1px solid var(--line-2)}
-.job{background:var(--ink);display:grid;grid-template-columns:170px 1fr auto;gap:clamp(16px,3vw,44px);
-  padding:clamp(24px,2.8vw,38px) 0;align-items:baseline;transition:background .5s var(--ease),padding-inline .5s var(--ease)}
-.job:hover{background:var(--ink-2);padding-inline:22px}
-.job .when{font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.09em;color:var(--orange);text-transform:uppercase}
-.job h3{font-size:clamp(20px,2.3vw,29px);margin-bottom:9px}
-.job .where{font-family:var(--display);font-size:13.5px;color:var(--soft);font-weight:500;margin-bottom:13px}
-.job p{font-size:14.5px;color:var(--mute);line-height:1.7;max-width:62ch}
-.job .flag{font-size:12px;color:var(--dim);font-family:var(--display);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
-
 /* ---------- stack ---------- */
 .tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:1px;background:var(--line-2);
   border:1px solid var(--line-2);border-radius:20px;overflow:hidden}
@@ -632,8 +621,6 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
 @media (max-width:880px){
   .svc,.work{grid-template-columns:1fr}
   .numbers{grid-template-columns:repeat(2,1fr)}
-  .job{grid-template-columns:1fr;gap:8px}
-  .job .flag{display:none}
   .li-track > *{flex-basis:88%}
 }
 @media (max-width:640px){
@@ -725,10 +712,9 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
   <nav class="links">
     <a href="#about" data-scroll data-t="nav.about">About</a>
     <a href="#services" data-scroll data-t="nav.services">Services</a>
-    <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
     <a href="#work" data-scroll data-t="nav.work">Systems</a>
+    <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
     <a href="#linkedin" data-scroll data-t="nav.writing">Writing</a>
-    <a href="#experience" data-scroll data-t="nav.experience">Experience</a>
   </nav>
   <div class="lang" role="group" aria-label="Language">
     <button type="button" data-lang="en" class="on">EN</button>
@@ -743,10 +729,9 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
 <div id="sheet">
   <a href="#about" data-scroll data-t="nav.about">About</a>
   <a href="#services" data-scroll data-t="nav.services">Services</a>
-  <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
   <a href="#work" data-scroll data-t="nav.work">Systems</a>
+  <a href="#clients" data-scroll data-t="nav.clients">Client work</a>
   <a href="#linkedin" data-scroll data-t="nav.writing">Writing</a>
-  <a href="#experience" data-scroll data-t="nav.experience">Experience</a>
   <a href="#contact" data-scroll data-t="nav.contact">Contact</a>
   <div class="lang" role="group" aria-label="Language">
     <button type="button" data-lang="en" class="on">EN</button>
@@ -952,7 +937,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     <div class="wrap">
       <div class="head">
         <div class="rv">
-          <span class="n" data-t="cw.n">03 — Client work</span>
+          <span class="n" data-t="cw.n">04 — Client work</span>
           <h2><span class="mask"><span>Elyon Industrial,</span></span><span class="mask" style="--d:90ms"><span>end to <span class="o">end</span></span></span></h2>
         </div>
         <p class="side rv" style="--d:150ms" data-t="cw.side">An industrial distributor with 29 manufacturer lines and almost no usable visual assets. I rebuilt the whole visual layer — film, catalogue, campaigns and the pipeline that produces them.</p>
@@ -1012,7 +997,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     <div class="wrap">
       <div class="head">
         <div class="rv">
-          <span class="n" data-t="wk.n">04 — Systems</span>
+          <span class="n" data-t="wk.n">03 — Systems</span>
           <h2><span class="mask"><span data-t="wk.h1">Systems, not</span></span><span class="mask" style="--d:90ms"><span data-t="wk.h2"><span class="o">slide decks</span></span></span></h2>
         </div>
         <p class="side rv" style="--d:150ms" data-t="wk.side">AI systems first — agentic pipelines, LLM tool use and RAG, each public, runnable and documented as a case study with the numbers from real runs, including what failed.</p>
@@ -1174,7 +1159,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
 
       <div class="more rv">
         <p data-t="wk.more">Every repository ships with a case-study README: the problem, the architecture, the real run numbers — and an honest note on what's synthetic.</p>
-        <a class="btn btn-ghost magnet" href="https://github.com/klaricracia" target="_blank" rel="noopener"><span data-t="wk.morecta">All repositories on GitHub</span><span class="dot"></span></a>
+        <a class="btn btn-ghost magnet" href="https://github.com/klarissaartavia" target="_blank" rel="noopener"><span data-t="wk.morecta">All repositories on GitHub</span><span class="dot"></span></a>
       </div>
     </div>
   </section>
@@ -1209,77 +1194,12 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     </div>
   </section>
 
-  <!-- ============ EXPERIENCE ============ -->
-  <section id="experience" class="sec">
-    <div class="wrap">
-      <div class="head">
-        <div class="rv">
-          <span class="n" data-t="ex.n">06 — Experience</span>
-          <h2><span class="mask"><span data-t="ex.h1">Where I've</span></span><span class="mask" style="--d:90ms"><span data-t="ex.h2"><span class="o">shipped</span> it</span></span></h2>
-        </div>
-        <p class="side rv" style="--d:150ms" data-t="ex.side">Six years across public sector, retail and industrial distribution — all freelance, all shipped, the same problem in very different vocabularies.</p>
-      </div>
-
-      <div class="tl">
-        <article class="job rv">
-          <div class="when" data-t="exp.el2.when">May 2026 — Present</div>
-          <div>
-            <h3 data-t="exp.el2.role">AI Implementation &amp; Digital Transformation Consultant</h3>
-            <div class="where">Elyon Industrial LATAM · Freelance</div>
-            <p data-t="exp.el2.desc">Re-engaged to lead the next phase of digital transformation through applied AI, data strategy and intelligent automation. Audited workflows and data pipelines across Databricks, Delta Lake and Python to prioritise the highest-value automation opportunities. Built the product-catalogue RAG system — LangChain orchestrating the Claude API over a vector database indexing the product and inventory catalogue, so anyone can query it in natural language, with human-in-the-loop review gates before an answer is trusted. Established automated validation checks in Python, Power BI monitoring and ADR-based documentation to move AI work from prototype to auditable production.</p>
-          </div>
-          <div class="flag" data-t="exp.el2.flag">AI consulting</div>
-        </article>
-
-        <article class="job rv" style="--d:70ms">
-          <div class="when" data-t="exp.ar.when">Dec 2025 — Present</div>
-          <div>
-            <h3 data-t="exp.ar.role">Senior Data Analyst</h3>
-            <div class="where">AR Holdings · Costa Rica · Freelance</div>
-            <p data-t="exp.ar.desc">Designed the Retail Intelligence Engine: a multi-agent pipeline where specialised agents own competitor data acquisition, market-signal enrichment on Delta Lake and RAG-powered pricing recommendations, each handing structured output to the next. Built in Python with Claude Code — idempotent ingestion and a business-rule validation gate mean nothing reaches a user without passing production checks. Also built a dynamic pricing model joining external market signals to internal sales history, behind the same gate.</p>
-          </div>
-          <div class="flag" data-t="exp.ar.flag">Retail</div>
-        </article>
-
-        <article class="job rv" style="--d:140ms">
-          <div class="when" data-t="exp.wf.when">Jan 2024 — Dec 2025</div>
-          <div>
-            <h3 data-t="exp.wf.role">Data Strategy Analyst</h3>
-            <div class="where">Webb Fontaine · Arab Emirates · Freelance</div>
-            <p data-t="exp.wf.desc">Designed the Hacienda Digital Analytics Platform — a data automation platform with incremental processing on Delta Lake for Costa Rica's national transformation programme — cutting reporting latency from four hours to near real-time operational intelligence. Ran a structured pre-build data readiness audit that caught quality and governance blockers and retired two workstreams that would have failed in production, and documented architectural decisions as ADRs to give a cross-functional AI and data portfolio a decision framework. Analytics on operational bottlenecks cut delays by 15%.</p>
-          </div>
-          <div class="flag" data-t="exp.wf.flag">Government</div>
-        </article>
-
-        <article class="job rv" style="--d:210ms">
-          <div class="when">2020 — 2024</div>
-          <div>
-            <h3 data-t="exp.el.role">Systems Automation Consultant</h3>
-            <div class="where">Elyon Industrial LATAM · Freelance</div>
-            <p data-t="exp.el.desc">Developed automated validation and data processing workflows in Python and Databricks to make enterprise data operations reliable and scalable. Implemented repeatable transformation and quality-control processes that cut manual effort and accelerated information delivery, and structured enterprise datasets and governance standards to support future predictive analytics and machine learning.</p>
-          </div>
-          <div class="flag" data-t="exp.el.flag">Industrial</div>
-        </article>
-
-        <article class="job rv" style="--d:280ms">
-          <div class="when">2024 — 2025</div>
-          <div>
-            <h3 data-t="exp.edu.role">MSc Analytics, Innovation &amp; Technology</h3>
-            <div class="where">INCAE Business School</div>
-            <p data-t="exp.edu.desc">Latin America's top-ranked business school. Prior: International Trade &amp; Business, LEAD University (2021–2023) — which is why the conversation with a commercial team usually goes faster than the conversation with the data warehouse.</p>
-          </div>
-          <div class="flag" data-t="exp.edu.flag">Education</div>
-        </article>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ STACK ============ -->
   <section id="stack" class="sec">
     <div class="wrap">
       <div class="head">
         <div class="rv">
-          <span class="n" data-t="st.n">07 — Stack</span>
+          <span class="n" data-t="st.n">06 — Stack</span>
           <h2><span class="mask"><span data-t="st.h">Tools I <span class="o">actually</span> use</span></span></h2>
         </div>
         <p class="side rv" style="--d:150ms" data-t="st.side">Not a logo wall — this is what shows up in the repositories and the client work above.</p>
@@ -1315,7 +1235,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
         <div class="glow-c"></div>
         <div class="cta-in">
           <div>
-            <span class="eyebrow" data-t="cta.eyebrow">08 — Let's talk</span>
+            <span class="eyebrow" data-t="cta.eyebrow">07 — Let's talk</span>
             <h2 style="margin-top:22px">
               <span class="mask"><span data-t="cta.h1">Got data that</span></span>
               <span class="mask" style="--d:90ms"><span data-t="cta.h2">isn't <span class="o">earning</span></span></span>
@@ -1337,8 +1257,8 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
               <span><small>LinkedIn</small><b>in/klariartavia</b></span>
               <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
             </a>
-            <a href="https://github.com/klaricracia" target="_blank" rel="noopener">
-              <span><small>GitHub</small><b>@klaricracia</b></span>
+            <a href="https://github.com/klarissaartavia" target="_blank" rel="noopener">
+              <span><small>GitHub</small><b>@klarissaartavia</b></span>
               <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 13 13 3M6 3h7v7"/></svg>
             </a>
             <a href="tel:+50685977864">
@@ -1358,7 +1278,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
         <a href="https://www.linkedin.com/in/klariartavia/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95C20.4 8.75 21 11.1 21 14.16V21h-4v-6.06c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21H9z"/></svg>
         </a>
-        <a href="https://github.com/klaricracia" target="_blank" rel="noopener" aria-label="GitHub">
+        <a href="https://github.com/klarissaartavia" target="_blank" rel="noopener" aria-label="GitHub">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
         </a>
         <a href="mailto:kartaviamasis@gmail.com" aria-label="Email">
@@ -1379,12 +1299,19 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
 /* ============================================================
    LinkedIn posts + EN/ES translation
    ------------------------------------------------------------
-   TO ADD A POST: add an entry at the top of POSTS below and set
-   `url` to the real post permalink (open the post on LinkedIn →
-   "Copy link to post"). Newest first. Keep it to 3 for a clean row.
+   POSTS below are the offline fallback. In production, the latest
+   sent LinkedIn posts are loaded from assets/linkedin-posts.json,
+   which GitHub Actions refreshes automatically through Buffer.
    ============================================================ */
 (function(){
   "use strict";
+
+  /* Keep the portfolio systems ahead of client work in the document flow. */
+  var systemsSection = document.getElementById('work');
+  var clientWorkSection = document.getElementById('clients');
+  if(systemsSection && clientWorkSection){
+    clientWorkSection.parentNode.insertBefore(systemsSection, clientWorkSection);
+  }
 
   var PROFILE = "https://www.linkedin.com/in/klariartavia/";
 
@@ -1473,6 +1400,22 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     buildCarousel();
   }
 
+  function loadBufferPosts(){
+    fetch('assets/linkedin-posts.json', { cache: 'no-store' })
+      .then(function(response){
+        if(!response.ok) throw new Error('LinkedIn feed unavailable');
+        return response.json();
+      })
+      .then(function(payload){
+        if(!payload || !Array.isArray(payload.posts) || !payload.posts.length) return;
+        POSTS = payload.posts;
+        renderPosts(chipLang);
+      })
+      .catch(function(){
+        /* Keep the curated posts embedded above as an offline fallback. */
+      });
+  }
+
   /* ---------------- carousel ---------------- */
   function buildCarousel(){
     var track = document.getElementById('liGrid'),
@@ -1481,18 +1424,19 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
         next  = document.getElementById('liNext');
     if(!track || !dots || !prev || !next) return;
 
-    var cards = [].slice.call(track.children);
-    if(!cards.length) return;
+    function cards(){ return [].slice.call(track.children); }
+    if(!cards().length) return;
 
     function step(){
-      if(cards.length < 2) return track.clientWidth;
-      return cards[1].offsetLeft - cards[0].offsetLeft;
+      var list = cards();
+      if(list.length < 2) return track.clientWidth;
+      return list[1].offsetLeft - list[0].offsetLeft;
     }
     function perView(){
       return Math.max(1, Math.round(track.clientWidth / step()));
     }
     function pages(){
-      return Math.max(1, cards.length - perView() + 1);
+      return Math.max(1, cards().length - perView() + 1);
     }
     function index(){
       return Math.min(pages() - 1, Math.max(0, Math.round(track.scrollLeft / step())));
@@ -1546,7 +1490,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
   /* ---------------- translations ---------------- */
   var ES = {
     "nav.about":"Perfil","nav.services":"Servicios","nav.clients":"Clientes","nav.work":"Sistemas",
-    "nav.writing":"Publicaciones","nav.experience":"Experiencia","nav.contact":"Contacto","nav.cta":"Hablemos de negocios",
+    "nav.writing":"Publicaciones","nav.contact":"Contacto","nav.cta":"Hablemos de negocios",
 
     "hero.tag":"Disponible para nuevos proyectos — Costa Rica y remoto en todo el mundo",
     "hero.hi":"Hola, soy",
@@ -1582,7 +1526,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     "sv.content.t":"Producción de contenido con IA a escala",
     "sv.content.d":"Fotografía de catálogo, creatividad de campaña y piezas sociales producidas con un pipeline por código en vez de a mano — miles de imágenes consistentes y en marca, con revisión humana de fidelidad antes de publicar.",
 
-    "cw.n":"03 — Clientes",
+    "cw.n":"04 — Clientes",
     "cw.side":"Un distribuidor industrial con 29 líneas de fabricantes y casi ningún activo visual utilizable. Reconstruí toda la capa visual — video, catálogo, campañas y el pipeline que las produce.",
     "cw.tag1":"Video corporativo","cw.tag2":"Grabación → corte final",
     "cw.capb":"Elyon Industrial — video de taller","cw.caps":"Dirección, edición, color y subtitulado · Costa Rica, 2026",
@@ -1603,7 +1547,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     "gal.story2":"Campaña · Historia lifestyle","gal.abb":"Catálogo · Piloto LED ABB",
     "gal.banner":"Campaña · Banner de catálogo",
 
-    "wk.n":"04 — Sistemas","wk.h1":"Sistemas, no","wk.h2":"<span class=\"o\">presentaciones</span>",
+    "wk.n":"03 — Sistemas","wk.h1":"Sistemas, no","wk.h2":"<span class=\"o\">presentaciones</span>",
     "wk.side":"IA primero — pipelines agénticos, uso de herramientas con LLM y RAG, cada uno público, ejecutable y documentado como caso de estudio con números de corridas reales, incluido lo que falló.",
     "wk.more":"Cada repositorio incluye un README de caso de estudio: el problema, la arquitectura, los números reales de ejecución — y una nota honesta sobre qué es sintético.",
     "wk.morecta":"Todos los repositorios en GitHub",
@@ -1630,22 +1574,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     "li.foot":"Las publicaciones nuevas salen primero en LinkedIn — datos, sistemas de IA y la producción detrás de ellos.",
     "li.cta":"Seguir en LinkedIn",
 
-    "ex.n":"06 — Experiencia","ex.h1":"Dónde lo he","ex.h2":"<span class=\"o\">entregado</span>",
-    "ex.side":"Seis años entre sector público, retail y distribución industrial — todo freelance, todo entregado, el mismo problema en vocabularios muy distintos.",
-    "exp.el2.when":"May 2026 — Actualidad","exp.el2.role":"Consultora de Implementación de IA y Transformación Digital","exp.el2.desc":"Reincorporada para liderar la siguiente fase de transformación digital con IA aplicada, estrategia de datos y automatización inteligente. Audité flujos de trabajo y pipelines de datos en Databricks, Delta Lake y Python para priorizar las oportunidades de automatización de mayor valor. Construí el sistema RAG del catálogo de producto — LangChain orquestando la API de Claude sobre una base vectorial que indexa el catálogo de productos e inventario, para consultarlo en lenguaje natural, con compuertas de revisión humana antes de confiar en una respuesta. Establecí validaciones automáticas en Python, monitoreo en Power BI y documentación con ADRs para llevar el trabajo de IA de prototipo a producción auditable.","exp.el2.flag":"Consultoría de IA","exp.ar.when":"Dic 2025 — Actualidad","exp.ar.role":"Senior Data Analyst · AI Engineer",
-    "exp.ar.desc":"Diseñé el Retail Intelligence Engine: un pipeline multiagente donde agentes especializados se encargan de la captura de datos de competencia, el enriquecimiento de señales de mercado en Delta Lake y las recomendaciones de precio con RAG, cada uno entregando salida estructurada al siguiente. Construido en Python con Claude Code — ingesta idempotente y una compuerta de reglas de negocio hacen que nada llegue a un usuario sin pasar los controles de producción. También construí un modelo de precios dinámicos que une señales externas de mercado con el histórico interno de ventas, detrás de la misma compuerta.",
-    "exp.ar.flag":"Retail",
-    "exp.wf.when":"Ene 2024 — Dic 2025","exp.wf.role":"Data Strategy Analyst",
-    "exp.wf.desc":"Diseñé la plataforma analítica de Hacienda Digital — una plataforma de automatización de datos con procesamiento incremental sobre Delta Lake para el programa nacional de transformación de Costa Rica — bajando la latencia de reportería de cuatro horas a inteligencia operativa casi en tiempo real. Ejecuté una auditoría estructurada de preparación de datos previa al desarrollo que detectó bloqueadores de calidad y gobernanza y retiró dos frentes que habrían fallado en producción, y documenté las decisiones arquitectónicas como ADRs para dar un marco de decisión a un portafolio transversal de IA y datos. La analítica sobre cuellos de botella operativos redujo los retrasos un 15%.",
-    "exp.wf.flag":"Gobierno",
-    "exp.el.role":"Consultora de Automatización de Sistemas",
-    "exp.el.desc":"Desarrollé flujos automatizados de validación y procesamiento de datos en Python y Databricks para hacer confiables y escalables las operaciones de datos de la empresa, e implementé procesos repetibles de transformación y control de calidad que redujeron el trabajo manual. Estructuré los datasets y estándares de gobernanza para soportar analítica predictiva — y después construí el pipeline de imágenes de producto con IA que convirtió la producción de catálogo en un flujo revisable.",
-    "exp.el.flag":"Industrial",
-    "exp.edu.role":"MSc en Analítica, Innovación y Tecnología",
-    "exp.edu.desc":"La escuela de negocios mejor rankeada de América Latina. Antes: Comercio y Negocios Internacionales, LEAD University (2021–2023) — por eso la conversación con un equipo comercial suele ir más rápido que la conversación con el data warehouse.",
-    "exp.edu.flag":"Educación",
-
-    "st.n":"07 — Stack","st.h":"Herramientas que <span class=\"o\">de verdad</span> uso",
+    "st.n":"06 — Stack","st.h":"Herramientas que <span class=\"o\">de verdad</span> uso",
     "st.side":"No es un muro de logos — esto es lo que aparece en los repositorios y en el trabajo con clientes de arriba.",
     "stack.python":"Pipelines y agentes de IA","stack.anthropic":"Sistemas LLM","stack.openai":"Sistemas LLM",
     "stack.langchain":"Orquestación de agentes","stack.n8n":"Automatización","stack.sklearn":"Modelado",
@@ -1654,7 +1583,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
     "stack.powerbi":"Reportería","stack.tableau":"Reportería","stack.docker":"Empaquetado",
     "stack.github":"Versionado","stack.notion":"Conocimiento","stack.pandas":"Manipulación de datos",
 
-    "cta.eyebrow":"08 — Hablemos","cta.h1":"¿Tienes datos que","cta.h2":"no se <span class=\"o\">ganan</span>","cta.h3":"su lugar?",
+    "cta.eyebrow":"07 — Hablemos","cta.h1":"¿Tienes datos que","cta.h2":"no se <span class=\"o\">ganan</span>","cta.h3":"su lugar?",
     "cta.lead":"Cuéntame qué decisión quieres tomar más rápido. Si no soy la persona indicada te lo digo en la primera respuesta — y normalmente te apunto a quién sí lo es.",
     "cta.email":"Escríbeme","cta.l.email":"Correo","cta.l.phone":"Teléfono · Costa Rica",
     "foot.role":"AI Engineer | Sistemas de Automatización y Estrategia de Datos","foot.top":"Volver arriba"
@@ -1713,6 +1642,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
   try { saved = localStorage.getItem('ka-lang'); } catch(e){}
   if(!saved) saved = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
   apply(saved);
+  loadBufferPosts();
 
   [].forEach.call(document.querySelectorAll('.lang button'), function(b){
     b.addEventListener('click', function(){ apply(b.getAttribute('data-lang')); });
@@ -1826,7 +1756,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
       if(!document.body.classList.contains('cursor-on')){ cx=dx=mx; cy=dy=my; document.body.classList.add('cursor-on'); }
     });
     document.addEventListener('mouseover', function(e){
-      var hot = e.target.closest('a,button,.card,.svc article,.tools div,.job');
+      var hot = e.target.closest('a,button,.card,.svc article,.tools div');
       document.body.classList.toggle('hot', !!hot);
     });
   }
@@ -1941,7 +1871,7 @@ footer{border-top:1px solid var(--line-2);padding:44px 0 40px}
   });
 
   /* ---------- active link ---------- */
-  var secs = ['about','services','clients','work','linkedin','experience'].map(function(id){ return document.getElementById(id); });
+  var secs = ['about','services','work','clients','linkedin'].map(function(id){ return document.getElementById(id); });
   var links = [].slice.call(document.querySelectorAll('.links a'));
   var aio = new IntersectionObserver(function(entries){
     entries.forEach(function(en){
