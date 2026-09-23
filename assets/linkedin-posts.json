@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-22T23:13:10.850Z",
+  "generatedAt": "2026-09-23T17:07:13.641Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1bfaec55232304bd5c7c7",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-23T14:02:06.833Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508526107890057216",
+      "tags": [
+        "AIGovernance",
+        "DataGovernance",
+        "AIImplementation"
+      ],
+      "en": {
+        "t": "The most useful governance tool I have used on an AI project is a text file.",
+        "d": "On a national data program I documented architecture decisions as ADRs. Architecture Decision Records. It is an old software engineering practice: one short document per significant decision, stating what we chose, what we rejected, and why. Dated, and never edited after the fact. We used it across a cross functional AI and data portfolio. Different teams,…"
+      },
+      "es": {
+        "t": "The most useful governance tool I have used on an AI project is a text file.",
+        "d": "On a national data program I documented architecture decisions as ADRs. Architecture Decision Records. It is an old software engineering practice: one short document per significant decision, stating what we chose, what we rejected, and why. Dated, and never edited after the fact. We used it across a cross functional AI and data portfolio. Different teams,…"
+      }
+    },
     {
       "id": "6ab1bfae40d6d6c926168f67",
       "date": "Sep 2026",
@@ -42,7 +62,7 @@
       "id": "6ab1bbcfa0e1da1c0b8ef04e",
       "date": "Sep 2026",
       "publishedAt": "2026-09-15T14:00:04.881Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7505535658950803456",
       "tags": [],
       "en": {
@@ -88,22 +108,6 @@
       "es": {
         "t": "Años construyendo sistemas de IA/ML, arquitectando datos y generando contenido a…",
         "d": "👉 Acabo de lanzar mi sitio: klarissaartavia.github.io 👈 No hago solo una cosa. Por un lado diseño sistemas de IA: agentes, copilotos con RAG, modelos de pricing, bots que detectan anomalías antes de que alguien abra un dashboard. Por otro, genero y automatizo contenido con IA a escala: fotografía de catálogo, campañas, video corporativo. El pipeline que…"
-      }
-    },
-    {
-      "id": "6ab1bbdd4e1170fb5ed2f1a3",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-10T15:00:48.069Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503543746446307328",
-      "tags": [],
-      "en": {
-        "t": "I built a RAG copilot over a product catalog that answers that question by design, not as…",
-        "d": "Here's how it works: Every catalog row gets embedded locally with sentence-transformers and indexed in Chroma , zero API keys required just to search the catalog 🔐 A question retrieves the top-matching products by similarity score, then Claude generates an answer grounded in exactly those rows — citing the product ID it used, every time 📌 No API key? The…"
-      },
-      "es": {
-        "t": "I built a RAG copilot over a product catalog that answers that question by design, not as…",
-        "d": "Here's how it works: Every catalog row gets embedded locally with sentence-transformers and indexed in Chroma , zero API keys required just to search the catalog 🔐 A question retrieves the top-matching products by similarity score, then Claude generates an answer grounded in exactly those rows — citing the product ID it used, every time 📌 No API key? The…"
       }
     }
   ]
