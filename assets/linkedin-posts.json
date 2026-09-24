@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-23T17:07:13.641Z",
+  "generatedAt": "2026-09-24T17:15:21.961Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1bfaf8e2aab6eac504ff2",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-24T14:02:59.920Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508888720419209217",
+      "tags": [
+        "RAG",
+        "AIImplementation",
+        "ContextEngineering"
+      ],
+      "en": {
+        "t": "We built a RAG system over a product catalogue.",
+        "d": "Retrieval was the part that took the least time. The system indexes a company's product and inventory catalogue in a vector database, and LangChain orchestrates the Claude API to answer natural language questions grounded in their own data. Getting that working is a known problem now. There are tutorials. What took the time was everything the tutorials…"
+      },
+      "es": {
+        "t": "We built a RAG system over a product catalogue.",
+        "d": "Retrieval was the part that took the least time. The system indexes a company's product and inventory catalogue in a vector database, and LangChain orchestrates the Claude API to answer natural language questions grounded in their own data. Getting that working is a known problem now. There are tutorials. What took the time was everything the tutorials…"
+      }
+    },
     {
       "id": "6ab1bfaec55232304bd5c7c7",
       "date": "Sep 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1bbdd4e1170fb5ed2f18b",
       "date": "Sep 2026",
       "publishedAt": "2026-09-16T18:45:01.017Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7503545130444967937",
       "tags": [],
       "en": {
@@ -88,26 +108,6 @@
       "es": {
         "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 🚀",
         "d": "Most \"AI pricing\" demos are one script that scrapes, calculates, and calls an LLM in a single blob. That's not how you'd actually build it in production. If any one step breaks, everything downstream is silently wrong. 📉 So I built it as three separate agents instead, each with exactly one job: 1. Collector scrapes competitor pricing using Playwright and…"
-      }
-    },
-    {
-      "id": "6ab1bbdd4e1170fb5ed2f1ad",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-10T19:09:04.535Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503892318731714561",
-      "tags": [
-        "IA",
-        "Automatización",
-        "DataStrategy"
-      ],
-      "en": {
-        "t": "Años construyendo sistemas de IA/ML, arquitectando datos y generando contenido a…",
-        "d": "👉 Acabo de lanzar mi sitio: klarissaartavia.github.io 👈 No hago solo una cosa. Por un lado diseño sistemas de IA: agentes, copilotos con RAG, modelos de pricing, bots que detectan anomalías antes de que alguien abra un dashboard. Por otro, genero y automatizo contenido con IA a escala: fotografía de catálogo, campañas, video corporativo. El pipeline que…"
-      },
-      "es": {
-        "t": "Años construyendo sistemas de IA/ML, arquitectando datos y generando contenido a…",
-        "d": "👉 Acabo de lanzar mi sitio: klarissaartavia.github.io 👈 No hago solo una cosa. Por un lado diseño sistemas de IA: agentes, copilotos con RAG, modelos de pricing, bots que detectan anomalías antes de que alguien abra un dashboard. Por otro, genero y automatizo contenido con IA a escala: fotografía de catálogo, campañas, video corporativo. El pipeline que…"
       }
     }
   ]
