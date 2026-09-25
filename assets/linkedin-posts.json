@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-24T17:15:21.961Z",
+  "generatedAt": "2026-09-25T17:15:58.219Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1bfafe1612e2f787ab5c6",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-25T14:02:25.626Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509250964684562432",
+      "tags": [
+        "AgenticAI",
+        "AIImplementation",
+        "DataGovernance"
+      ],
+      "en": {
+        "t": "Three agents, and one rule none of them can break.",
+        "d": "That is the shape of the retail intelligence pipeline I built this year, and the rule matters more than the agents do. Agent one acquires competitor data. Agent two enriches market signals on Delta Lake. Agent three generates pricing recommendations through RAG, combining those external signals with internal sales history. Each agent owns one job and hands…"
+      },
+      "es": {
+        "t": "Three agents, and one rule none of them can break.",
+        "d": "That is the shape of the retail intelligence pipeline I built this year, and the rule matters more than the agents do. Agent one acquires competitor data. Agent two enriches market signals on Delta Lake. Agent three generates pricing recommendations through RAG, combining those external signals with internal sales history. Each agent owns one job and hands…"
+      }
+    },
     {
       "id": "6ab1bfaf8e2aab6eac504ff2",
       "date": "Sep 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1bfae40d6d6c926168f67",
       "date": "Sep 2026",
       "publishedAt": "2026-09-22T14:02:01.648Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508163700030169088",
       "tags": [
         "DataStrategy",
@@ -92,22 +112,6 @@
       "es": {
         "t": "🇨🇷 205 años de libertad y orgullo compartido 🇨🇷",
         "d": "Costa Rica es la tierra que nos vio crecer y que nos inspira a seguir construyendo juntos. Ese orgullo nos acompaña en cada proyecto que hacemos realidad con ustedes. Hoy hacemos una pausa para celebrar nuestra independencia en familia. Nuestras puertas permanecerán cerradas y volveremos mañana, miércoles 16, en nuestro horario habitual. Gracias por tanto,…"
-      }
-    },
-    {
-      "id": "6ab1bbdd4e1170fb5ed2f1a5",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-14T15:00:41.280Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503544613903847424",
-      "tags": [],
-      "en": {
-        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 🚀",
-        "d": "Most \"AI pricing\" demos are one script that scrapes, calculates, and calls an LLM in a single blob. That's not how you'd actually build it in production. If any one step breaks, everything downstream is silently wrong. 📉 So I built it as three separate agents instead, each with exactly one job: 1. Collector scrapes competitor pricing using Playwright and…"
-      },
-      "es": {
-        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 🚀",
-        "d": "Most \"AI pricing\" demos are one script that scrapes, calculates, and calls an LLM in a single blob. That's not how you'd actually build it in production. If any one step breaks, everything downstream is silently wrong. 📉 So I built it as three separate agents instead, each with exactly one job: 1. Collector scrapes competitor pricing using Playwright and…"
       }
     }
   ]
