@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#08080a">
+  <title>Coordinar reunión · Klarissa Artavia × Alimenta</title>
+  <meta name="description" content="Opciones de horario para conversar sobre el piloto de boletines de Alimenta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#08080a;--panel:#141418;--line:#303035;--white:#fff;--soft:#ddd;--mute:#a5a5ac;--orange:#ff6b00}
+    *{box-sizing:border-box}
+    html{-webkit-text-size-adjust:100%}
+    body{margin:0;min-height:100vh;background:var(--ink);color:var(--soft);font:16px/1.6 'Open Sans',Arial,sans-serif}
+    body::before{content:"";position:fixed;z-index:0;width:600px;height:600px;right:-280px;top:-290px;pointer-events:none;background:radial-gradient(circle,rgba(255,107,0,.20),transparent 67%)}
+    header,main,footer{position:relative;z-index:1}
+    a{color:inherit}
+    .wrap{width:min(100% - 40px,940px);margin:auto}
+    header{border-bottom:1px solid #27272b;padding:24px 0}
+    .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;font:800 16px/1.05 'Onest',Arial,sans-serif;letter-spacing:.015em;color:var(--white)}
+    .brand svg{width:41px;height:41px;flex:none}
+    .brand em{font-style:normal;color:var(--orange)}
+    .brand small{display:block;margin-top:5px;color:#85858b;font:500 9px/1.1 'Onest',Arial,sans-serif;letter-spacing:.25em}
+    main{padding:64px 0 80px}
+    .eyebrow{font:700 11px/1.4 'Onest',Arial,sans-serif;letter-spacing:.21em;color:var(--orange);text-transform:uppercase}
+    h1{max-width:850px;margin:16px 0 0;color:var(--white);font:900 clamp(43px,8vw,84px)/.99 'Onest',Arial,sans-serif;letter-spacing:-.055em}
+    h1 span{color:var(--orange)}
+    .lead{max-width:62ch;margin:26px 0 0;color:#c9c9ce;font-size:17px;line-height:1.72}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0}
+    .meta span{border:1px solid #45454a;border-radius:100px;padding:8px 14px;color:#e6e6e8;font:600 12px/1.3 'Onest',Arial,sans-serif}
+    .rule{height:1px;background:#343439;margin:48px 0 26px}
+    .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+    .section-head h2{margin:0;color:var(--white);font:800 clamp(22px,3vw,32px)/1.15 'Onest',Arial,sans-serif;letter-spacing:-.03em}
+    .section-head p{margin:0;color:#929299;font-size:13px}
+    .days{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:25px}
+    .day{border:1px solid var(--line);border-radius:17px;background:var(--panel);padding:24px;animation:rise .65s both}
+    .day:nth-child(2){animation-delay:.06s}.day:nth-child(3){animation-delay:.12s}.day:nth-child(4){animation-delay:.18s}.day:nth-child(5){animation-delay:.24s}
+    .day h3{display:flex;align-items:baseline;gap:12px;margin:0 0 19px;color:var(--white);font:800 21px/1.2 'Onest',Arial,sans-serif;letter-spacing:-.025em}
+    .day h3 b{font-size:11px;letter-spacing:.15em;color:var(--orange)}
+    .slots{display:flex;flex-wrap:wrap;gap:9px}
+    .slot{min-width:116px;display:inline-flex;justify-content:center;align-items:center;padding:12px 15px;border:1px solid #525259;border-radius:7px;text-decoration:none;color:#f2f2f3;font:700 14px/1.3 'Onest',Arial,sans-serif;transition:background .22s ease,border-color .22s ease,color .22s ease,transform .22s ease}
+    .slot:hover,.slot:focus-visible{background:var(--orange);border-color:var(--orange);color:#fff;transform:translateY(-2px);outline:none}
+    .note{margin:28px 0 0;padding:19px 21px;border-left:3px solid var(--orange);background:#1a1a1e;color:#c9c9ce;font-size:14px;line-height:1.65}
+    .note strong{color:#fff}
+    footer{border-top:1px solid #27272b;padding:22px 0 35px;color:#96969d;font-size:12px}
+    footer a{color:#ff8a2b;text-decoration:none}
+    @keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:680px){main{padding:42px 0 62px}.days{grid-template-columns:1fr}.day{padding:21px}.rule{margin-top:38px}.lead{font-size:16px}.slots{gap:8px}.slot{flex:1;min-width:calc(50% - 8px)}}
+    @media(prefers-reduced-motion:reduce){.day{animation:none}.slot{transition:none}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="https://klarissaartavia.github.io/" aria-label="Klarissa Artavia, volver al sitio">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="k" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#ff8a2b"/></linearGradient></defs><g fill="url(#k)"><path d="M0.15 6.37 L36.75 6.37 L36.75 28.48 L0.00 62.74 L0.00 6.52Z"/><path d="M68.08 6.37 L100.00 6.52 L52.56 52.78 L36.90 36.53 L67.94 6.52Z"/><path d="M33.09 40.19 L84.92 93.63 L45.83 93.63 L14.35 57.91 L32.94 40.34Z"/><path d="M10.69 61.27 L39.24 93.63 L0.00 93.63 L0.00 71.23 L10.54 61.42Z"/></g></svg>
+        <span>KLARISSA <em>ARTAVIA</em><small>AI ENGINEER</small></span>
+      </a>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="eyebrow">ALIMENTA / PILOTO DE BOLETINES</div>
+    <h1>Elijamos un momento <span>para conversar.</span></h1>
+    <p class="lead">Seleccionen el horario que más les convenga. Se abrirá un correo con la opción elegida para que pueda confirmarles el espacio. Después de la confirmación, les enviaré la invitación con el enlace de Microsoft Teams.</p>
+    <div class="meta"><span>28 SET — 02 OCT 2026</span><span>HORA DE COSTA RICA · UTC−6</span><span>VIDEOLLAMADA</span></div>
+    <div class="rule"></div>
+    <div class="section-head"><h2>Horarios propuestos</h2><p>Elegir un horario envía una solicitud; queda sujeto a confirmación.</p></div>
+    <div class="days">
+      <section class="day" aria-labelledby="lunes"><h3 id="lunes"><b>01</b> Lunes 28 de setiembre</h3><div class="slots"><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="lunes 28 de setiembre de 2026, 2:00 p. m.">2:00 p. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="lunes 28 de setiembre de 2026, 6:00 p. m.">6:00 p. m.</a></div></section>
+      <section class="day" aria-labelledby="martes"><h3 id="martes"><b>02</b> Martes 29 de setiembre</h3><div class="slots"><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="martes 29 de setiembre de 2026, 8:00 a. m.">8:00 a. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="martes 29 de setiembre de 2026, 5:00 p. m.">5:00 p. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="martes 29 de setiembre de 2026, 7:00 p. m.">7:00 p. m.</a></div></section>
+      <section class="day" aria-labelledby="miercoles"><h3 id="miercoles"><b>03</b> Miércoles 30 de setiembre</h3><div class="slots"><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="miércoles 30 de setiembre de 2026, 12:00 p. m.">12:00 p. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="miércoles 30 de setiembre de 2026, 5:00 p. m.">5:00 p. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="miércoles 30 de setiembre de 2026, 6:00 p. m.">6:00 p. m.</a></div></section>
+      <section class="day" aria-labelledby="jueves"><h3 id="jueves"><b>04</b> Jueves 1.º de octubre</h3><div class="slots"><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="jueves 1.º de octubre de 2026, 8:30 a. m.">8:30 a. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="jueves 1.º de octubre de 2026, 9:30 a. m.">9:30 a. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="jueves 1.º de octubre de 2026, 6:00 p. m.">6:00 p. m.</a></div></section>
+      <section class="day" aria-labelledby="viernes"><h3 id="viernes"><b>05</b> Viernes 2 de octubre</h3><div class="slots"><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="viernes 2 de octubre de 2026, 8:30 a. m.">8:30 a. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="viernes 2 de octubre de 2026, 9:30 a. m.">9:30 a. m.</a><a class="slot" href="mailto:kartaviamasis@gmail.com" data-slot="viernes 2 de octubre de 2026, 6:00 p. m.">6:00 p. m.</a></div></section>
+    </div>
+    <p class="note"><strong>¿Prefieren responder directamente al correo?</strong> También pueden indicarme allí cuál de estos horarios les funciona. La videollamada se confirmará cuando les envíe la invitación.</p>
+  </main>
+  <footer><div class="wrap">KLARISSA ARTAVIA &nbsp;·&nbsp; <a href="mailto:kartaviamasis@gmail.com">kartaviamasis@gmail.com</a> &nbsp;·&nbsp; <a href="https://wa.me/50685977864">WhatsApp +506 8597 7864</a></div></footer>
+  <script>
+    document.querySelectorAll('[data-slot]').forEach(function (link) {
+      var slot = link.getAttribute('data-slot');
+      var subject = 'Alimenta | Solicitud de reunión: ' + slot;
+      var body = 'Hola, Klarissa:\n\nNos gustaría solicitar el horario del ' + slot + ' (hora de Costa Rica).\n\nQuedamos atentos a tu confirmación y al enlace de la videollamada.\n\nSaludos,';
+      link.href = 'mailto:kartaviamasis@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      link.setAttribute('aria-label', 'Solicitar reunión el ' + slot + ', hora de Costa Rica');
+    });
+  </script>
+</body>
+</html>
