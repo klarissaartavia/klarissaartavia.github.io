@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-28T14:02:45.588Z",
+  "generatedAt": "2026-09-29T18:07:00.962Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1c11fe1612e2f787ad01f",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-29T14:03:25.645Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510700768358928384",
+      "tags": [
+        "DataStrategy",
+        "DataEngineering",
+        "RealTimeData"
+      ],
+      "en": {
+        "t": "The report took four hours to run, and everyone had quietly built their week around that.",
+        "d": "This was a national government transformation program. My job was to redesign the analytics platform, and on paper the task was technical: incremental processing on Delta Lake instead of full reloads. We got the reporting cycle from four hours down to near real time. The part I did not expect was what happened to the questions. People had stopped asking…"
+      },
+      "es": {
+        "t": "The report took four hours to run, and everyone had quietly built their week around that.",
+        "d": "This was a national government transformation program. My job was to redesign the analytics platform, and on paper the task was technical: incremental processing on Delta Lake instead of full reloads. We got the reporting cycle from four hours down to near real time. The part I did not expect was what happened to the questions. People had stopped asking…"
+      }
+    },
     {
       "id": "6ab9c25c36a0dcfcb3eb6db0",
       "date": "Sep 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1bfaf8e2aab6eac504ff2",
       "date": "Sep 2026",
       "publishedAt": "2026-09-24T14:02:59.920Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508888720419209217",
       "tags": [
         "RAG",
@@ -100,22 +120,6 @@
       "es": {
         "t": "Before we wrote a single line of code, I recommended killing two of the workstreams.",
         "d": "This was a national government transformation program. The plan was already approved and I had been brought in to help build it. My first real deliverable was a data readiness audit that said two pieces of it were not going to survive production. Not because the idea was wrong. Because the data underneath had quality and governance problems nobody had…"
-      }
-    },
-    {
-      "id": "6ab1bbdd4e1170fb5ed2f18b",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-16T18:45:01.017Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7503545130444967937",
-      "tags": [],
-      "en": {
-        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 : LAKEHOUSE READINESS PIPELINE",
-        "d": "Most data platform failures aren't modeling problems. They're governance problems that got discovered too late. I built a small lakehouse pipeline that puts the audit before the build instead of after, because the batch with a broken primary key or a silently renamed column doesn't fail loudly in development. It fails quietly, three reports downstream, in…"
-      },
-      "es": {
-        "t": "𝖯𝖱𝖮𝖩𝖤𝖢𝖳 𝖫𝖠𝖴𝖭𝖢𝖧 : LAKEHOUSE READINESS PIPELINE",
-        "d": "Most data platform failures aren't modeling problems. They're governance problems that got discovered too late. I built a small lakehouse pipeline that puts the audit before the build instead of after, because the batch with a broken primary key or a silently renamed column doesn't fail loudly in development. It fails quietly, three reports downstream, in…"
       }
     }
   ]
