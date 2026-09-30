@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-29T18:07:00.962Z",
+  "generatedAt": "2026-09-30T20:04:16.834Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1c11fc55232304bd5e029",
+      "date": "Sep 2026",
+      "publishedAt": "2026-09-30T14:03:42.603Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511063226889945088",
+      "tags": [
+        "AIGovernance",
+        "AgenticAI",
+        "AISecurity"
+      ],
+      "en": {
+        "t": "Most companies cannot tell you who their AI agent is.",
+        "d": "Not what it does. Who it is. I learned to ask that question working on a government platform, where an action without a name attached to it is not an action. It is an incident. Nobody there cared whether the number was right until they could prove who produced it and who approved that they could. Then I look at what companies are doing with agents right…"
+      },
+      "es": {
+        "t": "Most companies cannot tell you who their AI agent is.",
+        "d": "Not what it does. Who it is. I learned to ask that question working on a government platform, where an action without a name attached to it is not an action. It is an incident. Nobody there cared whether the number was right until they could prove who produced it and who approved that they could. Then I look at what companies are doing with agents right…"
+      }
+    },
     {
       "id": "6ab1c11fe1612e2f787ad01f",
       "date": "Sep 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1bfafe1612e2f787ab5c6",
       "date": "Sep 2026",
       "publishedAt": "2026-09-25T14:02:25.626Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509250964684562432",
       "tags": [
         "AgenticAI",
@@ -100,26 +120,6 @@
       "es": {
         "t": "The most useful governance tool I have used on an AI project is a text file.",
         "d": "On a national data program I documented architecture decisions as ADRs. Architecture Decision Records. It is an old software engineering practice: one short document per significant decision, stating what we chose, what we rejected, and why. Dated, and never edited after the fact. We used it across a cross functional AI and data portfolio. Different teams,…"
-      }
-    },
-    {
-      "id": "6ab1bfae40d6d6c926168f67",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-22T14:02:01.648Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508163700030169088",
-      "tags": [
-        "DataStrategy",
-        "AIImplementation",
-        "DataGovernance"
-      ],
-      "en": {
-        "t": "Before we wrote a single line of code, I recommended killing two of the workstreams.",
-        "d": "This was a national government transformation program. The plan was already approved and I had been brought in to help build it. My first real deliverable was a data readiness audit that said two pieces of it were not going to survive production. Not because the idea was wrong. Because the data underneath had quality and governance problems nobody had…"
-      },
-      "es": {
-        "t": "Before we wrote a single line of code, I recommended killing two of the workstreams.",
-        "d": "This was a national government transformation program. The plan was already approved and I had been brought in to help build it. My first real deliverable was a data readiness audit that said two pieces of it were not going to survive production. Not because the idea was wrong. Because the data underneath had quality and governance problems nobody had…"
       }
     }
   ]
