@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-30T20:04:16.834Z",
+  "generatedAt": "2026-10-01T18:27:00.308Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1c120826cfc54b85f6f66",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-01T14:04:00.099Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511425686725898240",
+      "tags": [
+        "AgenticAI",
+        "DataEngineering",
+        "AIImplementation"
+      ],
+      "en": {
+        "t": "The most important property in my agent pipeline is the least interesting one to talk about.",
+        "d": "It is idempotent ingestion. Running the same job twice produces the same result as running it once. Nobody puts that on a slide. It does not demo well. But it is the reason the pipeline is still running, and I want to explain why it matters more with agents than it ever did with scheduled jobs. A traditional pipeline runs on a schedule you control. An…"
+      },
+      "es": {
+        "t": "The most important property in my agent pipeline is the least interesting one to talk about.",
+        "d": "It is idempotent ingestion. Running the same job twice produces the same result as running it once. Nobody puts that on a slide. It does not demo well. But it is the reason the pipeline is still running, and I want to explain why it matters more with agents than it ever did with scheduled jobs. A traditional pipeline runs on a schedule you control. An…"
+      }
+    },
     {
       "id": "6ab1c11fc55232304bd5e029",
       "date": "Sep 2026",
@@ -46,7 +66,7 @@
       "id": "6ab9c25c36a0dcfcb3eb6db0",
       "date": "Sep 2026",
       "publishedAt": "2026-09-28T14:01:05.363Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510337791373914112",
       "tags": [
         "AIObservability",
@@ -100,26 +120,6 @@
       "es": {
         "t": "We built a RAG system over a product catalogue.",
         "d": "Retrieval was the part that took the least time. The system indexes a company's product and inventory catalogue in a vector database, and LangChain orchestrates the Claude API to answer natural language questions grounded in their own data. Getting that working is a known problem now. There are tutorials. What took the time was everything the tutorials…"
-      }
-    },
-    {
-      "id": "6ab1bfaec55232304bd5c7c7",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-23T14:02:06.833Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508526107890057216",
-      "tags": [
-        "AIGovernance",
-        "DataGovernance",
-        "AIImplementation"
-      ],
-      "en": {
-        "t": "The most useful governance tool I have used on an AI project is a text file.",
-        "d": "On a national data program I documented architecture decisions as ADRs. Architecture Decision Records. It is an old software engineering practice: one short document per significant decision, stating what we chose, what we rejected, and why. Dated, and never edited after the fact. We used it across a cross functional AI and data portfolio. Different teams,…"
-      },
-      "es": {
-        "t": "The most useful governance tool I have used on an AI project is a text file.",
-        "d": "On a national data program I documented architecture decisions as ADRs. Architecture Decision Records. It is an old software engineering practice: one short document per significant decision, stating what we chose, what we rejected, and why. Dated, and never edited after the fact. We used it across a cross functional AI and data portfolio. Different teams,…"
       }
     }
   ]
