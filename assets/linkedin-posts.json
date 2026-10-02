@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-01T18:27:00.308Z",
+  "generatedAt": "2026-10-02T17:53:52.040Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1c120c55232304bd5e06e",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-02T14:04:13.836Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511788131579260928",
+      "tags": [
+        "PricingStrategy",
+        "AIImplementation",
+        "DataGovernance"
+      ],
+      "en": {
+        "t": "We let a model set prices.",
+        "d": "Here is the list of things it is not allowed to do. That list took longer to write than the model did, and it is the only reason the system was allowed near real revenue. The model itself is not exotic. It combines external market signals with internal sales history to produce context aware pricing recommendations. Plenty of teams can build that part. The…"
+      },
+      "es": {
+        "t": "We let a model set prices.",
+        "d": "Here is the list of things it is not allowed to do. That list took longer to write than the model did, and it is the only reason the system was allowed near real revenue. The model itself is not exotic. It combines external market signals with internal sales history to produce context aware pricing recommendations. Plenty of teams can build that part. The…"
+      }
+    },
     {
       "id": "6ab1c120826cfc54b85f6f66",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1c11fe1612e2f787ad01f",
       "date": "Sep 2026",
       "publishedAt": "2026-09-29T14:03:25.645Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510700768358928384",
       "tags": [
         "DataStrategy",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Three agents, and one rule none of them can break.",
         "d": "That is the shape of the retail intelligence pipeline I built this year, and the rule matters more than the agents do. Agent one acquires competitor data. Agent two enriches market signals on Delta Lake. Agent three generates pricing recommendations through RAG, combining those external signals with internal sales history. Each agent owns one job and hands…"
-      }
-    },
-    {
-      "id": "6ab1bfaf8e2aab6eac504ff2",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-24T14:02:59.920Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508888720419209217",
-      "tags": [
-        "RAG",
-        "AIImplementation",
-        "ContextEngineering"
-      ],
-      "en": {
-        "t": "We built a RAG system over a product catalogue.",
-        "d": "Retrieval was the part that took the least time. The system indexes a company's product and inventory catalogue in a vector database, and LangChain orchestrates the Claude API to answer natural language questions grounded in their own data. Getting that working is a known problem now. There are tutorials. What took the time was everything the tutorials…"
-      },
-      "es": {
-        "t": "We built a RAG system over a product catalogue.",
-        "d": "Retrieval was the part that took the least time. The system indexes a company's product and inventory catalogue in a vector database, and LangChain orchestrates the Claude API to answer natural language questions grounded in their own data. Getting that working is a known problem now. There are tutorials. What took the time was everything the tutorials…"
       }
     }
   ]
