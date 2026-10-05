@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-02T17:53:52.040Z",
+  "generatedAt": "2026-10-05T22:02:45.930Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab1c120826cfc54b85f6f8e",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-05T16:31:21.185Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512912321447350272",
+      "tags": [
+        "ChangeManagement",
+        "DataLiteracy",
+        "AIImplementation"
+      ],
+      "en": {
+        "t": "I taught data analysis to an Operations team this year, and the hardest question came in…",
+        "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
+      },
+      "es": {
+        "t": "I taught data analysis to an Operations team this year, and the hardest question came in…",
+        "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
+      }
+    },
     {
       "id": "6ab1c120c55232304bd5e06e",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1c11fc55232304bd5e029",
       "date": "Sep 2026",
       "publishedAt": "2026-09-30T14:03:42.603Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511063226889945088",
       "tags": [
         "AIGovernance",
@@ -100,26 +120,6 @@
       "es": {
         "t": "The monitoring for the AI system I built runs in Power BI.",
         "d": "Not a specialized observability platform. A report, on a schedule, that a business owner already knows how to open without me in the room. People find that underwhelming until they see what is on it. It does not track model latency. It tracks how many outputs a validation rule blocked this week, which rule blocked them, and how long a human took to approve…"
-      }
-    },
-    {
-      "id": "6ab1bfafe1612e2f787ab5c6",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-25T14:02:25.626Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509250964684562432",
-      "tags": [
-        "AgenticAI",
-        "AIImplementation",
-        "DataGovernance"
-      ],
-      "en": {
-        "t": "Three agents, and one rule none of them can break.",
-        "d": "That is the shape of the retail intelligence pipeline I built this year, and the rule matters more than the agents do. Agent one acquires competitor data. Agent two enriches market signals on Delta Lake. Agent three generates pricing recommendations through RAG, combining those external signals with internal sales history. Each agent owns one job and hands…"
-      },
-      "es": {
-        "t": "Three agents, and one rule none of them can break.",
-        "d": "That is the shape of the retail intelligence pipeline I built this year, and the rule matters more than the agents do. Agent one acquires competitor data. Agent two enriches market signals on Delta Lake. Agent three generates pricing recommendations through RAG, combining those external signals with internal sales history. Each agent owns one job and hands…"
       }
     }
   ]
