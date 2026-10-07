@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-10-05T22:02:45.930Z",
+  "generatedAt": "2026-10-07T20:39:14.881Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac69215887a55884cd5efe5",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-07T18:45:49.218Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513670937528164354",
+      "tags": [
+        "MovemosLaIndustria",
+        "ResistenciasDeCartucho",
+        "CalentamientoIndustrial"
+      ],
+      "en": {
+        "t": "Calor exacto, donde su proceso lo necesita.",
+        "d": "Presentamos nuestro catálogo técnico de resistencias eléctricas de cartucho: 74 páginas con las familias AC, MC, LC/BC y SC, tecnologías EXPAN y Split-Sheath, terminaciones, conexiones y control térmico. ✓ Alta densidad: hasta 60 W/cm² y aplicaciones entre 400 °C y 750 °C ✓ Medidas desde 4 mm, estándar y a la medida ✓ Productos con certificación UL, CSA y…"
+      },
+      "es": {
+        "t": "Calor exacto, donde su proceso lo necesita.",
+        "d": "Presentamos nuestro catálogo técnico de resistencias eléctricas de cartucho: 74 páginas con las familias AC, MC, LC/BC y SC, tecnologías EXPAN y Split-Sheath, terminaciones, conexiones y control térmico. ✓ Alta densidad: hasta 60 W/cm² y aplicaciones entre 400 °C y 750 °C ✓ Medidas desde 4 mm, estándar y a la medida ✓ Productos con certificación UL, CSA y…"
+      }
+    },
+    {
+      "id": "6ab1c121e1612e2f787ad05f",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-07T14:02:41.743Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513599685228658688",
+      "tags": [
+        "DataArchitecture",
+        "Databricks",
+        "DeltaLake"
+      ],
+      "en": {
+        "t": "Before we could add AI to anything, I spent weeks reading pipelines nobody had opened in…",
+        "d": "The engagement was framed as AI implementation. The first real deliverable was an audit of the Databricks and Delta Lake pipelines carrying product and inventory data, looking for processing gaps, validation gaps, and whether any of it was ready to be read by something that acts on its own. It is not the work anyone wants to fund. It is the work that…"
+      },
+      "es": {
+        "t": "Before we could add AI to anything, I spent weeks reading pipelines nobody had opened in…",
+        "d": "The engagement was framed as AI implementation. The first real deliverable was an audit of the Databricks and Delta Lake pipelines carrying product and inventory data, looking for processing gaps, validation gaps, and whether any of it was ready to be read by something that acts on its own. It is not the work anyone wants to fund. It is the work that…"
+      }
+    },
     {
       "id": "6ab1c120826cfc54b85f6f8e",
       "date": "Oct 2026",
@@ -26,7 +66,7 @@
       "id": "6ab1c120c55232304bd5e06e",
       "date": "Oct 2026",
       "publishedAt": "2026-10-02T14:04:13.836Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511788131579260928",
       "tags": [
         "PricingStrategy",
@@ -46,7 +86,7 @@
       "id": "6ab1c120826cfc54b85f6f66",
       "date": "Oct 2026",
       "publishedAt": "2026-10-01T14:04:00.099Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511425686725898240",
       "tags": [
         "AgenticAI",
@@ -80,46 +120,6 @@
       "es": {
         "t": "Most companies cannot tell you who their AI agent is.",
         "d": "Not what it does. Who it is. I learned to ask that question working on a government platform, where an action without a name attached to it is not an action. It is an incident. Nobody there cared whether the number was right until they could prove who produced it and who approved that they could. Then I look at what companies are doing with agents right…"
-      }
-    },
-    {
-      "id": "6ab1c11fe1612e2f787ad01f",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-29T14:03:25.645Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510700768358928384",
-      "tags": [
-        "DataStrategy",
-        "DataEngineering",
-        "RealTimeData"
-      ],
-      "en": {
-        "t": "The report took four hours to run, and everyone had quietly built their week around that.",
-        "d": "This was a national government transformation program. My job was to redesign the analytics platform, and on paper the task was technical: incremental processing on Delta Lake instead of full reloads. We got the reporting cycle from four hours down to near real time. The part I did not expect was what happened to the questions. People had stopped asking…"
-      },
-      "es": {
-        "t": "The report took four hours to run, and everyone had quietly built their week around that.",
-        "d": "This was a national government transformation program. My job was to redesign the analytics platform, and on paper the task was technical: incremental processing on Delta Lake instead of full reloads. We got the reporting cycle from four hours down to near real time. The part I did not expect was what happened to the questions. People had stopped asking…"
-      }
-    },
-    {
-      "id": "6ab9c25c36a0dcfcb3eb6db0",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-28T14:01:05.363Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510337791373914112",
-      "tags": [
-        "AIObservability",
-        "DataGovernance",
-        "PowerBI"
-      ],
-      "en": {
-        "t": "The monitoring for the AI system I built runs in Power BI.",
-        "d": "Not a specialized observability platform. A report, on a schedule, that a business owner already knows how to open without me in the room. People find that underwhelming until they see what is on it. It does not track model latency. It tracks how many outputs a validation rule blocked this week, which rule blocked them, and how long a human took to approve…"
-      },
-      "es": {
-        "t": "The monitoring for the AI system I built runs in Power BI.",
-        "d": "Not a specialized observability platform. A report, on a schedule, that a business owner already knows how to open without me in the room. People find that underwhelming until they see what is on it. It does not track model latency. It tracks how many outputs a validation rule blocked this week, which rule blocked them, and how long a human took to approve…"
       }
     }
   ]
