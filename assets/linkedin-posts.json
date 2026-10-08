@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-08T10:40:16.961Z",
+  "generatedAt": "2026-10-08T18:52:57.167Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab9c25d54f1e60c7e81cb99",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-08T14:04:14.381Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513962462468210688",
+      "tags": [
+        "MCP",
+        "ModelContextProtocol",
+        "DataGovernance"
+      ],
+      "en": {
+        "t": "I taught government analysts to connect an AI model to their BI tool back when almost…",
+        "d": "It was a Business Intelligence module inside a national digital transformation program. Tableau, plus integration with AI through MCPs. The audience was not engineers. They were public sector analysts who needed the thing to work and to be defensible. That second requirement is the whole story. The protocol question is settled now. MCP went from about…"
+      },
+      "es": {
+        "t": "I taught government analysts to connect an AI model to their BI tool back when almost…",
+        "d": "It was a Business Intelligence module inside a national digital transformation program. Tableau, plus integration with AI through MCPs. The audience was not engineers. They were public sector analysts who needed the thing to work and to be defensible. That second requirement is the whole story. The protocol question is settled now. MCP went from about…"
+      }
+    },
     {
       "id": "6ac69215887a55884cd5efe5",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac6f99715ed9bdc5b30f314",
       "date": "Oct 2026",
       "publishedAt": "2026-10-06T19:28:50.818Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7513319378533179392",
       "tags": [],
       "en": {
@@ -96,26 +116,6 @@
       "es": {
         "t": "We let a model set prices.",
         "d": "Here is the list of things it is not allowed to do. That list took longer to write than the model did, and it is the only reason the system was allowed near real revenue. The model itself is not exotic. It combines external market signals with internal sales history to produce context aware pricing recommendations. Plenty of teams can build that part. The…"
-      }
-    },
-    {
-      "id": "6ab1c120826cfc54b85f6f66",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-01T14:04:00.099Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511425686725898240",
-      "tags": [
-        "AgenticAI",
-        "DataEngineering",
-        "AIImplementation"
-      ],
-      "en": {
-        "t": "The most important property in my agent pipeline is the least interesting one to talk about.",
-        "d": "It is idempotent ingestion. Running the same job twice produces the same result as running it once. Nobody puts that on a slide. It does not demo well. But it is the reason the pipeline is still running, and I want to explain why it matters more with agents than it ever did with scheduled jobs. A traditional pipeline runs on a schedule you control. An…"
-      },
-      "es": {
-        "t": "The most important property in my agent pipeline is the least interesting one to talk about.",
-        "d": "It is idempotent ingestion. Running the same job twice produces the same result as running it once. Nobody puts that on a slide. It does not demo well. But it is the reason the pipeline is still running, and I want to explain why it matters more with agents than it ever did with scheduled jobs. A traditional pipeline runs on a schedule you control. An…"
       }
     }
   ]
