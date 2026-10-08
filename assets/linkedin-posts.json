@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:39:14.881Z",
+  "generatedAt": "2026-10-08T10:40:16.961Z",
   "source": "buffer",
   "posts": [
     {
@@ -43,10 +43,26 @@
       }
     },
     {
+      "id": "6ac6f99715ed9bdc5b30f314",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-06T19:28:50.818Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7513319378533179392",
+      "tags": [],
+      "en": {
+        "t": "Un dashboard público es una promesa: cada cifra que ve la ciudadanía debe poder verificarse.",
+        "d": "📈 Esta semana cerré una consultoría con @Webb Fontaine para el proyecto ATENA del @Ministerio de Hacienda de Costa Rica, el sistema aduanero dentro del marco de Hacienda Digital. 🇨🇷 El encargo: un diagnóstico técnico de la capa de analítica pública de comercio exterior. Se auditó cada métrica publicada, desde su lógica de cálculo y su modelo de datos…"
+      },
+      "es": {
+        "t": "Un dashboard público es una promesa: cada cifra que ve la ciudadanía debe poder verificarse.",
+        "d": "📈 Esta semana cerré una consultoría con @Webb Fontaine para el proyecto ATENA del @Ministerio de Hacienda de Costa Rica, el sistema aduanero dentro del marco de Hacienda Digital. 🇨🇷 El encargo: un diagnóstico técnico de la capa de analítica pública de comercio exterior. Se auditó cada métrica publicada, desde su lógica de cálculo y su modelo de datos…"
+      }
+    },
+    {
       "id": "6ab1c120826cfc54b85f6f8e",
       "date": "Oct 2026",
       "publishedAt": "2026-10-05T16:31:21.185Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512912321447350272",
       "tags": [
         "ChangeManagement",
@@ -54,11 +70,11 @@
         "AIImplementation"
       ],
       "en": {
-        "t": "I taught data analysis to an Operations team this year, and the hardest question came in…",
+        "t": "I taught data analysis to an Operations team from @AR Holdings this year, and the hardest…",
         "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
       },
       "es": {
-        "t": "I taught data analysis to an Operations team this year, and the hardest question came in…",
+        "t": "I taught data analysis to an Operations team from @AR Holdings this year, and the hardest…",
         "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
       }
     },
@@ -100,26 +116,6 @@
       "es": {
         "t": "The most important property in my agent pipeline is the least interesting one to talk about.",
         "d": "It is idempotent ingestion. Running the same job twice produces the same result as running it once. Nobody puts that on a slide. It does not demo well. But it is the reason the pipeline is still running, and I want to explain why it matters more with agents than it ever did with scheduled jobs. A traditional pipeline runs on a schedule you control. An…"
-      }
-    },
-    {
-      "id": "6ab1c11fc55232304bd5e029",
-      "date": "Sep 2026",
-      "publishedAt": "2026-09-30T14:03:42.603Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511063226889945088",
-      "tags": [
-        "AIGovernance",
-        "AgenticAI",
-        "AISecurity"
-      ],
-      "en": {
-        "t": "Most companies cannot tell you who their AI agent is.",
-        "d": "Not what it does. Who it is. I learned to ask that question working on a government platform, where an action without a name attached to it is not an action. It is an incident. Nobody there cared whether the number was right until they could prove who produced it and who approved that they could. Then I look at what companies are doing with agents right…"
-      },
-      "es": {
-        "t": "Most companies cannot tell you who their AI agent is.",
-        "d": "Not what it does. Who it is. I learned to ask that question working on a government platform, where an action without a name attached to it is not an action. It is an incident. Nobody there cared whether the number was right until they could prove who produced it and who approved that they could. Then I look at what companies are doing with agents right…"
       }
     }
   ]
