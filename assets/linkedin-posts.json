@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-09T10:39:18.140Z",
+  "generatedAt": "2026-10-09T18:23:21.891Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ab9c25e70ec211d1d2ecf49",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-09T14:03:42.153Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514324716351000576",
+      "tags": [
+        "ProcessOptimization",
+        "OperationalExcellence",
+        "DataAnalytics"
+      ],
+      "en": {
+        "t": "A 15% reduction in operational delays did not come from a model.",
+        "d": "It came from counting where things stopped. I want to describe that work honestly, because it is the least glamorous thing on my CV and the one I would repeat first at almost any company. No prediction. No agent. I took the operational process data and measured how long each step actually took, versus how long everyone believed it took. Those two numbers…"
+      },
+      "es": {
+        "t": "A 15% reduction in operational delays did not come from a model.",
+        "d": "It came from counting where things stopped. I want to describe that work honestly, because it is the least glamorous thing on my CV and the one I would repeat first at almost any company. No prediction. No agent. I took the operational process data and measured how long each step actually took, versus how long everyone believed it took. Those two numbers…"
+      }
+    },
     {
       "id": "6ac6920ca00d29ab6e324fa7",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac69215887a55884cd5efe5",
       "date": "Oct 2026",
       "publishedAt": "2026-10-07T18:45:49.218Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513670937528164354",
       "tags": [
         "MovemosLaIndustria",
@@ -96,26 +116,6 @@
       "es": {
         "t": "Un dashboard público es una promesa: cada cifra que ve la ciudadanía debe poder verificarse.",
         "d": "📈 Esta semana cerré una consultoría con @Webb Fontaine para el proyecto ATENA del @Ministerio de Hacienda de Costa Rica, el sistema aduanero dentro del marco de Hacienda Digital. 🇨🇷 El encargo: un diagnóstico técnico de la capa de analítica pública de comercio exterior. Se auditó cada métrica publicada, desde su lógica de cálculo y su modelo de datos…"
-      }
-    },
-    {
-      "id": "6ab1c120826cfc54b85f6f8e",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-05T16:31:21.185Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512912321447350272",
-      "tags": [
-        "ChangeManagement",
-        "DataLiteracy",
-        "AIImplementation"
-      ],
-      "en": {
-        "t": "I taught data analysis to an Operations team from @AR Holdings this year, and the hardest…",
-        "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
-      },
-      "es": {
-        "t": "I taught data analysis to an Operations team from @AR Holdings this year, and the hardest…",
-        "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
       }
     }
   ]
