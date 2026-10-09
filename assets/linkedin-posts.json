@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-08T18:52:57.167Z",
+  "generatedAt": "2026-10-09T01:14:54.554Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac6920ca00d29ab6e324fa7",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-08T19:02:06.314Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514037423429971968",
+      "tags": [
+        "MovemosLaIndustria",
+        "ManufacturaIndustrial",
+        "MetalMecánica"
+      ],
+      "en": {
+        "t": "Cada necesidad industrial presenta un reto diferente.",
+        "d": "Por eso diseñamos cada solución y elaboramos sus planos antes de iniciar la manufactura en nuestro taller. Luego trabajamos cada componente con tecnología de alta precisión: corte láser, doblado CNC y soldadura, siguiendo fielmente las especificaciones del diseño. En cada etapa combinamos tecnología, experiencia y atención al detalle para garantizar…"
+      },
+      "es": {
+        "t": "Cada necesidad industrial presenta un reto diferente.",
+        "d": "Por eso diseñamos cada solución y elaboramos sus planos antes de iniciar la manufactura en nuestro taller. Luego trabajamos cada componente con tecnología de alta precisión: corte láser, doblado CNC y soldadura, siguiendo fielmente las especificaciones del diseño. En cada etapa combinamos tecnología, experiencia y atención al detalle para garantizar…"
+      }
+    },
     {
       "id": "6ab9c25d54f1e60c7e81cb99",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ab1c121e1612e2f787ad05f",
       "date": "Oct 2026",
       "publishedAt": "2026-10-07T14:02:41.743Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513599685228658688",
       "tags": [
         "DataArchitecture",
@@ -96,26 +116,6 @@
       "es": {
         "t": "I taught data analysis to an Operations team from @AR Holdings this year, and the hardest…",
         "d": "Someone asked why we were building the chart at all, if the decision had already been made. Nobody had a good answer, including me. We kept going. Real company data, no toy datasets, from how data travels into SQL Server, through ETL, into Power BI models connected to production. But that question sat there the whole time. Preparing those sessions forced…"
-      }
-    },
-    {
-      "id": "6ab1c120c55232304bd5e06e",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-02T14:04:13.836Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511788131579260928",
-      "tags": [
-        "PricingStrategy",
-        "AIImplementation",
-        "DataGovernance"
-      ],
-      "en": {
-        "t": "We let a model set prices.",
-        "d": "Here is the list of things it is not allowed to do. That list took longer to write than the model did, and it is the only reason the system was allowed near real revenue. The model itself is not exotic. It combines external market signals with internal sales history to produce context aware pricing recommendations. Plenty of teams can build that part. The…"
-      },
-      "es": {
-        "t": "We let a model set prices.",
-        "d": "Here is the list of things it is not allowed to do. That list took longer to write than the model did, and it is the only reason the system was allowed near real revenue. The model itself is not exotic. It combines external market signals with internal sales history to produce context aware pricing recommendations. Plenty of teams can build that part. The…"
       }
     }
   ]
