@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-10-09T18:23:21.891Z",
+  "generatedAt": "2026-10-12T21:17:50.403Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac6922017cec261e6a6dc69",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-12T19:02:13.753Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515487006064365568",
+      "tags": [
+        "MovemosLaIndustria",
+        "TablerosEléctricos",
+        "ABB"
+      ],
+      "en": {
+        "t": "Hay sistemas que no pueden fallar.",
+        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros a…"
+      },
+      "es": {
+        "t": "Hay sistemas que no pueden fallar.",
+        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros a…"
+      }
+    },
+    {
+      "id": "6ab9c25e82dee5c85bd17575",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-12T14:04:22.924Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515412048881766400",
+      "tags": [
+        "ShadowAI",
+        "DataGovernance",
+        "AIImplementation"
+      ],
+      "en": {
+        "t": "Every process assessment I have run ends with the same finding, and it is never in the…",
+        "d": "98% of organizations report AI tools in use that nobody approved. Only 37% have a policy about it. The instinct is to ban the tools. That is the one thing I would not do first. My engagement at Elyon Industrial LATAM started with a business and data process assessment: auditing the workflows and the Databricks pipelines behind product and inventory data…"
+      },
+      "es": {
+        "t": "Every process assessment I have run ends with the same finding, and it is never in the…",
+        "d": "98% of organizations report AI tools in use that nobody approved. Only 37% have a policy about it. The instinct is to ban the tools. That is the one thing I would not do first. My engagement at Elyon Industrial LATAM started with a business and data process assessment: auditing the workflows and the Databricks pipelines behind product and inventory data…"
+      }
+    },
     {
       "id": "6ab9c25e70ec211d1d2ecf49",
       "date": "Oct 2026",
@@ -26,7 +66,7 @@
       "id": "6ac6920ca00d29ab6e324fa7",
       "date": "Oct 2026",
       "publishedAt": "2026-10-08T19:02:06.314Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514037423429971968",
       "tags": [
         "MovemosLaIndustria",
@@ -46,7 +86,7 @@
       "id": "6ab9c25d54f1e60c7e81cb99",
       "date": "Oct 2026",
       "publishedAt": "2026-10-08T14:04:14.381Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513962462468210688",
       "tags": [
         "MCP",
@@ -80,42 +120,6 @@
       "es": {
         "t": "Calor exacto, donde su proceso lo necesita.",
         "d": "Presentamos nuestro catálogo técnico de resistencias eléctricas de cartucho: 74 páginas con las familias AC, MC, LC/BC y SC, tecnologías EXPAN y Split-Sheath, terminaciones, conexiones y control térmico. ✓ Alta densidad: hasta 60 W/cm² y aplicaciones entre 400 °C y 750 °C ✓ Medidas desde 4 mm, estándar y a la medida ✓ Productos con certificación UL, CSA y…"
-      }
-    },
-    {
-      "id": "6ab1c121e1612e2f787ad05f",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-07T14:02:41.743Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513599685228658688",
-      "tags": [
-        "DataArchitecture",
-        "Databricks",
-        "DeltaLake"
-      ],
-      "en": {
-        "t": "Before we could add AI to anything, I spent weeks reading pipelines nobody had opened in…",
-        "d": "The engagement was framed as AI implementation. The first real deliverable was an audit of the Databricks and Delta Lake pipelines carrying product and inventory data, looking for processing gaps, validation gaps, and whether any of it was ready to be read by something that acts on its own. It is not the work anyone wants to fund. It is the work that…"
-      },
-      "es": {
-        "t": "Before we could add AI to anything, I spent weeks reading pipelines nobody had opened in…",
-        "d": "The engagement was framed as AI implementation. The first real deliverable was an audit of the Databricks and Delta Lake pipelines carrying product and inventory data, looking for processing gaps, validation gaps, and whether any of it was ready to be read by something that acts on its own. It is not the work anyone wants to fund. It is the work that…"
-      }
-    },
-    {
-      "id": "6ac6f99715ed9bdc5b30f314",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-06T19:28:50.818Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7513319378533179392",
-      "tags": [],
-      "en": {
-        "t": "Un dashboard público es una promesa: cada cifra que ve la ciudadanía debe poder verificarse.",
-        "d": "📈 Esta semana cerré una consultoría con @Webb Fontaine para el proyecto ATENA del @Ministerio de Hacienda de Costa Rica, el sistema aduanero dentro del marco de Hacienda Digital. 🇨🇷 El encargo: un diagnóstico técnico de la capa de analítica pública de comercio exterior. Se auditó cada métrica publicada, desde su lógica de cálculo y su modelo de datos…"
-      },
-      "es": {
-        "t": "Un dashboard público es una promesa: cada cifra que ve la ciudadanía debe poder verificarse.",
-        "d": "📈 Esta semana cerré una consultoría con @Webb Fontaine para el proyecto ATENA del @Ministerio de Hacienda de Costa Rica, el sistema aduanero dentro del marco de Hacienda Digital. 🇨🇷 El encargo: un diagnóstico técnico de la capa de analítica pública de comercio exterior. Se auditó cada métrica publicada, desde su lógica de cálculo y su modelo de datos…"
       }
     }
   ]
