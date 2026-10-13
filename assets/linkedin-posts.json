@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-13T16:58:36.645Z",
+  "generatedAt": "2026-10-13T22:49:36.391Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac69213887a55884cd5ef4e",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-13T19:02:00.336Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849337617371137",
+      "tags": [
+        "MovemosLaIndustria",
+        "ABB",
+        "ProtecciónEléctrica"
+      ],
+      "en": {
+        "t": "Proteja cada circuito desde el riel.",
+        "d": "ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB #ProtecciónEléctrica #TablerosEléctricos"
+      },
+      "es": {
+        "t": "Proteja cada circuito desde el riel.",
+        "d": "ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB #ProtecciónEléctrica #TablerosEléctricos"
+      }
+    },
     {
       "id": "6ac698a94b237fa33e436aac",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ab9c25e82dee5c85bd17575",
       "date": "Oct 2026",
       "publishedAt": "2026-10-12T14:04:22.924Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515412048881766400",
       "tags": [
         "ShadowAI",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Cada necesidad industrial presenta un reto diferente.",
         "d": "Por eso diseñamos cada solución y elaboramos sus planos antes de iniciar la manufactura en nuestro taller. Luego trabajamos cada componente con tecnología de alta precisión: corte láser, doblado CNC y soldadura, siguiendo fielmente las especificaciones del diseño. En cada etapa combinamos tecnología, experiencia y atención al detalle para garantizar…"
-      }
-    },
-    {
-      "id": "6ab9c25d54f1e60c7e81cb99",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-08T14:04:14.381Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513962462468210688",
-      "tags": [
-        "MCP",
-        "ModelContextProtocol",
-        "DataGovernance"
-      ],
-      "en": {
-        "t": "I taught government analysts to connect an AI model to their BI tool back when almost…",
-        "d": "It was a Business Intelligence module inside a national digital transformation program. Tableau, plus integration with AI through MCPs. The audience was not engineers. They were public sector analysts who needed the thing to work and to be defensible. That second requirement is the whole story. The protocol question is settled now. MCP went from about…"
-      },
-      "es": {
-        "t": "I taught government analysts to connect an AI model to their BI tool back when almost…",
-        "d": "It was a Business Intelligence module inside a national digital transformation program. Tableau, plus integration with AI through MCPs. The audience was not engineers. They were public sector analysts who needed the thing to work and to be defensible. That second requirement is the whole story. The protocol question is settled now. MCP went from about…"
       }
     }
   ]
