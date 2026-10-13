@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-12T21:17:50.403Z",
+  "generatedAt": "2026-10-13T16:58:36.645Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac698a94b237fa33e436aac",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-13T14:03:40.830Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515774261781745664",
+      "tags": [
+        "AIGovernance",
+        "AgenticAI",
+        "AIAgents"
+      ],
+      "en": {
+        "t": "Four AI labs were asked one question this week.",
+        "d": "None of them said yes. On October 6, the New York City Council asked OpenAI, Anthropic, Meta and Google to guarantee that their AI agents will always respect their safeguards. OpenAI: \"It is not possible for me to commit or guarantee that any technology is without risk.\" Anthropic: \"The science of doing this is fundamentally hard and unsettled.\" I respect…"
+      },
+      "es": {
+        "t": "Four AI labs were asked one question this week.",
+        "d": "None of them said yes. On October 6, the New York City Council asked OpenAI, Anthropic, Meta and Google to guarantee that their AI agents will always respect their safeguards. OpenAI: \"It is not possible for me to commit or guarantee that any technology is without risk.\" Anthropic: \"The science of doing this is fundamentally hard and unsettled.\" I respect…"
+      }
+    },
     {
       "id": "6ac6922017cec261e6a6dc69",
       "date": "Oct 2026",
@@ -10,16 +30,16 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515487006064365568",
       "tags": [
         "MovemosLaIndustria",
-        "TablerosEléctricos",
-        "ABB"
+        "ABB",
+        "IndustriaCR"
       ],
       "en": {
         "t": "Hay sistemas que no pueden fallar.",
-        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros a…"
+        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de @ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros…"
       },
       "es": {
         "t": "Hay sistemas que no pueden fallar.",
-        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros a…"
+        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de @ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros…"
       }
     },
     {
@@ -46,7 +66,7 @@
       "id": "6ab9c25e70ec211d1d2ecf49",
       "date": "Oct 2026",
       "publishedAt": "2026-10-09T14:03:42.153Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514324716351000576",
       "tags": [
         "ProcessOptimization",
@@ -100,26 +120,6 @@
       "es": {
         "t": "I taught government analysts to connect an AI model to their BI tool back when almost…",
         "d": "It was a Business Intelligence module inside a national digital transformation program. Tableau, plus integration with AI through MCPs. The audience was not engineers. They were public sector analysts who needed the thing to work and to be defensible. That second requirement is the whole story. The protocol question is settled now. MCP went from about…"
-      }
-    },
-    {
-      "id": "6ac69215887a55884cd5efe5",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-07T18:45:49.218Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513670937528164354",
-      "tags": [
-        "MovemosLaIndustria",
-        "ResistenciasDeCartucho",
-        "CalentamientoIndustrial"
-      ],
-      "en": {
-        "t": "Calor exacto, donde su proceso lo necesita.",
-        "d": "Presentamos nuestro catálogo técnico de resistencias eléctricas de cartucho: 74 páginas con las familias AC, MC, LC/BC y SC, tecnologías EXPAN y Split-Sheath, terminaciones, conexiones y control térmico. ✓ Alta densidad: hasta 60 W/cm² y aplicaciones entre 400 °C y 750 °C ✓ Medidas desde 4 mm, estándar y a la medida ✓ Productos con certificación UL, CSA y…"
-      },
-      "es": {
-        "t": "Calor exacto, donde su proceso lo necesita.",
-        "d": "Presentamos nuestro catálogo técnico de resistencias eléctricas de cartucho: 74 páginas con las familias AC, MC, LC/BC y SC, tecnologías EXPAN y Split-Sheath, terminaciones, conexiones y control térmico. ✓ Alta densidad: hasta 60 W/cm² y aplicaciones entre 400 °C y 750 °C ✓ Medidas desde 4 mm, estándar y a la medida ✓ Productos con certificación UL, CSA y…"
       }
     }
   ]
