@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-13T22:49:36.391Z",
+  "generatedAt": "2026-10-14T17:16:11.512Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac69831819a4d01246b2f69",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-14T14:03:35.621Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516136627296075778",
+      "tags": [
+        "AIEngineer",
+        "DataStrategy",
+        "Portfolio"
+      ],
+      "en": {
+        "t": "For six years my work lived in five places.",
+        "d": "Now it lives in one. GitHub had the code. My CV had the roles. LinkedIn had the stories. Client decks had the results. The Elyon film lived on a hard drive. None of them answered the question people actually ask me: what do you build, and does it work? So I built a site that does. 🚀 Inside you will find: The national analytics platform where incremental…"
+      },
+      "es": {
+        "t": "For six years my work lived in five places.",
+        "d": "Now it lives in one. GitHub had the code. My CV had the roles. LinkedIn had the stories. Client decks had the results. The Elyon film lived on a hard drive. None of them answered the question people actually ask me: what do you build, and does it work? So I built a site that does. 🚀 Inside you will find: The national analytics platform where incremental…"
+      }
+    },
     {
       "id": "6ac69213887a55884cd5ef4e",
       "date": "Oct 2026",
@@ -10,16 +30,15 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849337617371137",
       "tags": [
         "MovemosLaIndustria",
-        "ABB",
-        "ProtecciónEléctrica"
+        "ABB"
       ],
       "en": {
         "t": "Proteja cada circuito desde el riel.",
-        "d": "ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB #ProtecciónEléctrica #TablerosEléctricos"
+        "d": "@ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB {hashtag|#|ProtecciónEléctrica} {hashtag|#|TablerosEléctricos}"
       },
       "es": {
         "t": "Proteja cada circuito desde el riel.",
-        "d": "ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB #ProtecciónEléctrica #TablerosEléctricos"
+        "d": "@ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB {hashtag|#|ProtecciónEléctrica} {hashtag|#|TablerosEléctricos}"
       }
     },
     {
@@ -46,7 +65,7 @@
       "id": "6ac6922017cec261e6a6dc69",
       "date": "Oct 2026",
       "publishedAt": "2026-10-12T19:02:13.753Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515487006064365568",
       "tags": [
         "MovemosLaIndustria",
@@ -100,26 +119,6 @@
       "es": {
         "t": "A 15% reduction in operational delays did not come from a model.",
         "d": "It came from counting where things stopped. I want to describe that work honestly, because it is the least glamorous thing on my CV and the one I would repeat first at almost any company. No prediction. No agent. I took the operational process data and measured how long each step actually took, versus how long everyone believed it took. Those two numbers…"
-      }
-    },
-    {
-      "id": "6ac6920ca00d29ab6e324fa7",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-08T19:02:06.314Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514037423429971968",
-      "tags": [
-        "MovemosLaIndustria",
-        "ManufacturaIndustrial",
-        "IndustriaCR"
-      ],
-      "en": {
-        "t": "Cada necesidad industrial presenta un reto diferente.",
-        "d": "Por eso diseñamos cada solución y elaboramos sus planos antes de iniciar la manufactura en nuestro taller. Luego trabajamos cada componente con tecnología de alta precisión: corte láser, doblado CNC y soldadura, siguiendo fielmente las especificaciones del diseño. En cada etapa combinamos tecnología, experiencia y atención al detalle para garantizar…"
-      },
-      "es": {
-        "t": "Cada necesidad industrial presenta un reto diferente.",
-        "d": "Por eso diseñamos cada solución y elaboramos sus planos antes de iniciar la manufactura en nuestro taller. Luego trabajamos cada componente con tecnología de alta precisión: corte láser, doblado CNC y soldadura, siguiendo fielmente las especificaciones del diseño. En cada etapa combinamos tecnología, experiencia y atención al detalle para garantizar…"
       }
     }
   ]
