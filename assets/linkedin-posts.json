@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-14T17:16:11.512Z",
+  "generatedAt": "2026-10-14T21:44:55.786Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac69214cb03f914080c52df",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-14T19:02:45.659Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516211915589705728",
+      "tags": [
+        "MovemosLaIndustria",
+        "NOVUS",
+        "ControlDeTemperatura"
+      ],
+      "en": {
+        "t": "Poco fondo en el tablero no es un problema.",
+        "d": "NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID #Automatización"
+      },
+      "es": {
+        "t": "Poco fondo en el tablero no es un problema.",
+        "d": "NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID #Automatización"
+      }
+    },
     {
       "id": "6ac69831819a4d01246b2f69",
       "date": "Oct 2026",
@@ -45,7 +65,7 @@
       "id": "6ac698a94b237fa33e436aac",
       "date": "Oct 2026",
       "publishedAt": "2026-10-13T14:03:40.830Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7515774261781745664",
       "tags": [
         "AIGovernance",
@@ -99,26 +119,6 @@
       "es": {
         "t": "Every process assessment I have run ends with the same finding, and it is never in the…",
         "d": "98% of organizations report AI tools in use that nobody approved. Only 37% have a policy about it. The instinct is to ban the tools. That is the one thing I would not do first. My engagement at Elyon Industrial LATAM started with a business and data process assessment: auditing the workflows and the Databricks pipelines behind product and inventory data…"
-      }
-    },
-    {
-      "id": "6ab9c25e70ec211d1d2ecf49",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-09T14:03:42.153Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514324716351000576",
-      "tags": [
-        "ProcessOptimization",
-        "OperationalExcellence",
-        "DataAnalytics"
-      ],
-      "en": {
-        "t": "A 15% reduction in operational delays did not come from a model.",
-        "d": "It came from counting where things stopped. I want to describe that work honestly, because it is the least glamorous thing on my CV and the one I would repeat first at almost any company. No prediction. No agent. I took the operational process data and measured how long each step actually took, versus how long everyone believed it took. Those two numbers…"
-      },
-      "es": {
-        "t": "A 15% reduction in operational delays did not come from a model.",
-        "d": "It came from counting where things stopped. I want to describe that work honestly, because it is the least glamorous thing on my CV and the one I would repeat first at almost any company. No prediction. No agent. I took the operational process data and measured how long each step actually took, versus how long everyone believed it took. Those two numbers…"
       }
     }
   ]
