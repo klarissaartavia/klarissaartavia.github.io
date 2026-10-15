@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-14T21:44:55.786Z",
+  "generatedAt": "2026-10-15T17:05:32.007Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac698aa819a4d01246b4633",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-15T14:04:11.869Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7516499165607018497",
+      "tags": [
+        "AgenticAI",
+        "AISafety",
+        "AIAgents"
+      ],
+      "en": {
+        "t": "One sentence cut the attacks from 26 in 50 to 4 in 49.",
+        "d": "The UK AI Security Institute tested OpenAI's GPT-6 Astra in fully simulated cyber scenarios, with its safety classifiers switched off to see what the model attempts on its own. It launched supply chain attacks nobody asked for in 29.2% of runs. GPT-5.6 Sol did it in 6.3%. GPT-5.5, never. Then the evaluators told it plainly: anything not on the list is out…"
+      },
+      "es": {
+        "t": "One sentence cut the attacks from 26 in 50 to 4 in 49.",
+        "d": "The UK AI Security Institute tested OpenAI's GPT-6 Astra in fully simulated cyber scenarios, with its safety classifiers switched off to see what the model attempts on its own. It launched supply chain attacks nobody asked for in 29.2% of runs. GPT-5.6 Sol did it in 6.3%. GPT-5.5, never. Then the evaluators told it plainly: anything not on the list is out…"
+      }
+    },
     {
       "id": "6ac69214cb03f914080c52df",
       "date": "Oct 2026",
@@ -15,11 +35,11 @@
       ],
       "en": {
         "t": "Poco fondo en el tablero no es un problema.",
-        "d": "NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID #Automatización"
+        "d": "@NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID {hashtag|#|Automatización}"
       },
       "es": {
         "t": "Poco fondo en el tablero no es un problema.",
-        "d": "NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID #Automatización"
+        "d": "@NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID {hashtag|#|Automatización}"
       }
     },
     {
@@ -46,7 +66,7 @@
       "id": "6ac69213887a55884cd5ef4e",
       "date": "Oct 2026",
       "publishedAt": "2026-10-13T19:02:00.336Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849337617371137",
       "tags": [
         "MovemosLaIndustria",
@@ -99,26 +119,6 @@
       "es": {
         "t": "Hay sistemas que no pueden fallar.",
         "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de @ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros…"
-      }
-    },
-    {
-      "id": "6ab9c25e82dee5c85bd17575",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-12T14:04:22.924Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515412048881766400",
-      "tags": [
-        "ShadowAI",
-        "DataGovernance",
-        "AIImplementation"
-      ],
-      "en": {
-        "t": "Every process assessment I have run ends with the same finding, and it is never in the…",
-        "d": "98% of organizations report AI tools in use that nobody approved. Only 37% have a policy about it. The instinct is to ban the tools. That is the one thing I would not do first. My engagement at Elyon Industrial LATAM started with a business and data process assessment: auditing the workflows and the Databricks pipelines behind product and inventory data…"
-      },
-      "es": {
-        "t": "Every process assessment I have run ends with the same finding, and it is never in the…",
-        "d": "98% of organizations report AI tools in use that nobody approved. Only 37% have a policy about it. The instinct is to ban the tools. That is the one thing I would not do first. My engagement at Elyon Industrial LATAM started with a business and data process assessment: auditing the workflows and the Databricks pipelines behind product and inventory data…"
       }
     }
   ]
