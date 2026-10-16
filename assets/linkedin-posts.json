@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-15T17:05:32.007Z",
+  "generatedAt": "2026-10-16T16:43:07.388Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac698324026b2413e1d6386",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-16T14:04:06.688Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516861532048244737",
+      "tags": [
+        "work",
+        "AgenticAI",
+        "RAG"
+      ],
+      "en": {
+        "t": "Every system on my site shows what failed, not just what worked.",
+        "d": "Demos are easy to love. They run once, on the happy path, in front of the people who built them. The Systems section works differently. Each project is public, runnable and documented as a case study, with numbers from real runs: Retail Intelligence Pipeline: 123 listings scraped, 39 of 42 recommendations passed the validation gate, 3 blocked with reasons.…"
+      },
+      "es": {
+        "t": "Every system on my site shows what failed, not just what worked.",
+        "d": "Demos are easy to love. They run once, on the happy path, in front of the people who built them. The Systems section works differently. Each project is public, runnable and documented as a case study, with numbers from real runs: Retail Intelligence Pipeline: 123 listings scraped, 39 of 42 recommendations passed the validation gate, 3 blocked with reasons.…"
+      }
+    },
     {
       "id": "6ac698aa819a4d01246b4633",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac69831819a4d01246b2f69",
       "date": "Oct 2026",
       "publishedAt": "2026-10-14T14:03:35.621Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516136627296075778",
       "tags": [
         "AIEngineer",
@@ -99,26 +119,6 @@
       "es": {
         "t": "Four AI labs were asked one question this week.",
         "d": "None of them said yes. On October 6, the New York City Council asked OpenAI, Anthropic, Meta and Google to guarantee that their AI agents will always respect their safeguards. OpenAI: \"It is not possible for me to commit or guarantee that any technology is without risk.\" Anthropic: \"The science of doing this is fundamentally hard and unsettled.\" I respect…"
-      }
-    },
-    {
-      "id": "6ac6922017cec261e6a6dc69",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-12T19:02:13.753Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515487006064365568",
-      "tags": [
-        "MovemosLaIndustria",
-        "ABB",
-        "IndustriaCR"
-      ],
-      "en": {
-        "t": "Hay sistemas que no pueden fallar.",
-        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de @ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros…"
-      },
-      "es": {
-        "t": "Hay sistemas que no pueden fallar.",
-        "d": "Ocho gabinetes, un solo estándar: el mejor. ⚡ +400 breakers, revisados uno por uno ⚡ +50 m de barra de cobre ⚡ 24 interruptores principales y +3 000 A de capacidad Elegimos componentes de clase mundial de @ABB, y después nuestro equipo pone cada pieza en su lugar, con el sello de Elyon. Nada sale de Elyon sin estar perfecto. ¿Su proyecto necesita tableros…"
       }
     }
   ]
