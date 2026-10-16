@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-16T16:43:07.388Z",
+  "generatedAt": "2026-10-16T21:15:21.732Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac6921617cec261e6a6db6a",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-16T19:02:42.067Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516936676477427712",
+      "tags": [
+        "MovemosLaIndustria",
+        "Finder",
+        "Automatización"
+      ],
+      "en": {
+        "t": "Automatice sin complicar el tablero.",
+        "d": "OPTA de FINDER S.p.A., desarrollado con Arduino: un controlador compacto en riel DIN con conectividad Ethernet y Wi-Fi, listo para conectar motores, sensores, válvulas y su red. Consulte con Elyon su proyecto de automatización. 🌐 elyonindustrial.com #MovemosLaIndustria #Finder #Automatización #PLC #IIoT"
+      },
+      "es": {
+        "t": "Automatice sin complicar el tablero.",
+        "d": "OPTA de FINDER S.p.A., desarrollado con Arduino: un controlador compacto en riel DIN con conectividad Ethernet y Wi-Fi, listo para conectar motores, sensores, válvulas y su red. Consulte con Elyon su proyecto de automatización. 🌐 elyonindustrial.com #MovemosLaIndustria #Finder #Automatización #PLC #IIoT"
+      }
+    },
     {
       "id": "6ac698324026b2413e1d6386",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac69214cb03f914080c52df",
       "date": "Oct 2026",
       "publishedAt": "2026-10-14T19:02:45.659Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516211915589705728",
       "tags": [
         "MovemosLaIndustria",
@@ -99,26 +119,6 @@
       "es": {
         "t": "Proteja cada circuito desde el riel.",
         "d": "@ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB {hashtag|#|ProtecciónEléctrica} {hashtag|#|TablerosEléctricos}"
-      }
-    },
-    {
-      "id": "6ac698a94b237fa33e436aac",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-13T14:03:40.830Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515774261781745664",
-      "tags": [
-        "AIGovernance",
-        "AgenticAI",
-        "AIAgents"
-      ],
-      "en": {
-        "t": "Four AI labs were asked one question this week.",
-        "d": "None of them said yes. On October 6, the New York City Council asked OpenAI, Anthropic, Meta and Google to guarantee that their AI agents will always respect their safeguards. OpenAI: \"It is not possible for me to commit or guarantee that any technology is without risk.\" Anthropic: \"The science of doing this is fundamentally hard and unsettled.\" I respect…"
-      },
-      "es": {
-        "t": "Four AI labs were asked one question this week.",
-        "d": "None of them said yes. On October 6, the New York City Council asked OpenAI, Anthropic, Meta and Google to guarantee that their AI agents will always respect their safeguards. OpenAI: \"It is not possible for me to commit or guarantee that any technology is without risk.\" Anthropic: \"The science of doing this is fundamentally hard and unsettled.\" I respect…"
       }
     }
   ]
