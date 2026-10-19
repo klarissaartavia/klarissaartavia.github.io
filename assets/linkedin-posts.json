@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-10-17T15:39:33.458Z",
+  "generatedAt": "2026-10-19T20:36:43.059Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac6921817cec261e6a6dbb1",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-19T19:02:55.196Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518023894809899008",
+      "tags": [
+        "MovemosLaIndustria",
+        "NOVUS",
+        "ABB"
+      ],
+      "en": {
+        "t": "Ajuste su proceso sin ir al tablero.",
+        "d": "🔹 NOVUS Automation N20K: controlador de procesos con Wi-Fi y MQTT, para configurar y monitorear su proceso de forma remota. 🔹 Contactor ABB serie AF de 3 polos, para arrancar su motor con confianza. Control y potencia, en un mismo tablero. Consulte con Elyon los módulos y el contactor para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS…"
+      },
+      "es": {
+        "t": "Ajuste su proceso sin ir al tablero.",
+        "d": "🔹 NOVUS Automation N20K: controlador de procesos con Wi-Fi y MQTT, para configurar y monitorear su proceso de forma remota. 🔹 Contactor ABB serie AF de 3 polos, para arrancar su motor con confianza. Control y potencia, en un mismo tablero. Consulte con Elyon los módulos y el contactor para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS…"
+      }
+    },
+    {
+      "id": "6ac698aa4026b2413e1d7e7a",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-19T14:03:41.861Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7517948591492087808",
+      "tags": [
+        "AIPolicy",
+        "AIGovernance",
+        "AIRegulation"
+      ],
+      "en": {
+        "t": "California passed 13 AI laws in one day.",
+        "d": "None of them will catch a bad output. On September 30, Sacramento signed 13 AI bills at once. The day before, the White House and six AI companies signed a voluntary accord. On October 1, Connecticut's own AI act took effect. There is still no federal standard, so a company selling across states now reads several rulebooks for the same system. A law…"
+      },
+      "es": {
+        "t": "California passed 13 AI laws in one day.",
+        "d": "None of them will catch a bad output. On September 30, Sacramento signed 13 AI bills at once. The day before, the White House and six AI companies signed a voluntary accord. On October 1, Connecticut's own AI act took effect. There is still no federal standard, so a company selling across states now reads several rulebooks for the same system. A law…"
+      }
+    },
     {
       "id": "6ac6921617cec261e6a6db6a",
       "date": "Oct 2026",
@@ -26,7 +66,7 @@
       "id": "6ac698324026b2413e1d6386",
       "date": "Oct 2026",
       "publishedAt": "2026-10-16T14:04:06.688Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516861532048244737",
       "tags": [
         "work",
@@ -46,7 +86,7 @@
       "id": "6ac698aa819a4d01246b4633",
       "date": "Oct 2026",
       "publishedAt": "2026-10-15T14:04:11.869Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7516499165607018497",
       "tags": [
         "AgenticAI",
@@ -80,45 +120,6 @@
       "es": {
         "t": "Poco fondo en el tablero no es un problema.",
         "d": "@NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID {hashtag|#|Automatización}"
-      }
-    },
-    {
-      "id": "6ac69831819a4d01246b2f69",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-14T14:03:35.621Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516136627296075778",
-      "tags": [
-        "AIEngineer",
-        "DataStrategy",
-        "Portfolio"
-      ],
-      "en": {
-        "t": "For six years my work lived in five places.",
-        "d": "Now it lives in one. GitHub had the code. My CV had the roles. LinkedIn had the stories. Client decks had the results. The Elyon film lived on a hard drive. None of them answered the question people actually ask me: what do you build, and does it work? So I built a site that does. 🚀 Inside you will find: The national analytics platform where incremental…"
-      },
-      "es": {
-        "t": "For six years my work lived in five places.",
-        "d": "Now it lives in one. GitHub had the code. My CV had the roles. LinkedIn had the stories. Client decks had the results. The Elyon film lived on a hard drive. None of them answered the question people actually ask me: what do you build, and does it work? So I built a site that does. 🚀 Inside you will find: The national analytics platform where incremental…"
-      }
-    },
-    {
-      "id": "6ac69213887a55884cd5ef4e",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-13T19:02:00.336Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849337617371137",
-      "tags": [
-        "MovemosLaIndustria",
-        "ABB"
-      ],
-      "en": {
-        "t": "Proteja cada circuito desde el riel.",
-        "d": "@ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB {hashtag|#|ProtecciónEléctrica} {hashtag|#|TablerosEléctricos}"
-      },
-      "es": {
-        "t": "Proteja cada circuito desde el riel.",
-        "d": "@ABB SH203 C16: interruptor termomagnético de 3 polos. ▸ Curva C · 16 A ▸ Montaje en riel DIN Consulte con Elyon la protección adecuada para su tablero. 🌐 elyonindustrial.com #MovemosLaIndustria #ABB {hashtag|#|ProtecciónEléctrica} {hashtag|#|TablerosEléctricos}"
       }
     }
   ]
