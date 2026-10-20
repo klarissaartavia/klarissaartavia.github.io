@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:36:43.059Z",
+  "generatedAt": "2026-10-20T00:24:20.655Z",
   "source": "buffer",
   "posts": [
     {
@@ -69,9 +69,9 @@
       "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516861532048244737",
       "tags": [
-        "work",
         "AgenticAI",
-        "RAG"
+        "RAG",
+        "MachineLearning"
       ],
       "en": {
         "t": "Every system on my site shows what failed, not just what worked.",
