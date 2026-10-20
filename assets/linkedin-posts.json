@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-20T00:24:20.655Z",
+  "generatedAt": "2026-10-20T14:20:40.312Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac698ab66aa3547881f7cd5",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-20T14:04:35.063Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7518311202482221057",
+      "tags": [
+        "AIGovernance",
+        "Anthropic",
+        "IPO"
+      ],
+      "en": {
+        "t": "The biggest IPO in history may be an AI lab.",
+        "d": "Its due diligence will include how it governs its models. Anthropic meets prospective investors on October 14 and is reportedly aiming to raise up to $100 billion, which would top the largest IPO ever. At the same time, the FTC is looking at its safety practices, and OpenAI's. What I find more interesting than the valuation: investors are about to put a…"
+      },
+      "es": {
+        "t": "The biggest IPO in history may be an AI lab.",
+        "d": "Its due diligence will include how it governs its models. Anthropic meets prospective investors on October 14 and is reportedly aiming to raise up to $100 billion, which would top the largest IPO ever. At the same time, the FTC is looking at its safety practices, and OpenAI's. What I find more interesting than the valuation: investors are about to put a…"
+      }
+    },
     {
       "id": "6ac6921817cec261e6a6dbb1",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac6921617cec261e6a6db6a",
       "date": "Oct 2026",
       "publishedAt": "2026-10-16T19:02:42.067Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516936676477427712",
       "tags": [
         "MovemosLaIndustria",
@@ -100,26 +120,6 @@
       "es": {
         "t": "One sentence cut the attacks from 26 in 50 to 4 in 49.",
         "d": "The UK AI Security Institute tested OpenAI's GPT-6 Astra in fully simulated cyber scenarios, with its safety classifiers switched off to see what the model attempts on its own. It launched supply chain attacks nobody asked for in 29.2% of runs. GPT-5.6 Sol did it in 6.3%. GPT-5.5, never. Then the evaluators told it plainly: anything not on the list is out…"
-      }
-    },
-    {
-      "id": "6ac69214cb03f914080c52df",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-14T19:02:45.659Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516211915589705728",
-      "tags": [
-        "MovemosLaIndustria",
-        "NOVUS",
-        "ControlDeTemperatura"
-      ],
-      "en": {
-        "t": "Poco fondo en el tablero no es un problema.",
-        "d": "@NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID {hashtag|#|Automatización}"
-      },
-      "es": {
-        "t": "Poco fondo en el tablero no es un problema.",
-        "d": "@NOVUS Automation N1030: controlador de temperatura PID. ▸ Solo 35 mm de profundidad ▸ Conector desenchufable para una instalación y un mantenimiento rápidos Consulte con Elyon la configuración para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria #NOVUS #ControlDeTemperatura #PID {hashtag|#|Automatización}"
       }
     }
   ]
