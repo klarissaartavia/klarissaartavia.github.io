@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-20T19:19:11.597Z",
+  "generatedAt": "2026-10-21T17:16:19.830Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ac69833819a4d01246b3058",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-21T14:05:13.766Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518673753678086144",
+      "tags": [
+        "contact",
+        "AIConsulting",
+        "AgenticAI"
+      ],
+      "en": {
+        "t": "I'm opening space for a few new AI projects.",
+        "d": "Most of my engagements start the same way: one broken workflow. A report that takes four hours. A catalogue nobody can search. A price set by gut feeling. They end with a system that runs without anyone remembering it exists. What I build: Agentic pipelines and LLM tool use, behind a validation gate nothing bypasses. RAG copilots grounded in your own…"
+      },
+      "es": {
+        "t": "I'm opening space for a few new AI projects.",
+        "d": "Most of my engagements start the same way: one broken workflow. A report that takes four hours. A catalogue nobody can search. A price set by gut feeling. They end with a system that runs without anyone remembering it exists. What I build: Agentic pipelines and LLM tool use, behind a validation gate nothing bypasses. RAG copilots grounded in your own…"
+      }
+    },
     {
       "id": "6ac698ab66aa3547881f7cd5",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac698aa4026b2413e1d7e7a",
       "date": "Oct 2026",
       "publishedAt": "2026-10-19T14:03:41.861Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7517948591492087808",
       "tags": [
         "AIPolicy",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Every system on my site shows what failed, not just what worked.",
         "d": "Demos are easy to love. They run once, on the happy path, in front of the people who built them. The Systems section works differently. Each project is public, runnable and documented as a case study, with numbers from real runs: Retail Intelligence Pipeline: 123 listings scraped, 39 of 42 recommendations passed the validation gate, 3 blocked with reasons.…"
-      }
-    },
-    {
-      "id": "6ac698aa819a4d01246b4633",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-15T14:04:11.869Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7516499165607018497",
-      "tags": [
-        "AgenticAI",
-        "AISafety",
-        "AIAgents"
-      ],
-      "en": {
-        "t": "One sentence cut the attacks from 26 in 50 to 4 in 49.",
-        "d": "The UK AI Security Institute tested OpenAI's GPT-6 Astra in fully simulated cyber scenarios, with its safety classifiers switched off to see what the model attempts on its own. It launched supply chain attacks nobody asked for in 29.2% of runs. GPT-5.6 Sol did it in 6.3%. GPT-5.5, never. Then the evaluators told it plainly: anything not on the list is out…"
-      },
-      "es": {
-        "t": "One sentence cut the attacks from 26 in 50 to 4 in 49.",
-        "d": "The UK AI Security Institute tested OpenAI's GPT-6 Astra in fully simulated cyber scenarios, with its safety classifiers switched off to see what the model attempts on its own. It launched supply chain attacks nobody asked for in 29.2% of runs. GPT-5.6 Sol did it in 6.3%. GPT-5.5, never. Then the evaluators told it plainly: anything not on the list is out…"
       }
     }
   ]
