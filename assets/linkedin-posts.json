@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:16:19.830Z",
+  "generatedAt": "2026-10-22T04:55:33.393Z",
   "source": "buffer",
   "posts": [
     {
@@ -9,9 +9,9 @@
       "feat": true,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518673753678086144",
       "tags": [
-        "contact",
         "AIConsulting",
-        "AgenticAI"
+        "AgenticAI",
+        "DataStrategy"
       ],
       "en": {
         "t": "I'm opening space for a few new AI projects.",
@@ -20,6 +20,26 @@
       "es": {
         "t": "I'm opening space for a few new AI projects.",
         "d": "Most of my engagements start the same way: one broken workflow. A report that takes four hours. A catalogue nobody can search. A price set by gut feeling. They end with a system that runs without anyone remembering it exists. What I build: Agentic pipelines and LLM tool use, behind a validation gate nothing bypasses. RAG copilots grounded in your own…"
+      }
+    },
+    {
+      "id": "6ad93b34490abc64de1f9076",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-21T14:01:25.235Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518550347343224832",
+      "tags": [
+        "TechnicalConsultant",
+        "DataAnalytics",
+        "SupplyChain"
+      ],
+      "en": {
+        "t": "I’m happy to share that I’m starting a new position as Technical Consultant at @Stelvio…",
+        "d": "This role brings together two parts of my background: international trade and supply chain, alongside data analytics, automation, and AI. I’ll be working with business and technical teams to improve processes, support planning implementations, and turn data into useful solutions. I’m looking forward to learning from my new colleagues, contributing my…"
+      },
+      "es": {
+        "t": "I’m happy to share that I’m starting a new position as Technical Consultant at @Stelvio…",
+        "d": "This role brings together two parts of my background: international trade and supply chain, alongside data analytics, automation, and AI. I’ll be working with business and technical teams to improve processes, support planning implementations, and turn data into useful solutions. I’m looking forward to learning from my new colleagues, contributing my…"
       }
     },
     {
@@ -46,7 +66,7 @@
       "id": "6ac6921817cec261e6a6dbb1",
       "date": "Oct 2026",
       "publishedAt": "2026-10-19T19:02:55.196Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518023894809899008",
       "tags": [
         "MovemosLaIndustria",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Automatice sin complicar el tablero.",
         "d": "OPTA de @FINDER S.p.A., desarrollado con @Arduino: un controlador compacto en riel DIN con conectividad Ethernet y Wi-Fi, listo para conectar motores, sensores, válvulas y su red. Consulte con Elyon su proyecto de automatización. 🌐 elyonindustrial.com #MovemosLaIndustria #Finder {hashtag|#|Automatización} #PLC #IIoT"
-      }
-    },
-    {
-      "id": "6ac698324026b2413e1d6386",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-16T14:04:06.688Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516861532048244737",
-      "tags": [
-        "AgenticAI",
-        "RAG",
-        "MachineLearning"
-      ],
-      "en": {
-        "t": "Every system on my site shows what failed, not just what worked.",
-        "d": "Demos are easy to love. They run once, on the happy path, in front of the people who built them. The Systems section works differently. Each project is public, runnable and documented as a case study, with numbers from real runs: Retail Intelligence Pipeline: 123 listings scraped, 39 of 42 recommendations passed the validation gate, 3 blocked with reasons.…"
-      },
-      "es": {
-        "t": "Every system on my site shows what failed, not just what worked.",
-        "d": "Demos are easy to love. They run once, on the happy path, in front of the people who built them. The Systems section works differently. Each project is public, runnable and documented as a case study, with numbers from real runs: Retail Intelligence Pipeline: 123 listings scraped, 39 of 42 recommendations passed the validation gate, 3 blocked with reasons.…"
       }
     }
   ]
