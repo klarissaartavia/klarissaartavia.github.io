@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-22T04:55:33.393Z",
+  "generatedAt": "2026-10-28T05:48:27.793Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6ae12524b8ef5fa28e0e7d48",
+      "date": "Oct 2026",
+      "publishedAt": "2026-10-27T01:54:05.220Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7520664085068337152",
+      "tags": [
+        "IA",
+        "Ciberseguridad",
+        "AgentesDeIA"
+      ],
+      "en": {
+        "t": "La semana pasada, la NSA y el FBI pidieron algo poco habitual: parchear PHP de inmediato o…",
+        "d": "Casi al mismo tiempo, Railway y OpenCode confirmaron que atacantes accedieron a secretos de clientes. Para quien construye con IA, una clave de API vale como dinero en efectivo. 🔑 En mis sistemas de agentes y pipelines de datos aplico tres reglas: cada agente tiene una sola responsabilidad, ninguna salida llega a los usuarios sin validación, y las…"
+      },
+      "es": {
+        "t": "La semana pasada, la NSA y el FBI pidieron algo poco habitual: parchear PHP de inmediato o…",
+        "d": "Casi al mismo tiempo, Railway y OpenCode confirmaron que atacantes accedieron a secretos de clientes. Para quien construye con IA, una clave de API vale como dinero en efectivo. 🔑 En mis sistemas de agentes y pipelines de datos aplico tres reglas: cada agente tiene una sola responsabilidad, ninguna salida llega a los usuarios sin validación, y las…"
+      }
+    },
     {
       "id": "6ac69833819a4d01246b3058",
       "date": "Oct 2026",
@@ -46,7 +66,7 @@
       "id": "6ac698ab66aa3547881f7cd5",
       "date": "Oct 2026",
       "publishedAt": "2026-10-20T14:04:35.063Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7518311202482221057",
       "tags": [
         "AIGovernance",
@@ -100,26 +120,6 @@
       "es": {
         "t": "California passed 13 AI laws in one day.",
         "d": "None of them will catch a bad output. On September 30, Sacramento signed 13 AI bills at once. The day before, the White House and six AI companies signed a voluntary accord. On October 1, Connecticut's own AI act took effect. There is still no federal standard, so a company selling across states now reads several rulebooks for the same system. A law…"
-      }
-    },
-    {
-      "id": "6ac6921617cec261e6a6db6a",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-16T19:02:42.067Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516936676477427712",
-      "tags": [
-        "MovemosLaIndustria",
-        "Finder",
-        "PLC"
-      ],
-      "en": {
-        "t": "Automatice sin complicar el tablero.",
-        "d": "OPTA de @FINDER S.p.A., desarrollado con @Arduino: un controlador compacto en riel DIN con conectividad Ethernet y Wi-Fi, listo para conectar motores, sensores, válvulas y su red. Consulte con Elyon su proyecto de automatización. 🌐 elyonindustrial.com #MovemosLaIndustria #Finder {hashtag|#|Automatización} #PLC #IIoT"
-      },
-      "es": {
-        "t": "Automatice sin complicar el tablero.",
-        "d": "OPTA de @FINDER S.p.A., desarrollado con @Arduino: un controlador compacto en riel DIN con conectividad Ethernet y Wi-Fi, listo para conectar motores, sensores, válvulas y su red. Consulte con Elyon su proyecto de automatización. 🌐 elyonindustrial.com #MovemosLaIndustria #Finder {hashtag|#|Automatización} #PLC #IIoT"
       }
     }
   ]
