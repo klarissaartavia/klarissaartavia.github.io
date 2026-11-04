@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-10-28T05:48:27.793Z",
+  "generatedAt": "2026-11-04T23:43:16.074Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb8dee8aec178794a33648",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-04T19:56:53.266Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523835682012721152",
+      "tags": [
+        "ElyonIndustrial",
+        "CalentamientoIndustrial",
+        "Industria"
+      ],
+      "en": {
+        "t": "Detrás de cada proceso industrial hay soluciones que trabajan fuera de la vista.",
+        "d": "En este video mostramos una resistencia de inmersión: el equipo, sus componentes y su aplicación en tanques de proceso. En Elyon Industrial te acompañamos a encontrar una solución de calentamiento para tu aplicación. Conversemos sobre las necesidades de tu planta. #ElyonIndustrial #CalentamientoIndustrial #Industria"
+      },
+      "es": {
+        "t": "Detrás de cada proceso industrial hay soluciones que trabajan fuera de la vista.",
+        "d": "En este video mostramos una resistencia de inmersión: el equipo, sus componentes y su aplicación en tanques de proceso. En Elyon Industrial te acompañamos a encontrar una solución de calentamiento para tu aplicación. Conversemos sobre las necesidades de tu planta. #ElyonIndustrial #CalentamientoIndustrial #Industria"
+      }
+    },
+    {
+      "id": "6aeb773c7631b8ab98bdf72a",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-04T19:00:56.020Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7523821601268838401",
+      "tags": [
+        "ElyonIndustrial",
+        "ControlDeProcesos",
+        "NOVUS"
+      ],
+      "en": {
+        "t": "La selección de un controlador térmico empieza por el proceso: qué variable necesita…",
+        "d": "El NOVUS N1050 USB combina temperatura y tiempo, con conector extraíble para facilitar el acceso a las conexiones. La referencia 8105000000 incorpora una salida a relé y una de pulso, con alimentación de 100–240 Vca/cc. En Elyon Industrial le ayudamos a revisar la configuración para su equipo y su aplicación. ventas@elyonindustrial.com #ElyonIndustrial…"
+      },
+      "es": {
+        "t": "La selección de un controlador térmico empieza por el proceso: qué variable necesita…",
+        "d": "El NOVUS N1050 USB combina temperatura y tiempo, con conector extraíble para facilitar el acceso a las conexiones. La referencia 8105000000 incorpora una salida a relé y una de pulso, con alimentación de 100–240 Vca/cc. En Elyon Industrial le ayudamos a revisar la configuración para su equipo y su aplicación. ventas@elyonindustrial.com #ElyonIndustrial…"
+      }
+    },
     {
       "id": "6ae12524b8ef5fa28e0e7d48",
       "date": "Oct 2026",
@@ -26,7 +66,7 @@
       "id": "6ac69833819a4d01246b3058",
       "date": "Oct 2026",
       "publishedAt": "2026-10-21T14:05:13.766Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518673753678086144",
       "tags": [
         "AIConsulting",
@@ -46,7 +86,7 @@
       "id": "6ad93b34490abc64de1f9076",
       "date": "Oct 2026",
       "publishedAt": "2026-10-21T14:01:25.235Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518550347343224832",
       "tags": [
         "TechnicalConsultant",
@@ -80,46 +120,6 @@
       "es": {
         "t": "The biggest IPO in history may be an AI lab.",
         "d": "Its due diligence will include how it governs its models. Anthropic meets prospective investors on October 14 and is reportedly aiming to raise up to $100 billion, which would top the largest IPO ever. At the same time, the FTC is looking at its safety practices, and OpenAI's. What I find more interesting than the valuation: investors are about to put a…"
-      }
-    },
-    {
-      "id": "6ac6921817cec261e6a6dbb1",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-19T19:02:55.196Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518023894809899008",
-      "tags": [
-        "MovemosLaIndustria",
-        "NOVUS",
-        "ABB"
-      ],
-      "en": {
-        "t": "Ajuste su proceso sin ir al tablero.",
-        "d": "🔹 @NOVUS Automation N20K: controlador de procesos con Wi-Fi y MQTT, para configurar y monitorear su proceso de forma remota. 🔹 Contactor @ABB serie AF de 3 polos, para arrancar su motor con confianza. Control y potencia, en un mismo tablero. Consulte con Elyon los módulos y el contactor para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria…"
-      },
-      "es": {
-        "t": "Ajuste su proceso sin ir al tablero.",
-        "d": "🔹 @NOVUS Automation N20K: controlador de procesos con Wi-Fi y MQTT, para configurar y monitorear su proceso de forma remota. 🔹 Contactor @ABB serie AF de 3 polos, para arrancar su motor con confianza. Control y potencia, en un mismo tablero. Consulte con Elyon los módulos y el contactor para su aplicación. 🌐 elyonindustrial.com #MovemosLaIndustria…"
-      }
-    },
-    {
-      "id": "6ac698aa4026b2413e1d7e7a",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-19T14:03:41.861Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7517948591492087808",
-      "tags": [
-        "AIPolicy",
-        "AIGovernance",
-        "AIRegulation"
-      ],
-      "en": {
-        "t": "California passed 13 AI laws in one day.",
-        "d": "None of them will catch a bad output. On September 30, Sacramento signed 13 AI bills at once. The day before, the White House and six AI companies signed a voluntary accord. On October 1, Connecticut's own AI act took effect. There is still no federal standard, so a company selling across states now reads several rulebooks for the same system. A law…"
-      },
-      "es": {
-        "t": "California passed 13 AI laws in one day.",
-        "d": "None of them will catch a bad output. On September 30, Sacramento signed 13 AI bills at once. The day before, the White House and six AI companies signed a voluntary accord. On October 1, Connecticut's own AI act took effect. There is still no federal standard, so a company selling across states now reads several rulebooks for the same system. A law…"
       }
     }
   ]
