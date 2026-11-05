@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-04T23:43:16.074Z",
+  "generatedAt": "2026-11-05T23:40:20.884Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb776d79e2b7f790e2f50b",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-05T19:02:29.184Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7524184380161015808",
+      "tags": [
+        "ElyonIndustrial",
+        "ABB",
+        "ControlDeMotores"
+      ],
+      "en": {
+        "t": "El contactor forma parte de una selección que incluye la carga, la tensión de mando y la…",
+        "d": "El ABB AF26-30-00-13 ofrece 3 polos de potencia y bobina de 100–250 V CA/CC. Su referencia ABB es 1SBL237001R1300. Para especificarlo, conviene partir de los datos del motor y de las condiciones de operación del tablero. En Elyon Industrial podemos acompañarle en esa revisión y en la selección de los componentes de control. ventas@elyonindustrial.com…"
+      },
+      "es": {
+        "t": "El contactor forma parte de una selección que incluye la carga, la tensión de mando y la…",
+        "d": "El ABB AF26-30-00-13 ofrece 3 polos de potencia y bobina de 100–250 V CA/CC. Su referencia ABB es 1SBL237001R1300. Para especificarlo, conviene partir de los datos del motor y de las condiciones de operación del tablero. En Elyon Industrial podemos acompañarle en esa revisión y en la selección de los componentes de control. ventas@elyonindustrial.com…"
+      }
+    },
     {
       "id": "6aeb8dee8aec178794a33648",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6ae12524b8ef5fa28e0e7d48",
       "date": "Oct 2026",
       "publishedAt": "2026-10-27T01:54:05.220Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7520664085068337152",
       "tags": [
         "IA",
@@ -100,26 +120,6 @@
       "es": {
         "t": "I’m happy to share that I’m starting a new position as Technical Consultant at @Stelvio…",
         "d": "This role brings together two parts of my background: international trade and supply chain, alongside data analytics, automation, and AI. I’ll be working with business and technical teams to improve processes, support planning implementations, and turn data into useful solutions. I’m looking forward to learning from my new colleagues, contributing my…"
-      }
-    },
-    {
-      "id": "6ac698ab66aa3547881f7cd5",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-20T14:04:35.063Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7518311202482221057",
-      "tags": [
-        "AIGovernance",
-        "Anthropic",
-        "IPO"
-      ],
-      "en": {
-        "t": "The biggest IPO in history may be an AI lab.",
-        "d": "Its due diligence will include how it governs its models. Anthropic meets prospective investors on October 14 and is reportedly aiming to raise up to $100 billion, which would top the largest IPO ever. At the same time, the FTC is looking at its safety practices, and OpenAI's. What I find more interesting than the valuation: investors are about to put a…"
-      },
-      "es": {
-        "t": "The biggest IPO in history may be an AI lab.",
-        "d": "Its due diligence will include how it governs its models. Anthropic meets prospective investors on October 14 and is reportedly aiming to raise up to $100 billion, which would top the largest IPO ever. At the same time, the FTC is looking at its safety practices, and OpenAI's. What I find more interesting than the valuation: investors are about to put a…"
       }
     }
   ]
