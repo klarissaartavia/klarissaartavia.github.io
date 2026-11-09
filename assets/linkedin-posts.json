@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-07T19:27:17.877Z",
+  "generatedAt": "2026-11-09T19:52:01.161Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb776f7631b8ab98be1277",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-09T19:04:06.938Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7525634340593221632",
+      "tags": [
+        "ElyonIndustrial",
+        "ABB",
+        "ControlDeMotores"
+      ],
+      "en": {
+        "t": "En un arranque de motor, el rango de ajuste del guardamotor debe revisarse junto con la…",
+        "d": "El ABB MS116-10, referencia 1SAM250000R1010, ofrece ajuste de 6,3 a 10 A y operación mediante mando giratorio frontal. En Elyon Industrial le ayudamos a revisar guardamotor, contactor y accesorios según los requisitos de su aplicación. Tener los datos del motor a mano permite avanzar con una selección más precisa. Consúltenos en ventas@elyonindustrial.com…"
+      },
+      "es": {
+        "t": "En un arranque de motor, el rango de ajuste del guardamotor debe revisarse junto con la…",
+        "d": "El ABB MS116-10, referencia 1SAM250000R1010, ofrece ajuste de 6,3 a 10 A y operación mediante mando giratorio frontal. En Elyon Industrial le ayudamos a revisar guardamotor, contactor y accesorios según los requisitos de su aplicación. Tener los datos del motor a mano permite avanzar con una selección más precisa. Consúltenos en ventas@elyonindustrial.com…"
+      }
+    },
     {
       "id": "6aeb776e7631b8ab98be1211",
       "date": "Nov 2026",
@@ -45,7 +65,7 @@
       "id": "6aeb8dee8aec178794a33648",
       "date": "Nov 2026",
       "publishedAt": "2026-11-04T19:56:53.266Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523835682012721152",
       "tags": [
         "ElyonIndustrial",
@@ -99,26 +119,6 @@
       "es": {
         "t": "La semana pasada, la NSA y el FBI pidieron algo poco habitual: parchear PHP de inmediato o…",
         "d": "Casi al mismo tiempo, Railway y OpenCode confirmaron que atacantes accedieron a secretos de clientes. Para quien construye con IA, una clave de API vale como dinero en efectivo. 🔑 En mis sistemas de agentes y pipelines de datos aplico tres reglas: cada agente tiene una sola responsabilidad, ninguna salida llega a los usuarios sin validación, y las…"
-      }
-    },
-    {
-      "id": "6ac69833819a4d01246b3058",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-21T14:05:13.766Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518673753678086144",
-      "tags": [
-        "AIConsulting",
-        "AgenticAI",
-        "DataStrategy"
-      ],
-      "en": {
-        "t": "I'm opening space for a few new AI projects.",
-        "d": "Most of my engagements start the same way: one broken workflow. A report that takes four hours. A catalogue nobody can search. A price set by gut feeling. They end with a system that runs without anyone remembering it exists. What I build: Agentic pipelines and LLM tool use, behind a validation gate nothing bypasses. RAG copilots grounded in your own…"
-      },
-      "es": {
-        "t": "I'm opening space for a few new AI projects.",
-        "d": "Most of my engagements start the same way: one broken workflow. A report that takes four hours. A catalogue nobody can search. A price set by gut feeling. They end with a system that runs without anyone remembering it exists. What I build: Agentic pipelines and LLM tool use, behind a validation gate nothing bypasses. RAG copilots grounded in your own…"
       }
     }
   ]
