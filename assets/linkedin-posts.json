@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-09T19:52:01.161Z",
+  "generatedAt": "2026-11-10T21:18:56.241Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb7770600b02e6271f275f",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-10T19:04:09.939Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7525996741708562432",
+      "tags": [
+        "ElyonIndustrial",
+        "Instrumentación",
+        "NOVUS"
+      ],
+      "en": {
+        "t": "Un reemplazo de termostato requiere revisar el sensor, la alimentación y la salida de…",
+        "d": "El NOVUS N321 es un controlador de temperatura de una salida a relé. La referencia 8032104012 acepta termocuplas J, K o T y utiliza alimentación de 100–240 Vca/cc. La familia permite configurar acción de calefacción o refrigeración según el proceso. En Elyon Industrial le ayudamos a comparar estos datos con los de su equipo antes de definir el reemplazo.…"
+      },
+      "es": {
+        "t": "Un reemplazo de termostato requiere revisar el sensor, la alimentación y la salida de…",
+        "d": "El NOVUS N321 es un controlador de temperatura de una salida a relé. La referencia 8032104012 acepta termocuplas J, K o T y utiliza alimentación de 100–240 Vca/cc. La familia permite configurar acción de calefacción o refrigeración según el proceso. En Elyon Industrial le ayudamos a comparar estos datos con los de su equipo antes de definir el reemplazo.…"
+      }
+    },
     {
       "id": "6aeb776f7631b8ab98be1277",
       "date": "Nov 2026",
@@ -45,7 +65,7 @@
       "id": "6aeb776d79e2b7f790e2f50b",
       "date": "Nov 2026",
       "publishedAt": "2026-11-05T19:02:29.184Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7524184380161015808",
       "tags": [
         "ElyonIndustrial",
@@ -99,26 +119,6 @@
       "es": {
         "t": "La selección de un controlador térmico empieza por el proceso: qué variable necesita…",
         "d": "El NOVUS N1050 USB combina temperatura y tiempo, con conector extraíble para facilitar el acceso a las conexiones. La referencia 8105000000 incorpora una salida a relé y una de pulso, con alimentación de 100–240 Vca/cc. En Elyon Industrial le ayudamos a revisar la configuración para su equipo y su aplicación. ventas@elyonindustrial.com #ElyonIndustrial…"
-      }
-    },
-    {
-      "id": "6ae12524b8ef5fa28e0e7d48",
-      "date": "Oct 2026",
-      "publishedAt": "2026-10-27T01:54:05.220Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7520664085068337152",
-      "tags": [
-        "IA",
-        "Ciberseguridad",
-        "AgentesDeIA"
-      ],
-      "en": {
-        "t": "La semana pasada, la NSA y el FBI pidieron algo poco habitual: parchear PHP de inmediato o…",
-        "d": "Casi al mismo tiempo, Railway y OpenCode confirmaron que atacantes accedieron a secretos de clientes. Para quien construye con IA, una clave de API vale como dinero en efectivo. 🔑 En mis sistemas de agentes y pipelines de datos aplico tres reglas: cada agente tiene una sola responsabilidad, ninguna salida llega a los usuarios sin validación, y las…"
-      },
-      "es": {
-        "t": "La semana pasada, la NSA y el FBI pidieron algo poco habitual: parchear PHP de inmediato o…",
-        "d": "Casi al mismo tiempo, Railway y OpenCode confirmaron que atacantes accedieron a secretos de clientes. Para quien construye con IA, una clave de API vale como dinero en efectivo. 🔑 En mis sistemas de agentes y pipelines de datos aplico tres reglas: cada agente tiene una sola responsabilidad, ninguna salida llega a los usuarios sin validación, y las…"
       }
     }
   ]
