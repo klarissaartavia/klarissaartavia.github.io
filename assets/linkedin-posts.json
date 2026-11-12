@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-11T17:12:51.982Z",
+  "generatedAt": "2026-11-12T00:47:10.521Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb7771ed27fe14cf9c5204",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-11T19:05:24.946Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526359444314570752",
+      "tags": [
+        "ElyonIndustrial",
+        "ABB",
+        "TablerosEléctricos"
+      ],
+      "en": {
+        "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
+        "d": "La ABB CP-E 24/2.5, referencia 1SVR427032R0000, ofrece salida de 24 V CC y 2,5 A, con entrada de 100–240 V CA. Su selección requiere revisar el consumo total de los equipos, las condiciones de montaje y las necesidades de la aplicación. En Elyon Industrial le ayudamos a reunir esos datos y a elegir la fuente para su sistema de control.…"
+      },
+      "es": {
+        "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
+        "d": "La ABB CP-E 24/2.5, referencia 1SVR427032R0000, ofrece salida de 24 V CC y 2,5 A, con entrada de 100–240 V CA. Su selección requiere revisar el consumo total de los equipos, las condiciones de montaje y las necesidades de la aplicación. En Elyon Industrial le ayudamos a reunir esos datos y a elegir la fuente para su sistema de control.…"
+      }
+    },
     {
       "id": "6aeb7770600b02e6271f275f",
       "date": "Nov 2026",
@@ -45,7 +65,7 @@
       "id": "6aeb776e7631b8ab98be1211",
       "date": "Nov 2026",
       "publishedAt": "2026-11-06T19:03:15.187Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7524546960272306177",
       "tags": [
         "ElyonIndustrial",
@@ -98,26 +118,6 @@
       "es": {
         "t": "Detrás de cada proceso industrial hay soluciones que trabajan fuera de la vista.",
         "d": "En este video mostramos una resistencia de inmersión: el equipo, sus componentes y su aplicación en tanques de proceso. En Elyon Industrial te acompañamos a encontrar una solución de calentamiento para tu aplicación. Conversemos sobre las necesidades de tu planta. #ElyonIndustrial #CalentamientoIndustrial #Industria"
-      }
-    },
-    {
-      "id": "6aeb773c7631b8ab98bdf72a",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-04T19:00:56.020Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7523821601268838401",
-      "tags": [
-        "ElyonIndustrial",
-        "ControlDeProcesos",
-        "NOVUS"
-      ],
-      "en": {
-        "t": "La selección de un controlador térmico empieza por el proceso: qué variable necesita…",
-        "d": "El NOVUS N1050 USB combina temperatura y tiempo, con conector extraíble para facilitar el acceso a las conexiones. La referencia 8105000000 incorpora una salida a relé y una de pulso, con alimentación de 100–240 Vca/cc. En Elyon Industrial le ayudamos a revisar la configuración para su equipo y su aplicación. ventas@elyonindustrial.com #ElyonIndustrial…"
-      },
-      "es": {
-        "t": "La selección de un controlador térmico empieza por el proceso: qué variable necesita…",
-        "d": "El NOVUS N1050 USB combina temperatura y tiempo, con conector extraíble para facilitar el acceso a las conexiones. La referencia 8105000000 incorpora una salida a relé y una de pulso, con alimentación de 100–240 Vca/cc. En Elyon Industrial le ayudamos a revisar la configuración para su equipo y su aplicación. ventas@elyonindustrial.com #ElyonIndustrial…"
       }
     }
   ]
