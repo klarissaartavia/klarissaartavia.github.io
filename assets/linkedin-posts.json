@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-11-12T00:47:10.521Z",
+  "generatedAt": "2026-11-12T19:59:00.721Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb7772ff365be0286b93d2",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-12T19:05:03.263Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526721740593369089",
+      "tags": [
+        "ElyonIndustrial",
+        "AdquisiciónDeDatos",
+        "NOVUS"
+      ],
+      "en": {
+        "t": "Un valor en pantalla muestra el estado actual.",
+        "d": "Un historial permite revisar cómo cambió el proceso. El NOVUS FieldLogger reúne 8 entradas analógicas universales para proyectos de monitoreo y registro. La referencia 8812191904 corresponde a la versión de 24 V con HMI y conectividad Ethernet, USB y RS485. Puede formar parte de aplicaciones donde se necesita centralizar mediciones y consultar su…"
+      },
+      "es": {
+        "t": "Un valor en pantalla muestra el estado actual.",
+        "d": "Un historial permite revisar cómo cambió el proceso. El NOVUS FieldLogger reúne 8 entradas analógicas universales para proyectos de monitoreo y registro. La referencia 8812191904 corresponde a la versión de 24 V con HMI y conectividad Ethernet, USB y RS485. Puede formar parte de aplicaciones donde se necesita centralizar mediciones y consultar su…"
+      }
+    },
+    {
+      "id": "6af5001f304f8985c471f1d0",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-12T14:01:36.329Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526645375240146945",
+      "tags": [
+        "AI",
+        "GenerativeAI",
+        "Creativity"
+      ],
+      "en": {
+        "t": "AI makes it very easy to ask for \"one more version.\"",
+        "d": "Ten options become twenty. Soon you're comparing tiny differences and forgetting what you wanted in the first place. I think the brief needs a finish line: who this is for, what it should communicate, and what makes it ready to publish. Otherwise, generating becomes a way to postpone choosing. How do you decide when something is ready? #AI #GenerativeAI…"
+      },
+      "es": {
+        "t": "AI makes it very easy to ask for \"one more version.\"",
+        "d": "Ten options become twenty. Soon you're comparing tiny differences and forgetting what you wanted in the first place. I think the brief needs a finish line: who this is for, what it should communicate, and what makes it ready to publish. Otherwise, generating becomes a way to postpone choosing. How do you decide when something is ready? #AI #GenerativeAI…"
+      }
+    },
     {
       "id": "6aeb7771ed27fe14cf9c5204",
       "date": "Nov 2026",
@@ -10,8 +50,7 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7526359444314570752",
       "tags": [
         "ElyonIndustrial",
-        "ABB",
-        "TablerosEléctricos"
+        "ABB"
       ],
       "en": {
         "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
@@ -26,7 +65,7 @@
       "id": "6aeb7770600b02e6271f275f",
       "date": "Nov 2026",
       "publishedAt": "2026-11-10T19:04:09.939Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7525996741708562432",
       "tags": [
         "ElyonIndustrial",
@@ -45,7 +84,7 @@
       "id": "6aeb776f7631b8ab98be1277",
       "date": "Nov 2026",
       "publishedAt": "2026-11-09T19:04:06.938Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7525634340593221632",
       "tags": [
         "ElyonIndustrial",
@@ -78,46 +117,6 @@
       "es": {
         "t": "Para llevar una variable de proceso al frente del tablero, el indicador debe coincidir con…",
         "d": "El NOVUS N1540 ofrece formato de 96 × 48 mm, pantalla LED y configuración por USB. La referencia 8154000220 incorpora 2 relés y salida de 4–20 mA, con alimentación de 100–240 V. Es una alternativa para proyectos de indicación y supervisión de variables industriales. En Elyon Industrial le ayudamos a revisar la entrada y las salidas para su aplicación.…"
-      }
-    },
-    {
-      "id": "6aeb776d79e2b7f790e2f50b",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-05T19:02:29.184Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7524184380161015808",
-      "tags": [
-        "ElyonIndustrial",
-        "ABB",
-        "ControlDeMotores"
-      ],
-      "en": {
-        "t": "El contactor forma parte de una selección que incluye la carga, la tensión de mando y la…",
-        "d": "El ABB AF26-30-00-13 ofrece 3 polos de potencia y bobina de 100–250 V CA/CC. Su referencia ABB es 1SBL237001R1300. Para especificarlo, conviene partir de los datos del motor y de las condiciones de operación del tablero. En Elyon Industrial podemos acompañarle en esa revisión y en la selección de los componentes de control. ventas@elyonindustrial.com…"
-      },
-      "es": {
-        "t": "El contactor forma parte de una selección que incluye la carga, la tensión de mando y la…",
-        "d": "El ABB AF26-30-00-13 ofrece 3 polos de potencia y bobina de 100–250 V CA/CC. Su referencia ABB es 1SBL237001R1300. Para especificarlo, conviene partir de los datos del motor y de las condiciones de operación del tablero. En Elyon Industrial podemos acompañarle en esa revisión y en la selección de los componentes de control. ventas@elyonindustrial.com…"
-      }
-    },
-    {
-      "id": "6aeb8dee8aec178794a33648",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-04T19:56:53.266Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523835682012721152",
-      "tags": [
-        "ElyonIndustrial",
-        "CalentamientoIndustrial",
-        "Industria"
-      ],
-      "en": {
-        "t": "Detrás de cada proceso industrial hay soluciones que trabajan fuera de la vista.",
-        "d": "En este video mostramos una resistencia de inmersión: el equipo, sus componentes y su aplicación en tanques de proceso. En Elyon Industrial te acompañamos a encontrar una solución de calentamiento para tu aplicación. Conversemos sobre las necesidades de tu planta. #ElyonIndustrial #CalentamientoIndustrial #Industria"
-      },
-      "es": {
-        "t": "Detrás de cada proceso industrial hay soluciones que trabajan fuera de la vista.",
-        "d": "En este video mostramos una resistencia de inmersión: el equipo, sus componentes y su aplicación en tanques de proceso. En Elyon Industrial te acompañamos a encontrar una solución de calentamiento para tu aplicación. Conversemos sobre las necesidades de tu planta. #ElyonIndustrial #CalentamientoIndustrial #Industria"
       }
     }
   ]
