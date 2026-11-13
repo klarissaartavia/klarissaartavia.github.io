@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-11-13T01:52:04.264Z",
+  "generatedAt": "2026-11-13T19:46:27.103Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb7772600b02e6271f2812",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-13T19:04:00.516Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7527083866206158848",
+      "tags": [
+        "ElyonIndustrial",
+        "IngenieríaEléctrica",
+        "ABB"
+      ],
+      "en": {
+        "t": "Elegir el gabinete forma parte del diseño del tablero desde el inicio.",
+        "d": "El ABB SRN8830K tiene dimensiones de 800 mm de alto, 800 mm de ancho y 300 mm de profundidad. Es una de las referencias incluidas en el catálogo ABB de Elyon Industrial. Para definir el tamaño, conviene revisar la distribución de componentes, las rutas de cableado, la disipación térmica y el acceso para mantenimiento. Nuestro equipo puede acompañarle en la…"
+      },
+      "es": {
+        "t": "Elegir el gabinete forma parte del diseño del tablero desde el inicio.",
+        "d": "El ABB SRN8830K tiene dimensiones de 800 mm de alto, 800 mm de ancho y 300 mm de profundidad. Es una de las referencias incluidas en el catálogo ABB de Elyon Industrial. Para definir el tamaño, conviene revisar la distribución de componentes, las rutas de cableado, la disipación térmica y el acceso para mantenimiento. Nuestro equipo puede acompañarle en la…"
+      }
+    },
+    {
+      "id": "6af50020bc9f3773a1aa9274",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-13T14:02:32.368Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7527007998897143809",
+      "tags": [
+        "AI",
+        "Prompting",
+        "Communication"
+      ],
+      "en": {
+        "t": "\"Make it better\" leaves a lot for an AI to guess.",
+        "d": "More readable? More convincing? Short enough to read between meetings? Try adding the audience, the purpose, and one example of what you like. Even a simple instruction becomes more useful: \"Explain this to a store manager who needs to decide what to do tomorrow.\" Sometimes writing the prompt reveals that the goal was still unclear. What detail do you…"
+      },
+      "es": {
+        "t": "\"Make it better\" leaves a lot for an AI to guess.",
+        "d": "More readable? More convincing? Short enough to read between meetings? Try adding the audience, the purpose, and one example of what you like. Even a simple instruction becomes more useful: \"Explain this to a store manager who needs to decide what to do tomorrow.\" Sometimes writing the prompt reveals that the goal was still unclear. What detail do you…"
+      }
+    },
     {
       "id": "6aeb7772ff365be0286b93d2",
       "date": "Nov 2026",
@@ -10,7 +50,6 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7526721740593369089",
       "tags": [
         "ElyonIndustrial",
-        "AdquisiciónDeDatos",
         "NOVUS"
       ],
       "en": {
@@ -26,7 +65,7 @@
       "id": "6af5001f304f8985c471f1d0",
       "date": "Nov 2026",
       "publishedAt": "2026-11-12T14:01:36.329Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7526645375240146945",
       "tags": [
         "AI",
@@ -46,7 +85,7 @@
       "id": "6af64ffefcafd2fb10a3784a",
       "date": "Nov 2026",
       "publishedAt": "2026-11-12T00:13:57.688Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526437093481508864",
       "tags": [
         "ketteQ",
@@ -79,45 +118,6 @@
       "es": {
         "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
         "d": "La ABB CP-E 24/2.5, referencia 1SVR427032R0000, ofrece salida de 24 V CC y 2,5 A, con entrada de 100–240 V CA. Su selección requiere revisar el consumo total de los equipos, las condiciones de montaje y las necesidades de la aplicación. En Elyon Industrial le ayudamos a reunir esos datos y a elegir la fuente para su sistema de control.…"
-      }
-    },
-    {
-      "id": "6aeb7770600b02e6271f275f",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-10T19:04:09.939Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7525996741708562432",
-      "tags": [
-        "ElyonIndustrial",
-        "NOVUS"
-      ],
-      "en": {
-        "t": "Un reemplazo de termostato requiere revisar el sensor, la alimentación y la salida de…",
-        "d": "El NOVUS N321 es un controlador de temperatura de una salida a relé. La referencia 8032104012 acepta termocuplas J, K o T y utiliza alimentación de 100–240 Vca/cc. La familia permite configurar acción de calefacción o refrigeración según el proceso. En Elyon Industrial le ayudamos a comparar estos datos con los de su equipo antes de definir el reemplazo.…"
-      },
-      "es": {
-        "t": "Un reemplazo de termostato requiere revisar el sensor, la alimentación y la salida de…",
-        "d": "El NOVUS N321 es un controlador de temperatura de una salida a relé. La referencia 8032104012 acepta termocuplas J, K o T y utiliza alimentación de 100–240 Vca/cc. La familia permite configurar acción de calefacción o refrigeración según el proceso. En Elyon Industrial le ayudamos a comparar estos datos con los de su equipo antes de definir el reemplazo.…"
-      }
-    },
-    {
-      "id": "6aeb776f7631b8ab98be1277",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-09T19:04:06.938Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7525634340593221632",
-      "tags": [
-        "ElyonIndustrial",
-        "ABB",
-        "ControlDeMotores"
-      ],
-      "en": {
-        "t": "En un arranque de motor, el rango de ajuste del guardamotor debe revisarse junto con la…",
-        "d": "El ABB MS116-10, referencia 1SAM250000R1010, ofrece ajuste de 6,3 a 10 A y operación mediante mando giratorio frontal. En Elyon Industrial le ayudamos a revisar guardamotor, contactor y accesorios según los requisitos de su aplicación. Tener los datos del motor a mano permite avanzar con una selección más precisa. Consúltenos en ventas@elyonindustrial.com…"
-      },
-      "es": {
-        "t": "En un arranque de motor, el rango de ajuste del guardamotor debe revisarse junto con la…",
-        "d": "El ABB MS116-10, referencia 1SAM250000R1010, ofrece ajuste de 6,3 a 10 A y operación mediante mando giratorio frontal. En Elyon Industrial le ayudamos a revisar guardamotor, contactor y accesorios según los requisitos de su aplicación. Tener los datos del motor a mano permite avanzar con una selección más precisa. Consúltenos en ventas@elyonindustrial.com…"
       }
     }
   ]
