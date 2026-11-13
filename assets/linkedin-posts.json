@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T19:59:00.721Z",
+  "generatedAt": "2026-11-13T01:52:04.264Z",
   "source": "buffer",
   "posts": [
     {
@@ -43,10 +43,30 @@
       }
     },
     {
+      "id": "6af64ffefcafd2fb10a3784a",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-12T00:13:57.688Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526437093481508864",
+      "tags": [
+        "ketteQ",
+        "SystemArchitecture",
+        "DataIntegration"
+      ],
+      "en": {
+        "t": "The part of technical implementation I enjoy most is understanding how systems fit…",
+        "d": "I recently completed four technical courses through ketteU, covering: 🏗️ System architecture, integration, and security 🔧 Environment setup and migration 📊 Data structures and tables 💻 Navigating and editing ketteQ code Each course helped me connect these concepts and deepen my understanding of implementation within ketteQ. Thank you, @ketteQ for the…"
+      },
+      "es": {
+        "t": "The part of technical implementation I enjoy most is understanding how systems fit…",
+        "d": "I recently completed four technical courses through ketteU, covering: 🏗️ System architecture, integration, and security 🔧 Environment setup and migration 📊 Data structures and tables 💻 Navigating and editing ketteQ code Each course helped me connect these concepts and deepen my understanding of implementation within ketteQ. Thank you, @ketteQ for the…"
+      }
+    },
+    {
       "id": "6aeb7771ed27fe14cf9c5204",
       "date": "Nov 2026",
       "publishedAt": "2026-11-11T19:05:24.946Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7526359444314570752",
       "tags": [
         "ElyonIndustrial",
@@ -98,25 +118,6 @@
       "es": {
         "t": "En un arranque de motor, el rango de ajuste del guardamotor debe revisarse junto con la…",
         "d": "El ABB MS116-10, referencia 1SAM250000R1010, ofrece ajuste de 6,3 a 10 A y operación mediante mando giratorio frontal. En Elyon Industrial le ayudamos a revisar guardamotor, contactor y accesorios según los requisitos de su aplicación. Tener los datos del motor a mano permite avanzar con una selección más precisa. Consúltenos en ventas@elyonindustrial.com…"
-      }
-    },
-    {
-      "id": "6aeb776e7631b8ab98be1211",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-06T19:03:15.187Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7524546960272306177",
-      "tags": [
-        "ElyonIndustrial",
-        "NOVUS"
-      ],
-      "en": {
-        "t": "Para llevar una variable de proceso al frente del tablero, el indicador debe coincidir con…",
-        "d": "El NOVUS N1540 ofrece formato de 96 × 48 mm, pantalla LED y configuración por USB. La referencia 8154000220 incorpora 2 relés y salida de 4–20 mA, con alimentación de 100–240 V. Es una alternativa para proyectos de indicación y supervisión de variables industriales. En Elyon Industrial le ayudamos a revisar la entrada y las salidas para su aplicación.…"
-      },
-      "es": {
-        "t": "Para llevar una variable de proceso al frente del tablero, el indicador debe coincidir con…",
-        "d": "El NOVUS N1540 ofrece formato de 96 × 48 mm, pantalla LED y configuración por USB. La referencia 8154000220 incorpora 2 relés y salida de 4–20 mA, con alimentación de 100–240 V. Es una alternativa para proyectos de indicación y supervisión de variables industriales. En Elyon Industrial le ayudamos a revisar la entrada y las salidas para su aplicación.…"
       }
     }
   ]
