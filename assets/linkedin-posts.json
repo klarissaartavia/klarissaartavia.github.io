@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-11-14T18:10:27.167Z",
+  "generatedAt": "2026-11-16T19:39:05.929Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb777379e2b7f790e2f915",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-16T19:05:21.646Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528171369851793409",
+      "tags": [
+        "ElyonIndustrial",
+        "MonitoreoIndustrial",
+        "NOVUS"
+      ],
+      "en": {
+        "t": "En un proyecto de monitoreo ambiental, importa tanto la medición como la forma de llevar…",
+        "d": "El NOVUS RHT Air+ mide temperatura y humedad relativa, muestra las lecturas localmente y se comunica por LoRa con el gateway AirGate Air+. La referencia 8804400600 corresponde a la versión de 915 MHz. Para definir la solución, revisemos los puntos de medición, las condiciones del sitio y la conectividad requerida. En Elyon Industrial le acompañamos en esa…"
+      },
+      "es": {
+        "t": "En un proyecto de monitoreo ambiental, importa tanto la medición como la forma de llevar…",
+        "d": "El NOVUS RHT Air+ mide temperatura y humedad relativa, muestra las lecturas localmente y se comunica por LoRa con el gateway AirGate Air+. La referencia 8804400600 corresponde a la versión de 915 MHz. Para definir la solución, revisemos los puntos de medición, las condiciones del sitio y la conectividad requerida. En Elyon Industrial le acompañamos en esa…"
+      }
+    },
+    {
+      "id": "6af50020cb4c7286fdffb889",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-16T14:03:22.475Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528095372901224448",
+      "tags": [
+        "AI",
+        "Automation",
+        "Productivity"
+      ],
+      "en": {
+        "t": "Some useful AI tasks sound pretty boring.",
+        "d": "Shortening an email. Organizing scattered notes. Finding the confusing sentence in a proposal. I like these as starting points because the task is specific and the result is easy to check. You can see whether the email is clearer or the notes are actually useful. A small improvement you use every day deserves a place in the AI conversation. Which small…"
+      },
+      "es": {
+        "t": "Some useful AI tasks sound pretty boring.",
+        "d": "Shortening an email. Organizing scattered notes. Finding the confusing sentence in a proposal. I like these as starting points because the task is specific and the result is easy to check. You can see whether the email is clearer or the notes are actually useful. A small improvement you use every day deserves a place in the AI conversation. Which small…"
+      }
+    },
     {
       "id": "6aeb7772600b02e6271f2812",
       "date": "Nov 2026",
@@ -25,7 +65,7 @@
       "id": "6af50020bc9f3773a1aa9274",
       "date": "Nov 2026",
       "publishedAt": "2026-11-13T14:02:32.368Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7527007998897143809",
       "tags": [
         "AI",
@@ -45,7 +85,7 @@
       "id": "6aeb7772ff365be0286b93d2",
       "date": "Nov 2026",
       "publishedAt": "2026-11-12T19:05:03.263Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7526721740593369089",
       "tags": [
         "ElyonIndustrial",
@@ -78,45 +118,6 @@
       "es": {
         "t": "AI makes it very easy to ask for \"one more version.\"",
         "d": "Ten options become twenty. Soon you're comparing tiny differences and forgetting what you wanted in the first place. I think the brief needs a finish line: who this is for, what it should communicate, and what makes it ready to publish. Otherwise, generating becomes a way to postpone choosing. How do you decide when something is ready? #AI #GenerativeAI…"
-      }
-    },
-    {
-      "id": "6af64ffefcafd2fb10a3784a",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-12T00:13:57.688Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526437093481508864",
-      "tags": [
-        "ketteQ",
-        "SystemArchitecture",
-        "DataIntegration"
-      ],
-      "en": {
-        "t": "The part of technical implementation I enjoy most is understanding how systems fit…",
-        "d": "I recently completed four technical courses through ketteU, covering: 🏗️ System architecture, integration, and security 🔧 Environment setup and migration 📊 Data structures and tables 💻 Navigating and editing ketteQ code Each course helped me connect these concepts and deepen my understanding of implementation within ketteQ. Thank you, @ketteQ for the…"
-      },
-      "es": {
-        "t": "The part of technical implementation I enjoy most is understanding how systems fit…",
-        "d": "I recently completed four technical courses through ketteU, covering: 🏗️ System architecture, integration, and security 🔧 Environment setup and migration 📊 Data structures and tables 💻 Navigating and editing ketteQ code Each course helped me connect these concepts and deepen my understanding of implementation within ketteQ. Thank you, @ketteQ for the…"
-      }
-    },
-    {
-      "id": "6aeb7771ed27fe14cf9c5204",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-11T19:05:24.946Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526359444314570752",
-      "tags": [
-        "ElyonIndustrial",
-        "ABB"
-      ],
-      "en": {
-        "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
-        "d": "La ABB CP-E 24/2.5, referencia 1SVR427032R0000, ofrece salida de 24 V CC y 2,5 A, con entrada de 100–240 V CA. Su selección requiere revisar el consumo total de los equipos, las condiciones de montaje y las necesidades de la aplicación. En Elyon Industrial le ayudamos a reunir esos datos y a elegir la fuente para su sistema de control.…"
-      },
-      "es": {
-        "t": "La alimentación del circuito de control merece la misma atención que los demás componentes…",
-        "d": "La ABB CP-E 24/2.5, referencia 1SVR427032R0000, ofrece salida de 24 V CC y 2,5 A, con entrada de 100–240 V CA. Su selección requiere revisar el consumo total de los equipos, las condiciones de montaje y las necesidades de la aplicación. En Elyon Industrial le ayudamos a reunir esos datos y a elegir la fuente para su sistema de control.…"
       }
     }
   ]
