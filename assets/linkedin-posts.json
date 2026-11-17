@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-16T19:39:05.929Z",
+  "generatedAt": "2026-11-17T16:06:39.907Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af50020bc9f3773a1aa92ad",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-17T14:04:07.339Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528457947719405568",
+      "tags": [
+        "AI",
+        "Prompting",
+        "ProblemSolving"
+      ],
+      "en": {
+        "t": "A useful thing to add to an AI prompt: \"Ask me what you need to know before you start.\"",
+        "d": "For a vague task, those questions can be more valuable than an immediate draft. Who will use this? What decision should it support? What information is missing? I'd keep it to a few questions so the conversation stays practical. What would change if your AI asked for clarification before filling in the gaps? #AI #Prompting #ProblemSolving #Communication…"
+      },
+      "es": {
+        "t": "A useful thing to add to an AI prompt: \"Ask me what you need to know before you start.\"",
+        "d": "For a vague task, those questions can be more valuable than an immediate draft. Who will use this? What decision should it support? What information is missing? I'd keep it to a few questions so the conversation stays practical. What would change if your AI asked for clarification before filling in the gaps? #AI #Prompting #ProblemSolving #Communication…"
+      }
+    },
     {
       "id": "6aeb777379e2b7f790e2f915",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6aeb7772600b02e6271f2812",
       "date": "Nov 2026",
       "publishedAt": "2026-11-13T19:04:00.516Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7527083866206158848",
       "tags": [
         "ElyonIndustrial",
@@ -98,26 +118,6 @@
       "es": {
         "t": "Un valor en pantalla muestra el estado actual.",
         "d": "Un historial permite revisar cómo cambió el proceso. El NOVUS FieldLogger reúne 8 entradas analógicas universales para proyectos de monitoreo y registro. La referencia 8812191904 corresponde a la versión de 24 V con HMI y conectividad Ethernet, USB y RS485. Puede formar parte de aplicaciones donde se necesita centralizar mediciones y consultar su…"
-      }
-    },
-    {
-      "id": "6af5001f304f8985c471f1d0",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-12T14:01:36.329Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526645375240146945",
-      "tags": [
-        "AI",
-        "GenerativeAI",
-        "Creativity"
-      ],
-      "en": {
-        "t": "AI makes it very easy to ask for \"one more version.\"",
-        "d": "Ten options become twenty. Soon you're comparing tiny differences and forgetting what you wanted in the first place. I think the brief needs a finish line: who this is for, what it should communicate, and what makes it ready to publish. Otherwise, generating becomes a way to postpone choosing. How do you decide when something is ready? #AI #GenerativeAI…"
-      },
-      "es": {
-        "t": "AI makes it very easy to ask for \"one more version.\"",
-        "d": "Ten options become twenty. Soon you're comparing tiny differences and forgetting what you wanted in the first place. I think the brief needs a finish line: who this is for, what it should communicate, and what makes it ready to publish. Otherwise, generating becomes a way to postpone choosing. How do you decide when something is ready? #AI #GenerativeAI…"
       }
     }
   ]
