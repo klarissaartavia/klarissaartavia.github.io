@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-18T00:59:05.226Z",
+  "generatedAt": "2026-11-18T20:36:57.725Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af50021bc9f3773a1aa92d6",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-18T14:04:16.887Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528820376613769216",
+      "tags": [
+        "AI",
+        "GenerativeAI",
+        "Collaboration"
+      ],
+      "en": {
+        "t": "Imagine a meeting summary that says, \"The team agreed to launch.\"",
+        "d": "In the meeting, one person supported it, two raised concerns, and nobody made a final decision. That's why I'd ask an AI summary to separate decisions, open questions, and disagreements. A smooth paragraph can hide exactly what the next meeting needs to resolve. When you review a summary, check what happened to the uncertainty. What do you usually find…"
+      },
+      "es": {
+        "t": "Imagine a meeting summary that says, \"The team agreed to launch.\"",
+        "d": "In the meeting, one person supported it, two raised concerns, and nobody made a final decision. That's why I'd ask an AI summary to separate decisions, open questions, and disagreements. A smooth paragraph can hide exactly what the next meeting needs to resolve. When you review a summary, check what happened to the uncertainty. What do you usually find…"
+      }
+    },
     {
       "id": "6aeb7774ff365be0286b949b",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6aeb777379e2b7f790e2f915",
       "date": "Nov 2026",
       "publishedAt": "2026-11-16T19:05:21.646Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7528171369851793409",
       "tags": [
         "ElyonIndustrial",
@@ -99,26 +119,6 @@
       "es": {
         "t": "Elegir el gabinete forma parte del diseño del tablero desde el inicio.",
         "d": "El ABB SRN8830K tiene dimensiones de 800 mm de alto, 800 mm de ancho y 300 mm de profundidad. Es una de las referencias incluidas en el catálogo ABB de Elyon Industrial. Para definir el tamaño, conviene revisar la distribución de componentes, las rutas de cableado, la disipación térmica y el acceso para mantenimiento. Nuestro equipo puede acompañarle en la…"
-      }
-    },
-    {
-      "id": "6af50020bc9f3773a1aa9274",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-13T14:02:32.368Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7527007998897143809",
-      "tags": [
-        "AI",
-        "Prompting",
-        "Communication"
-      ],
-      "en": {
-        "t": "\"Make it better\" leaves a lot for an AI to guess.",
-        "d": "More readable? More convincing? Short enough to read between meetings? Try adding the audience, the purpose, and one example of what you like. Even a simple instruction becomes more useful: \"Explain this to a store manager who needs to decide what to do tomorrow.\" Sometimes writing the prompt reveals that the goal was still unclear. What detail do you…"
-      },
-      "es": {
-        "t": "\"Make it better\" leaves a lot for an AI to guess.",
-        "d": "More readable? More convincing? Short enough to read between meetings? Try adding the audience, the purpose, and one example of what you like. Even a simple instruction becomes more useful: \"Explain this to a store manager who needs to decide what to do tomorrow.\" Sometimes writing the prompt reveals that the goal was still unclear. What detail do you…"
       }
     }
   ]
