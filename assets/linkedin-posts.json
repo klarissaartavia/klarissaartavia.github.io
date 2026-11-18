@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-17T16:06:39.907Z",
+  "generatedAt": "2026-11-18T00:59:05.226Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6aeb7774ff365be0286b949b",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-17T19:05:11.760Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528533715396759552",
+      "tags": [
+        "ElyonIndustrial",
+        "PLC",
+        "ABB"
+      ],
+      "en": {
+        "t": "Definir las entradas y salidas es uno de los primeros pasos al automatizar una máquina.",
+        "d": "El ABB PM5012-T-ETH, referencia 1SAP122600R0172, es una CPU de la familia AC500-eCo Basic con 6 entradas digitales, 4 salidas digitales de transistor y alimentación de 24 V CC. En Elyon Industrial le ayudamos a revisar la lista de señales, la lógica de operación y los componentes que acompañarán al PLC. Esa información permite seleccionar el sistema según…"
+      },
+      "es": {
+        "t": "Definir las entradas y salidas es uno de los primeros pasos al automatizar una máquina.",
+        "d": "El ABB PM5012-T-ETH, referencia 1SAP122600R0172, es una CPU de la familia AC500-eCo Basic con 6 entradas digitales, 4 salidas digitales de transistor y alimentación de 24 V CC. En Elyon Industrial le ayudamos a revisar la lista de señales, la lógica de operación y los componentes que acompañarán al PLC. Esa información permite seleccionar el sistema según…"
+      }
+    },
     {
       "id": "6af50020bc9f3773a1aa92ad",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6af50020cb4c7286fdffb889",
       "date": "Nov 2026",
       "publishedAt": "2026-11-16T14:03:22.475Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7528095372901224448",
       "tags": [
         "AI",
@@ -99,25 +119,6 @@
       "es": {
         "t": "\"Make it better\" leaves a lot for an AI to guess.",
         "d": "More readable? More convincing? Short enough to read between meetings? Try adding the audience, the purpose, and one example of what you like. Even a simple instruction becomes more useful: \"Explain this to a store manager who needs to decide what to do tomorrow.\" Sometimes writing the prompt reveals that the goal was still unclear. What detail do you…"
-      }
-    },
-    {
-      "id": "6aeb7772ff365be0286b93d2",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-12T19:05:03.263Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7526721740593369089",
-      "tags": [
-        "ElyonIndustrial",
-        "NOVUS"
-      ],
-      "en": {
-        "t": "Un valor en pantalla muestra el estado actual.",
-        "d": "Un historial permite revisar cómo cambió el proceso. El NOVUS FieldLogger reúne 8 entradas analógicas universales para proyectos de monitoreo y registro. La referencia 8812191904 corresponde a la versión de 24 V con HMI y conectividad Ethernet, USB y RS485. Puede formar parte de aplicaciones donde se necesita centralizar mediciones y consultar su…"
-      },
-      "es": {
-        "t": "Un valor en pantalla muestra el estado actual.",
-        "d": "Un historial permite revisar cómo cambió el proceso. El NOVUS FieldLogger reúne 8 entradas analógicas universales para proyectos de monitoreo y registro. La referencia 8812191904 corresponde a la versión de 24 V con HMI y conectividad Ethernet, USB y RS485. Puede formar parte de aplicaciones donde se necesita centralizar mediciones y consultar su…"
       }
     }
   ]
