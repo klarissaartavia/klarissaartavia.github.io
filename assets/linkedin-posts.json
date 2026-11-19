@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-18T20:36:57.725Z",
+  "generatedAt": "2026-11-19T20:42:37.578Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af50021cb4c7286fdffb8c4",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-19T14:04:19.435Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7529182774855966723",
+      "tags": [
+        "AI",
+        "DataAnalytics",
+        "DataQuality"
+      ],
+      "en": {
+        "t": "A confident AI answer makes me want to check the source.",
+        "d": "If it says sales grew 12%, I want to see the dates, the calculation, and the data behind it. Were returns included? Are we comparing the same stores? Those details change what the number means and what someone might do with it. For AI-assisted analysis, being able to trace an answer matters to me as much as how clearly it's written. #AI #DataAnalytics…"
+      },
+      "es": {
+        "t": "A confident AI answer makes me want to check the source.",
+        "d": "If it says sales grew 12%, I want to see the dates, the calculation, and the data behind it. Were returns included? Are we comparing the same stores? Those details change what the number means and what someone might do with it. For AI-assisted analysis, being able to trace an answer matters to me as much as how clearly it's written. #AI #DataAnalytics…"
+      }
+    },
     {
       "id": "6af50021bc9f3773a1aa92d6",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6af50020bc9f3773a1aa92ad",
       "date": "Nov 2026",
       "publishedAt": "2026-11-17T14:04:07.339Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7528457947719405568",
       "tags": [
         "AI",
@@ -100,25 +120,6 @@
       "es": {
         "t": "Some useful AI tasks sound pretty boring.",
         "d": "Shortening an email. Organizing scattered notes. Finding the confusing sentence in a proposal. I like these as starting points because the task is specific and the result is easy to check. You can see whether the email is clearer or the notes are actually useful. A small improvement you use every day deserves a place in the AI conversation. Which small…"
-      }
-    },
-    {
-      "id": "6aeb7772600b02e6271f2812",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-13T19:04:00.516Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7527083866206158848",
-      "tags": [
-        "ElyonIndustrial",
-        "ABB"
-      ],
-      "en": {
-        "t": "Elegir el gabinete forma parte del diseño del tablero desde el inicio.",
-        "d": "El ABB SRN8830K tiene dimensiones de 800 mm de alto, 800 mm de ancho y 300 mm de profundidad. Es una de las referencias incluidas en el catálogo ABB de Elyon Industrial. Para definir el tamaño, conviene revisar la distribución de componentes, las rutas de cableado, la disipación térmica y el acceso para mantenimiento. Nuestro equipo puede acompañarle en la…"
-      },
-      "es": {
-        "t": "Elegir el gabinete forma parte del diseño del tablero desde el inicio.",
-        "d": "El ABB SRN8830K tiene dimensiones de 800 mm de alto, 800 mm de ancho y 300 mm de profundidad. Es una de las referencias incluidas en el catálogo ABB de Elyon Industrial. Para definir el tamaño, conviene revisar la distribución de componentes, las rutas de cableado, la disipación térmica y el acceso para mantenimiento. Nuestro equipo puede acompañarle en la…"
       }
     }
   ]
