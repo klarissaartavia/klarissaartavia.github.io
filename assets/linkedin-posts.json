@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-19T20:42:37.578Z",
+  "generatedAt": "2026-11-20T20:26:51.584Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af500218a1a2f52b50e51cb",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-20T14:04:05.451Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7529545103779012608",
+      "tags": [
+        "AI",
+        "KnowledgeManagement",
+        "Documentation"
+      ],
+      "en": {
+        "t": "Explaining the same project to AI in every new conversation sounds exhausting.",
+        "d": "I'd rather keep a short project note: the goal, the audience, the terms we use, and the decisions already made. Then update it when something changes. It also gives me something concrete to review when an answer goes off track. Did the AI miss the context, or did I give it an outdated version? What belongs in your project note? #AI #KnowledgeManagement…"
+      },
+      "es": {
+        "t": "Explaining the same project to AI in every new conversation sounds exhausting.",
+        "d": "I'd rather keep a short project note: the goal, the audience, the terms we use, and the decisions already made. Then update it when something changes. It also gives me something concrete to review when an answer goes off track. Did the AI miss the context, or did I give it an outdated version? What belongs in your project note? #AI #KnowledgeManagement…"
+      }
+    },
     {
       "id": "6af50021cb4c7286fdffb8c4",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6aeb7774ff365be0286b949b",
       "date": "Nov 2026",
       "publishedAt": "2026-11-17T19:05:11.760Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7528533715396759552",
       "tags": [
         "ElyonIndustrial",
@@ -100,26 +120,6 @@
       "es": {
         "t": "En un proyecto de monitoreo ambiental, importa tanto la medición como la forma de llevar…",
         "d": "El NOVUS RHT Air+ mide temperatura y humedad relativa, muestra las lecturas localmente y se comunica por LoRa con el gateway AirGate Air+. La referencia 8804400600 corresponde a la versión de 915 MHz. Para definir la solución, revisemos los puntos de medición, las condiciones del sitio y la conectividad requerida. En Elyon Industrial le acompañamos en esa…"
-      }
-    },
-    {
-      "id": "6af50020cb4c7286fdffb889",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-16T14:03:22.475Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528095372901224448",
-      "tags": [
-        "AI",
-        "Automation",
-        "Productivity"
-      ],
-      "en": {
-        "t": "Some useful AI tasks sound pretty boring.",
-        "d": "Shortening an email. Organizing scattered notes. Finding the confusing sentence in a proposal. I like these as starting points because the task is specific and the result is easy to check. You can see whether the email is clearer or the notes are actually useful. A small improvement you use every day deserves a place in the AI conversation. Which small…"
-      },
-      "es": {
-        "t": "Some useful AI tasks sound pretty boring.",
-        "d": "Shortening an email. Organizing scattered notes. Finding the confusing sentence in a proposal. I like these as starting points because the task is specific and the result is easy to check. You can see whether the email is clearer or the notes are actually useful. A small improvement you use every day deserves a place in the AI conversation. Which small…"
       }
     }
   ]
