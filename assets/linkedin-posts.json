@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-24T02:14:43.753Z",
+  "generatedAt": "2026-11-24T23:55:15.158Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af50022cb4c7286fdffb8ff",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-24T14:05:22.906Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7530994979918479363",
+      "tags": [
+        "AI",
+        "DataAnalytics",
+        "LearningByTeaching"
+      ],
+      "en": {
+        "t": "Teaching data analysis to Operations colleagues made me question things I did on autopilot.",
+        "d": "Explaining a technical process to someone who needs to make a business decision takes care. You have to understand what they actually need from it. I bring that same question to AI: can the person receiving this answer use it to decide what happens next? That's a useful test for a dashboard, a chatbot, or a two-paragraph explanation. #AI #DataAnalytics…"
+      },
+      "es": {
+        "t": "Teaching data analysis to Operations colleagues made me question things I did on autopilot.",
+        "d": "Explaining a technical process to someone who needs to make a business decision takes care. You have to understand what they actually need from it. I bring that same question to AI: can the person receiving this answer use it to decide what happens next? That's a useful test for a dashboard, a chatbot, or a two-paragraph explanation. #AI #DataAnalytics…"
+      }
+    },
     {
       "id": "6af500228a1a2f52b50e51f9",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6af50021cb4c7286fdffb8c4",
       "date": "Nov 2026",
       "publishedAt": "2026-11-19T14:04:19.435Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7529182774855966723",
       "tags": [
         "AI",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Definir las entradas y salidas es uno de los primeros pasos al automatizar una máquina.",
         "d": "El ABB PM5012-T-ETH, referencia 1SAP122600R0172, es una CPU de la familia AC500-eCo Basic con 6 entradas digitales, 4 salidas digitales de transistor y alimentación de 24 V CC. En Elyon Industrial le ayudamos a revisar la lista de señales, la lógica de operación y los componentes que acompañarán al PLC. Esa información permite seleccionar el sistema según…"
-      }
-    },
-    {
-      "id": "6af50020bc9f3773a1aa92ad",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-17T14:04:07.339Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528457947719405568",
-      "tags": [
-        "AI",
-        "Prompting",
-        "ProblemSolving"
-      ],
-      "en": {
-        "t": "A useful thing to add to an AI prompt: \"Ask me what you need to know before you start.\"",
-        "d": "For a vague task, those questions can be more valuable than an immediate draft. Who will use this? What decision should it support? What information is missing? I'd keep it to a few questions so the conversation stays practical. What would change if your AI asked for clarification before filling in the gaps? #AI #Prompting #ProblemSolving #Communication…"
-      },
-      "es": {
-        "t": "A useful thing to add to an AI prompt: \"Ask me what you need to know before you start.\"",
-        "d": "For a vague task, those questions can be more valuable than an immediate draft. Who will use this? What decision should it support? What information is missing? I'd keep it to a few questions so the conversation stays practical. What would change if your AI asked for clarification before filling in the gaps? #AI #Prompting #ProblemSolving #Communication…"
       }
     }
   ]
