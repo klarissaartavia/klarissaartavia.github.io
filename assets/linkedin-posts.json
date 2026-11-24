@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-20T20:26:51.584Z",
+  "generatedAt": "2026-11-24T02:14:43.753Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af500228a1a2f52b50e51f9",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-23T14:04:52.971Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7530632466760581120",
+      "tags": [
+        "AI",
+        "Automation",
+        "ProcessImprovement"
+      ],
+      "en": {
+        "t": "Before automating a task, try explaining how you do it to someone new.",
+        "d": "Notice where you say, \"It depends,\" \"I usually just know,\" or \"Ask me when that happens.\" Those are the parts I'd want to understand before handing the task to AI. They often contain the judgment that keeps the process working. Writing down the exceptions can be useful work on its own. Which part of your job is hardest to explain? #AI #Automation…"
+      },
+      "es": {
+        "t": "Before automating a task, try explaining how you do it to someone new.",
+        "d": "Notice where you say, \"It depends,\" \"I usually just know,\" or \"Ask me when that happens.\" Those are the parts I'd want to understand before handing the task to AI. They often contain the judgment that keeps the process working. Writing down the exceptions can be useful work on its own. Which part of your job is hardest to explain? #AI #Automation…"
+      }
+    },
     {
       "id": "6af500218a1a2f52b50e51cb",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6af50021bc9f3773a1aa92d6",
       "date": "Nov 2026",
       "publishedAt": "2026-11-18T14:04:16.887Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7528820376613769216",
       "tags": [
         "AI",
@@ -100,26 +120,6 @@
       "es": {
         "t": "A useful thing to add to an AI prompt: \"Ask me what you need to know before you start.\"",
         "d": "For a vague task, those questions can be more valuable than an immediate draft. Who will use this? What decision should it support? What information is missing? I'd keep it to a few questions so the conversation stays practical. What would change if your AI asked for clarification before filling in the gaps? #AI #Prompting #ProblemSolving #Communication…"
-      }
-    },
-    {
-      "id": "6aeb777379e2b7f790e2f915",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-16T19:05:21.646Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528171369851793409",
-      "tags": [
-        "ElyonIndustrial",
-        "MonitoreoIndustrial",
-        "NOVUS"
-      ],
-      "en": {
-        "t": "En un proyecto de monitoreo ambiental, importa tanto la medición como la forma de llevar…",
-        "d": "El NOVUS RHT Air+ mide temperatura y humedad relativa, muestra las lecturas localmente y se comunica por LoRa con el gateway AirGate Air+. La referencia 8804400600 corresponde a la versión de 915 MHz. Para definir la solución, revisemos los puntos de medición, las condiciones del sitio y la conectividad requerida. En Elyon Industrial le acompañamos en esa…"
-      },
-      "es": {
-        "t": "En un proyecto de monitoreo ambiental, importa tanto la medición como la forma de llevar…",
-        "d": "El NOVUS RHT Air+ mide temperatura y humedad relativa, muestra las lecturas localmente y se comunica por LoRa con el gateway AirGate Air+. La referencia 8804400600 corresponde a la versión de 915 MHz. Para definir la solución, revisemos los puntos de medición, las condiciones del sitio y la conectividad requerida. En Elyon Industrial le acompañamos en esa…"
       }
     }
   ]
