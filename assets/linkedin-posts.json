@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-24T23:55:15.158Z",
+  "generatedAt": "2026-11-25T19:20:41.041Z",
   "source": "buffer",
   "posts": [
+    {
+      "id": "6af50022304f8985c471f249",
+      "date": "Nov 2026",
+      "publishedAt": "2026-11-25T14:05:20.704Z",
+      "feat": true,
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7531357359122702336",
+      "tags": [
+        "AI",
+        "Productivity",
+        "Automation"
+      ],
+      "en": {
+        "t": "If AI finishes a draft in two minutes, how long does it take to make it usable?",
+        "d": "I'd count the checking, rewriting, formatting, and correcting too. That's the time the person doing the work actually feels. It makes the comparison more honest: how long did the task take before, and how long does it take now, with a result you'd accept? Where does most of your AI review time go? #AI #Productivity #Automation #ProcessImprovement…"
+      },
+      "es": {
+        "t": "If AI finishes a draft in two minutes, how long does it take to make it usable?",
+        "d": "I'd count the checking, rewriting, formatting, and correcting too. That's the time the person doing the work actually feels. It makes the comparison more honest: how long did the task take before, and how long does it take now, with a result you'd accept? Where does most of your AI review time go? #AI #Productivity #Automation #ProcessImprovement…"
+      }
+    },
     {
       "id": "6af50022cb4c7286fdffb8ff",
       "date": "Nov 2026",
@@ -46,7 +66,7 @@
       "id": "6af500218a1a2f52b50e51cb",
       "date": "Nov 2026",
       "publishedAt": "2026-11-20T14:04:05.451Z",
-      "feat": true,
+      "feat": false,
       "url": "https://www.linkedin.com/feed/update/urn:li:share:7529545103779012608",
       "tags": [
         "AI",
@@ -100,26 +120,6 @@
       "es": {
         "t": "Imagine a meeting summary that says, \"The team agreed to launch.\"",
         "d": "In the meeting, one person supported it, two raised concerns, and nobody made a final decision. That's why I'd ask an AI summary to separate decisions, open questions, and disagreements. A smooth paragraph can hide exactly what the next meeting needs to resolve. When you review a summary, check what happened to the uncertainty. What do you usually find…"
-      }
-    },
-    {
-      "id": "6aeb7774ff365be0286b949b",
-      "date": "Nov 2026",
-      "publishedAt": "2026-11-17T19:05:11.760Z",
-      "feat": false,
-      "url": "https://www.linkedin.com/feed/update/urn:li:share:7528533715396759552",
-      "tags": [
-        "ElyonIndustrial",
-        "PLC",
-        "ABB"
-      ],
-      "en": {
-        "t": "Definir las entradas y salidas es uno de los primeros pasos al automatizar una máquina.",
-        "d": "El ABB PM5012-T-ETH, referencia 1SAP122600R0172, es una CPU de la familia AC500-eCo Basic con 6 entradas digitales, 4 salidas digitales de transistor y alimentación de 24 V CC. En Elyon Industrial le ayudamos a revisar la lista de señales, la lógica de operación y los componentes que acompañarán al PLC. Esa información permite seleccionar el sistema según…"
-      },
-      "es": {
-        "t": "Definir las entradas y salidas es uno de los primeros pasos al automatizar una máquina.",
-        "d": "El ABB PM5012-T-ETH, referencia 1SAP122600R0172, es una CPU de la familia AC500-eCo Basic con 6 entradas digitales, 4 salidas digitales de transistor y alimentación de 24 V CC. En Elyon Industrial le ayudamos a revisar la lista de señales, la lógica de operación y los componentes que acompañarán al PLC. Esa información permite seleccionar el sistema según…"
       }
     }
   ]
